@@ -37,18 +37,18 @@
 
 	<h3>Overview</h3>
 
-	<p>The Brian Jacobs Golf Junior Team is open to boys and girls ages 7 to 18 and involves two afternoons per week (Wednesdays and Sundays). For 2013, the Junior Team program runs from Wednesday June 5th until Sunday September 29th (there won't be any events on Wednesday July 3rd).</p>
+	<p>The Brian Jacobs Golf Junior Team is open to boys and girls ages 7 to 18 and involves two afternoons per week (Wednesdays and Sundays). For 2013, the Junior Team program runs from <strong>Sunday June 2nd</strong> until <strong>Sunday September 29th</strong> (there won't be any events on Wednesday July 3rd or Sunday September 1st).</p>
 
 	<p class="alert alert-info">There will be a mandatory parents meeting on Wednesday May 29th at 6:00p at Mill Creek's Tavern dining area.</p>
 
-	<p>On Wednesdays, we'll focus on the short game at Mill Creek's Short Course and on Sunday afternoons we'll focus on the long game on Mill Creek's Championship Course. Each afternoon we'll start with a clinic from 3:30p until 4:30p, followed by 9 holes of supervised play on one of Mill Creek's courses. Additionally, there will be two scoring events each month and two of the weeks there will be tournaments within their age groups (7-9, 10-12, 13-15 and 16-18). All scoring goes into a points system for Player of the Year in each age group.</p>
+	<p>On Wednesdays, we'll focus on the short game at Mill Creek's Short Course and on Sunday afternoons we'll focus on the long game on Mill Creek's Championship Course. Each afternoon we'll start with a clinic from 3:30p until 4:30p, followed by 9 holes of supervised play on one of Mill Creek's courses***. Additionally, there will be two scoring events each month and two of the weeks there will be tournaments within their age groups (7-9, 10-12, 13-15 and 16-18). All scoring goes into a points system for Player of the Year in each age group.</p>
 
 	<p>Participation in the Brian Jacobs Golf Junior Team includes:</p>
 
 	<ul>
 		<li>Certificate of participation for each child on team</li>
-		<li>Brian Jacobs Golf Nike Team gear</li>
-		<li>Brian Jacobs Golf wristband</li>
+		<li>Brian Jacobs Golf alignment rods (2 per participant)</li>
+		<li>Brian Jacobs Golf silicone wristband</li>
 		<li>10% off all Nike products in the Pro Shop (excludes golf balls and gloves)</li>
 		<li>15% off Custom Nike orders and/or Brian Jacobs Golf Nike Gear</li>
 		<li>Player of the Year and runner up (boys and girls) trophy</li>
@@ -59,4 +59,6 @@
 	<p class="muted"><em>* Payment is due by the 1st day of every month and requires a commitment to at least three out of the four months the program is offered</em></p>
  
 	<p class="muted"><em>** Golf fitness instruction is also available at an additional charge. 3 days per week, 8 weeks, home program for only $139.</em></p>
+
+	<p class="muted"><em>*** Pickup time is 6:00pm.</em></p>
 @endsection
