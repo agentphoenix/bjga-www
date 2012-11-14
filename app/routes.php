@@ -1,0 +1,312 @@
+<?php
+
+/**
+ * About/Index
+ */
+Route::get('/', array('as' => 'home', function()
+{
+	return View::make('pages.about.index');
+}));
+
+/**
+ * About/Brian
+ */
+Route::get('/about/brian', array('as' => 'about', function($num = 1)
+{
+	return View::make('pages.about.brian');
+}));
+
+/**
+ * About/Contact
+ *
+ * @todo	Put Brian's email address in
+ */
+Route::get('/about/contact/(:any?)/(:any?)', array('as' => 'contact', function($topic = 'general', $sub = false)
+{
+	return View::make('pages.about.contact')
+		->with('topic', $topic)
+		->with('sub', $sub);
+}));
+Route::post('/about/contact/(:any?)/(:any?)', function($topic = 'general', $sub = false)
+{
+	// Start the Messages bundle
+	Bundle::start('messages');
+
+	// Set the second part of the subject
+	switch (Input::get('subject'))
+	{
+		case 'Private Instruction':
+			$subject = 'Private Instruction Information Request';
+		break;
+
+		case 'AdvoCare':
+			$subject = 'AdvoCare Information Request';
+		break;
+		
+		default:
+			$subject = Input::get('subject');
+		break;
+	}
+
+	// Set the message
+	$message = Input::get('message');
+
+	// Create a new object for the flash info
+	$flash = new stdClass;
+
+	// Set the validation rules
+	$rules = array(
+		'name'			=> 'required',
+		'emailAddress'	=> 'email|required',
+		'message'		=> 'required'
+	);
+
+	if ($topic == 'schools')
+	{
+		// Add the school requirements
+		$rules['schoolAttend'] = 'required';
+		$rules['schoolDate'] = 'required';
+		$rules['schoolDay'] = 'required';
+
+		// Remove the message requirement
+		unset($rules['message']);
+
+		// Change the subject
+		$subject = 'Golf Schools Information Request';
+
+		// Change the message
+		$message = "<strong>Name:</strong> ".Input::get('name')."\r\n";
+		$message.= "<strong>Email Address:</strong> ".Input::get('emailAddress')."\r\n\r\n";
+
+		$message.= "<strong>Golf School:</strong> ".Input::get('schoolAttend')."\r\n";
+		$message.= "<strong>Preferred Date:</strong> ".Input::get('schoolDate')."\r\n";
+		$message.= "<strong>Preferred Day:</strong> ".Input::get('schoolDay')."\r\n\r\n";
+
+		$message.= "<strong>How did you hear about us</strong>\r\n".Input::get('schoolHearAbout')."\r\n\r\n";
+		$message.= "<strong>Additional Comments</strong>\r\n".Input::get('schoolComments');
+	}
+
+	if ($topic == 'clinics')
+	{
+		// Add the school requirements
+		$rules['clinicProgram'] = 'required';
+		$rules['clinicDate'] = 'required';
+		$rules['clinicDay'] = 'required';
+
+		// Remove the message requirement
+		unset($rules['message']);
+
+		// Change the subject
+		$subject = 'Clinic Program Information Request';
+
+		// Change the message
+		$message = "<strong>Name:</strong> ".Input::get('name')."\r\n";
+		$message.= "<strong>Email Address:</strong> ".Input::get('emailAddress')."\r\n\r\n";
+
+		$message.= "<strong>Clinic Material:</strong> ".Input::get('clinicProgram')."\r\n";
+		$message.= "<strong>Preferred Date:</strong> ".Input::get('clinicDate')."\r\n";
+		$message.= "<strong>Preferred Day:</strong> ".Input::get('clinicDay')."\r\n\r\n";
+
+		$message.= "<strong>How did you hear about us</strong>\r\n".Input::get('schoolHearAbout')."\r\n\r\n";
+		$message.= "<strong>Additional Comments</strong>\r\n".Input::get('schoolComments');
+	}
+
+	// Create a new validator for the contact form
+	$validation = Validator::make(Input::all(), $rules);
+
+	// Check the form against the rules
+	if ($validation->fails())
+	{
+		return Redirect::to('about/contact/'.$topic.'/'.$sub)->with_errors($validation);
+	}
+	else
+	{
+		// Send the message
+		$message = Message::to('david.vanscott@gmail.com')
+			->from(Input::get('emailAddress'), Input::get('name'))
+			->subject('[Brian Jacobs Golf] '.$subject)
+			->body($message)
+			->html(true)
+			->send();
+
+		// Set the flash info
+		$flash->status = ($message->was_sent()) ? 'info' : 'error';
+		$flash->message = ($message->was_sent()) ? 'Thank you for your message. Someone will respond to you soon!' : 'There was a problem sending your message. Please try again.';
+	}
+
+	return View::make('pages.about.contact')
+		->with('flash', $flash);
+});
+
+/**
+ * About/Relationships
+ */
+Route::get('/about/relationships', array('as' => 'relationships', function($num = 1)
+{
+	return View::make('pages.about.relationships');
+}));
+
+/**
+ * About/Testimonials
+ */
+Route::get('/about/testimonials', array('as' => 'testimonials', function($num = 1)
+{
+	return View::make('pages.about.testimonials');
+}));
+
+/**
+ * Instruction/Index
+ *
+ * @todo	New image
+ */
+Route::get('instruction/index', array('as' => 'instruction', function()
+{
+	return View::make('pages.instruction.philosophy');
+}));
+
+/**
+ * Instruction/Private
+ *
+ * @todo	Links to USchedule
+ */
+Route::get('instruction/private', array('as' => 'private', function()
+{
+	return View::make('pages.instruction.private');
+}));
+
+/**
+ * Instruction/Schools
+ */
+Route::get('instruction/schools', array('as' => 'schools', function()
+{
+	return View::make('pages.instruction.schools');
+}));
+
+/**
+ * Instruction/Juniors
+ */
+Route::get('instruction/junior-team', array('as' => 'juniorteam', function()
+{
+	return View::make('pages.instruction.juniors');
+}));
+
+/**
+ * Instruction/JuniorCamp
+ */
+Route::get('instruction/junior-camps', array('as' => 'juniorcamps', function()
+{
+	return View::make('pages.instruction.juniorcamp');
+}));
+
+/**
+ * Instruction/Clinics
+ */
+Route::get('instruction/clinics', array('as' => 'clinics', function()
+{
+	return View::make('pages.instruction.clinics');
+}));
+
+/**
+ * Instruction/Booking
+ */
+Route::get('instruction/booking', array('as' => 'booking', function()
+{
+	return View::make('pages.instruction.booking');
+}));
+
+/**
+ * Events/Featured
+ */
+Route::get('events/featured', array('as' => 'featured', function()
+{
+	return View::make('pages.events.featured');
+}));
+
+/**
+ * Events/All
+ */
+Route::get('events/all', array('as' => 'events', function()
+{
+	return View::make('pages.events.all');
+}));
+
+/**
+ * Events/History
+ */
+Route::get('events/history/(:any?)', array('as' => 'history', function($event = false)
+{
+	return View::make('pages.events.history');
+}));
+
+/*
+|--------------------------------------------------------------------------
+| Application 404 & 500 Error Handlers
+|--------------------------------------------------------------------------
+|
+| To centralize and simplify 404 handling, Laravel uses an awesome event
+| system to retrieve the response. Feel free to modify this function to
+| your tastes and the needs of your application.
+|
+| Similarly, we use an event to handle the display of 500 level errors
+| within the application. These errors are fired when there is an
+| uncaught exception thrown in the application.
+|
+*/
+
+Event::listen('404', function()
+{
+	return Response::error('404');
+});
+
+Event::listen('500', function()
+{
+	return Response::error('500');
+});
+
+/*
+|--------------------------------------------------------------------------
+| Route Filters
+|--------------------------------------------------------------------------
+|
+| Filters provide a convenient method for attaching functionality to your
+| routes. The built-in before and after filters are called before and
+| after every request to your application, and you may even create
+| other filters that can be attached to individual routes.
+|
+| Let's walk through an example...
+|
+| First, define a filter:
+|
+|		Route::filter('filter', function()
+|		{
+|			return 'Filtered!';
+|		});
+|
+| Next, attach the filter to a route:
+|
+|		Router::register('GET /', array('before' => 'filter', function()
+|		{
+|			return 'Hello World!';
+|		}));
+|
+*/
+
+Route::filter('before', function()
+{
+	// Do stuff before every request to your application...
+});
+
+Route::filter('after', function($response)
+{
+	// Do stuff after every request to your application...
+});
+
+Route::filter('csrf', function()
+{
+	if (Request::forged()) return Response::error('500');
+});
+
+Route::filter('auth', function()
+{
+	if (Auth::guest()) return Redirect::to('login');
+});
