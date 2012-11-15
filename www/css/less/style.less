@@ -39,21 +39,23 @@ body {
 	
 	ul {
 		margin: 0 0 0 @padding;
-		padding: 20px 0 0 0;
+		padding: 15px 0 0 0;
 		
 		list-style: none;
 		
 		li {
 			float: left;
-			margin: 0 40px 0 0;
+			margin: 0 30px 0 0;
 			
 			a {
 				display: block;
+				padding: 5px;
 	
 				color: @color-green;
 				font-weight: 600;
 				font-size: 20px;
 				font-family: @font-titillium;
+				border: 1px solid transparent;
 				text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
 				
 				div {
@@ -72,6 +74,21 @@ body {
 					div {
 						color: @color-darkgray;
 					}
+				}
+
+				&.active {
+					background: #dadada;
+					border-color: #aaa;
+
+					.rounded;
+					.box-shadow(~"inset 0 1px 3px rgba(0, 0, 0, .25), 0 1px 0 rgba(255, 255, 255, 1)");
+
+					border-color: #bbb;
+					border-bottom-color: #aaa;
+
+					.rounded;
+					.gradient(#fff, #eee);
+					.box-shadow(~"0 1px 2px rgba(0, 0, 0, .15)");
 				}
 			}
 		}
