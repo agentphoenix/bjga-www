@@ -14,6 +14,10 @@
 	{{ HTML::style('css/style.css') }}
 	@yield('styles')
 
+	<!--[if lt IE 9]>
+	{{ HTML::style('css/ie.css') }}
+	<![endif]-->
+
 	<!-- High pixel density displays -->
 	<link rel='stylesheet' href='css/retina.css' media='only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)'>
 </head>
