@@ -11,7 +11,7 @@
 			<li class="{{ URI::is('about/relationships') ? 'active' : '' }}"><a href="{{ URL::to_route('relationships') }}">Relationships</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('about/testimonials') ? 'active' : '' }}"><a href="{{ URL::to_route('testimonials') }}">Testimonials</a><div class="arrow"></div></li>
 			<li><a href="#">Blog</a></li>
-			<li class="{{ URI::is('about/contact*') ? 'active' : '' }}"><a href="{{ URL::to_route('contact') }}">Contact</a><div class="arrow"></div></li>
+			<li><a href="{{ URL::to_route('contact', array('general')) }}">Contact</a></li>
 		</ul>
 	@elseif (URI::is('instruction/*'))
 		<ul>
@@ -22,6 +22,13 @@
 			<li class="{{ URI::is('instruction/junior-camps') ? 'active' : '' }}"><a href="{{ URL::to_route('juniorcamps') }}">Junior Camps</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('clinics') }}">Clinics</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/booking') ? 'active' : '' }}"><a href="{{ URL::to_route('booking') }}">Book Now</a><div class="arrow"></div></li>
+		</ul>
+	@elseif (URI::is('contact/*'))
+		<ul>
+			<li class="{{ URI::is('contact/general') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('general')) }}">General</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('contact/schools*') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('schools')) }}">Golf Schools</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('contact/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('clinics')) }}">Golf Clinics</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('contact/advocare') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('advocare')) }}">Advocare</a><div class="arrow"></div></li>
 		</ul>
 	@endif
 </nav>

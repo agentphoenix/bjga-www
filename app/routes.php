@@ -17,17 +17,93 @@ Route::get('/about/brian', array('as' => 'about', function($num = 1)
 }));
 
 /**
+ * About/Relationships
+ */
+Route::get('/about/relationships', array('as' => 'relationships', function($num = 1)
+{
+	return View::make('pages.about.relationships');
+}));
+
+/**
+ * About/Testimonials
+ */
+Route::get('/about/testimonials', array('as' => 'testimonials', function($num = 1)
+{
+	return View::make('pages.about.testimonials');
+}));
+
+/**
+ * Instruction/Index
+ *
+ * @todo	New image
+ */
+Route::get('instruction/index', array('as' => 'instruction', function()
+{
+	return View::make('pages.instruction.philosophy');
+}));
+
+/**
+ * Instruction/Private
+ *
+ * @todo	Links to USchedule
+ */
+Route::get('instruction/private', array('as' => 'private', function()
+{
+	return View::make('pages.instruction.private');
+}));
+
+/**
+ * Instruction/Schools
+ */
+Route::get('instruction/schools', array('as' => 'schools', function()
+{
+	return View::make('pages.instruction.schools');
+}));
+
+/**
+ * Instruction/Juniors
+ */
+Route::get('instruction/junior-team', array('as' => 'juniorteam', function()
+{
+	return View::make('pages.instruction.juniors');
+}));
+
+/**
+ * Instruction/JuniorCamp
+ */
+Route::get('instruction/junior-camps', array('as' => 'juniorcamps', function()
+{
+	return View::make('pages.instruction.juniorcamp');
+}));
+
+/**
+ * Instruction/Clinics
+ */
+Route::get('instruction/clinics', array('as' => 'clinics', function()
+{
+	return View::make('pages.instruction.clinics');
+}));
+
+/**
+ * Instruction/Booking
+ */
+Route::get('instruction/booking', array('as' => 'booking', function()
+{
+	return View::make('pages.instruction.booking');
+}));
+
+/**
  * About/Contact
  *
  * @todo	Put Brian's email address in
  */
-Route::get('/about/contact/(:any?)/(:any?)', array('as' => 'contact', function($topic = 'general', $sub = false)
+Route::get('/contact/(:any?)/(:any?)', array('as' => 'contact', function($topic = 'general', $sub = false)
 {
-	return View::make('pages.about.contact')
+	return View::make('pages.contact.index')
 		->with('topic', $topic)
 		->with('sub', $sub);
 }));
-Route::post('/about/contact/(:any?)/(:any?)', function($topic = 'general', $sub = false)
+Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = false)
 {
 	// Start the Messages bundle
 	Bundle::start('messages');
@@ -117,7 +193,7 @@ Route::post('/about/contact/(:any?)/(:any?)', function($topic = 'general', $sub 
 	// Check the form against the rules
 	if ($validation->fails())
 	{
-		return Redirect::to('about/contact/'.$topic.'/'.$sub)->with_errors($validation);
+		return Redirect::to('contact/'.$topic.'/'.$sub)->with_errors($validation);
 	}
 	else
 	{
@@ -134,109 +210,9 @@ Route::post('/about/contact/(:any?)/(:any?)', function($topic = 'general', $sub 
 		$flash->message = ($message->was_sent()) ? 'Thank you for your message. Someone will respond to you soon!' : 'There was a problem sending your message. Please try again.';
 	}
 
-	return View::make('pages.about.contact')
+	return View::make('pages.contact.index')
 		->with('flash', $flash);
 });
-
-/**
- * About/Relationships
- */
-Route::get('/about/relationships', array('as' => 'relationships', function($num = 1)
-{
-	return View::make('pages.about.relationships');
-}));
-
-/**
- * About/Testimonials
- */
-Route::get('/about/testimonials', array('as' => 'testimonials', function($num = 1)
-{
-	return View::make('pages.about.testimonials');
-}));
-
-/**
- * Instruction/Index
- *
- * @todo	New image
- */
-Route::get('instruction/index', array('as' => 'instruction', function()
-{
-	return View::make('pages.instruction.philosophy');
-}));
-
-/**
- * Instruction/Private
- *
- * @todo	Links to USchedule
- */
-Route::get('instruction/private', array('as' => 'private', function()
-{
-	return View::make('pages.instruction.private');
-}));
-
-/**
- * Instruction/Schools
- */
-Route::get('instruction/schools', array('as' => 'schools', function()
-{
-	return View::make('pages.instruction.schools');
-}));
-
-/**
- * Instruction/Juniors
- */
-Route::get('instruction/junior-team', array('as' => 'juniorteam', function()
-{
-	return View::make('pages.instruction.juniors');
-}));
-
-/**
- * Instruction/JuniorCamp
- */
-Route::get('instruction/junior-camps', array('as' => 'juniorcamps', function()
-{
-	return View::make('pages.instruction.juniorcamp');
-}));
-
-/**
- * Instruction/Clinics
- */
-Route::get('instruction/clinics', array('as' => 'clinics', function()
-{
-	return View::make('pages.instruction.clinics');
-}));
-
-/**
- * Instruction/Booking
- */
-Route::get('instruction/booking', array('as' => 'booking', function()
-{
-	return View::make('pages.instruction.booking');
-}));
-
-/**
- * Events/Featured
- */
-Route::get('events/featured', array('as' => 'featured', function()
-{
-	return View::make('pages.events.featured');
-}));
-
-/**
- * Events/All
- */
-Route::get('events/all', array('as' => 'events', function()
-{
-	return View::make('pages.events.all');
-}));
-
-/**
- * Events/History
- */
-Route::get('events/history/(:any?)', array('as' => 'history', function($event = false)
-{
-	return View::make('pages.events.history');
-}));
 
 /*
 |--------------------------------------------------------------------------
