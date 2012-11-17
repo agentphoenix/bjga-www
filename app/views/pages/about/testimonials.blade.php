@@ -98,7 +98,7 @@
 		<div class="span10 offset2">
 			<blockquote class="pull-right">
 				Brian's skills as professional educator as well as a golf pro made a huge difference in my game; when I started with Brian I could barely put together a scoring round and by the end of two years of work I had won my flight in the Irondequoit Country Club championship and lowered my handicap by 9 strokes.
-				<small>Roy<span>Kansas City, KS</span></small>
+				<small>Roy<span>Pittsford, NY</span></small>
 			</blockquote>
 		</div>
 	</div>
