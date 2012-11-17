@@ -20,7 +20,7 @@
 				<li><a href="{{ URL::to_route('about') }}">Meet Brian<span class="visible-desktop"> Jacobs</span></a></li>
 				<li><a href="{{ URL::to_route('relationships') }}">Relationships</a></li>
 				<li><a href="{{ URL::to_route('testimonials') }}">Testimonials</a></li>
-				<li><a href="#">Blog</a></li>
+				<!--<li><a href="#">Blog</a></li>-->
 				<li><a href="{{ URL::to_route('contact') }}">Contact</a></li>
 			</ul>
 		</div>
