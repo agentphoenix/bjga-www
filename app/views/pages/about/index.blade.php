@@ -4,7 +4,9 @@
 	<h1 class="visible-desktop">Welcome to Brian Jacobs Golf</h1>
 	<h1 class="visible-phone">Brian Jacobs Golf</h1>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et congue mauris. Pellentesque rhoncus, nisl a varius sollicitudin, purus mauris porta ligula, id pellentesque arcu urna non massa. Pellentesque tincidunt tempus quam, ac consequat massa varius quis. Quisque in velit arcu, vitae vulputate tortor. In tempus tristique mi, accumsan cursus lacus aliquam vitae. Morbi placerat nisi enim. Etiam ac condimentum erat. Aenean ultrices consequat tincidunt.</p>
+	<p>Welcome to Brian Jacobs Golf where our mission is simple: teach golfers how to take their game to its highest potential to experience greater consistency and have more fun.</p>
+
+	<p>We believe that the true joy for any student of the game comes from the passion to learn more about the subject, the commitment to practice and develop their golf game and the challenge to continually improve their golf and themselves. Make a commitment to yourself to get better and visit our Academy to take your game inside the ropes.</p>
 
 	<div class="row-fluid">
 		<div class="span4">
