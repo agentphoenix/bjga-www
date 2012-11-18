@@ -1,5 +1,6 @@
 @import "http://fonts.googleapis.com/css?family=Crete+Round:400,400italic";
 @import "http://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700";
+@import "http://fonts.googleapis.com/css?family=Audiowide";
 body{background:#d2d2d2 url(../img/bg-body.jpg) repeat top left;color:#444444;}
 .wrapper{margin-bottom:20px;border:1px solid #999999;border-top:none;background:#fafafa;-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px;-webkit-box-shadow:0 0 8px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 8px rgba(0, 0, 0, .4);box-shadow:0 0 8px rgba(0, 0, 0, .4);}
 .nav-main{height:80px;width:100%;border-bottom:1px solid #b6b6b6;background:#e4e4e4;background:-moz-linear-gradient(top, #f3f3f3 0%, #e4e4e4 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #f3f3f3), color-stop(100%, #e4e4e4));background:-webkit-linear-gradient(top, #f3f3f3 0%, #e4e4e4 100%);background:-o-linear-gradient(top, #f3f3f3 0%, #e4e4e4 100%);background:-ms-linear-gradient(top, #f3f3f3 0%, #e4e4e4 100%);background:linear-gradient(top, #f3f3f3 0%, #e4e4e4 100%);}.nav-main .brand{display:block;width:322px;height:75px;margin-right:15px;float:right;background:transparent url(../img/img-bjga.png) no-repeat top left;}
@@ -38,6 +39,7 @@ blockquote .lead{font-family:'Crete Round';color:#444444;}blockquote .lead em{co
 .img-rounded{-webkit-box-shadow:0 2px 4px rgba(0, 0, 0, .5);-moz-box-shadow:0 2px 4px rgba(0, 0, 0, .5);box-shadow:0 2px 4px rgba(0, 0, 0, .5);}
 .inline-image{padding:0 0 10px 15px;}
 .clear{clear:both;}
+.pinseeker{padding-left:42px;font-family:"Audiowide";font-size:32px;background:transparent url(../img/img-target.png) no-repeat center left;}
 .relationship-logo{text-align:center !important;}
 .booking-engine{margin-top:10px;margin-bottom:10px;margin-left:-20px;margin-right:-20px;}.booking-engine .loading{font-family:'Titillium Web';font-weight:600;font-size:16px;color:#888888;}
 .navbar .navbar-inner{padding-left:0;padding-right:0;}
