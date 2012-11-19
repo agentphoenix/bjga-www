@@ -7,7 +7,11 @@
 			Loading USchedule...
 		</div>
 		<div class="loaded">
-			<iframe src="http://brianjacobsgolf.uschedule.com/uschedulehome.aspx" width="944" scrolling="yes" height="938" frameborder="0"></iframe>
+			@if ($link)
+				<iframe src="http://brianjacobsgolf.uschedule.com/uschedulehome.aspx{{ $link }}" width="944" scrolling="yes" height="938" frameborder="0"></iframe>
+			@else
+				<iframe src="http://brianjacobsgolf.uschedule.com/uschedulehome.aspx" width="944" scrolling="yes" height="938" frameborder="0"></iframe>
+			@endif
 		</div>
 	</div>
 @endsection

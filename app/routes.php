@@ -87,9 +87,21 @@ Route::get('instruction/clinics', array('as' => 'clinics', function()
 /**
  * Instruction/Booking
  */
-Route::get('instruction/booking', array('as' => 'booking', function()
+Route::get('instruction/booking/(:any?)/(:any?)', array('as' => 'booking', function($type = false, $id = false)
 {
-	return View::make('pages.instruction.booking');
+	switch ($type)
+	{
+		case 'event':
+			$link = '?View=EventDetails&eventid='.$id;
+		break;
+		
+		default:
+			$link = false;
+		break;
+	}
+
+	return View::make('pages.instruction.booking')
+		->with('link', $link);
 }));
 
 /**
