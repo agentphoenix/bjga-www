@@ -29,7 +29,7 @@
 			<li class="{{ URI::is('contact/schools*') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('schools')) }}">Golf Schools</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('contact/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('clinics')) }}">Golf Clinics</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('contact/advocare') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('advocare')) }}">Advocare</a><div class="arrow"></div></li>
-			<li class="{{ URI::is('contact/eyeline') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('eyeline')) }}">Eyeline</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('contact/eyeline') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('eyeline')) }}">Eyeline Golf</a><div class="arrow"></div></li>
 		</ul>
 	@endif
 </nav>

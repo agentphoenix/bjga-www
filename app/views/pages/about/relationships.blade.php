@@ -55,10 +55,10 @@
 
 	<div class="row-fluid">
 		<div class="span8">
-			<h3><a href="http://www.eyelinegolf.com/" target="_blank">Eyeline</a></h3>
+			<h3><a href="http://www.eyelinegolf.com/" target="_blank">Eyeline Golf</a></h3>
 			<p>Since 2002, our passion has been helping golfers unlock their potential. It is exhilarating to break your personal bests. We are very proud to be the #1 Training aid company on the Pro Tours. We actually had 247 Tour Players choose EyeLine in 2011 - PGA, LPGA, Nationwide.</p>
-			<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('eyeline')) }}" class="btn btn-primary">Contact Us About Eyeline</a></div>
-			<div class="visible-phone"><a href="{{ URL::to_route('contact', array('eyeline')) }}" class="btn btn-primary btn-block btn-large">Contact Us About Eyeline</a></div>
+			<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('eyeline')) }}" class="btn btn-primary">Contact Us About Eyeline Golf</a></div>
+			<div class="visible-phone"><a href="{{ URL::to_route('contact', array('eyeline')) }}" class="btn btn-primary btn-block btn-large">Contact Us About Eyeline Golf</a></div>
 		</div>
 		<div class="span4 relationship-logo hidden-phone"><a href="http://www.eyelinegolf.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-eyeline.png') }}" alt="Eyeline"></a></div>
 	</div>
