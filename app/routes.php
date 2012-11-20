@@ -96,7 +96,7 @@ Route::get('instruction/booking/(:any?)/(:any?)', array('as' => 'booking', funct
 		break;
 		
 		default:
-			$link = false;
+			$link = '?View=bookapt';
 		break;
 	}
 
