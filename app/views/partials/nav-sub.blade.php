@@ -1,4 +1,4 @@
-<nav class="nav-sub visible-desktop">
+<nav class="nav-sub hidden-phone">
 	<ul class="social-icons">
 		<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank" class="facebook-icon"></a></li>
 		<li><a href="http://twitter.com/BrianJacobsgolf" target="_blank" class="twitter-icon"></a></li>
@@ -15,13 +15,13 @@
 		</ul>
 	@elseif (URI::is('instruction/*'))
 		<ul>
-			<li class="{{ URI::is('instruction/index') ? 'active' : '' }}"><a href="{{ URL::to_route('instruction') }}">Our Philosophy</a><div class="arrow"></div></li>
-			<li class="{{ URI::is('instruction/private') ? 'active' : '' }}"><a href="{{ URL::to_route('private') }}">Private Instruction</a><div class="arrow"></div></li>
-			<li class="{{ URI::is('instruction/schools') ? 'active' : '' }}"><a href="{{ URL::to_route('schools') }}">1:1 Golf Schools</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('instruction/index') ? 'active' : '' }}"><a href="{{ URL::to_route('instruction') }}"><span class="hidden-tablet">Our</span> Philosophy</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('instruction/private') ? 'active' : '' }}"><a href="{{ URL::to_route('private') }}"><span class="hidden-tablet">Private Instruction</span><span class="hidden-desktop">Lessons</span></a><div class="arrow"></div></li>
+			<li class="{{ URI::is('instruction/schools') ? 'active' : '' }}"><a href="{{ URL::to_route('schools') }}"><span class="hidden-tablet">1:1</span> Golf Schools</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/junior-team') ? 'active' : '' }}"><a href="{{ URL::to_route('juniorteam') }}">Junior Team</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/junior-camps') ? 'active' : '' }}"><a href="{{ URL::to_route('juniorcamps') }}">Junior Camps</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('clinics') }}">Clinics</a><div class="arrow"></div></li>
-			<li class="{{ URI::is('instruction/booking') ? 'active' : '' }}"><a href="{{ URL::to_route('booking') }}">Book Now</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('instruction/booking') ? 'active' : '' }}"><a href="{{ URL::to_route('booking') }}">Book <span class="hidden-tablet">Now</span></a><div class="arrow"></div></li>
 		</ul>
 	@elseif (URI::is('contact/*'))
 		<ul>

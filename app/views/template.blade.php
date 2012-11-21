@@ -25,7 +25,7 @@
 	<div class="container wrapper">
 		@render('partials.nav-main')
 		
-		<header class="visible-desktop">
+		<header class="hidden-phone">
 			<div class="row overlay">
 				<div class="span5 offset1">
 					<p>&nbsp;</p>

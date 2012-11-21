@@ -13,7 +13,7 @@
 				<h3 class="primary">30 Minute Lesson</h3>
 				<p>30 minutes of private instruction with a Brian Jacobs Golf Instructor</p>
 				<h3>$95</h3>
-				<div class="btn-group visible-desktop">
+				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
 					<a href="#" class="btn btn-primary">Book Now</a>
 				</div>
@@ -29,7 +29,7 @@
 				<h3 class="primary">60 Minute Lesson</h3>
 				<p>60 minutes of private instruction with a Brian Jacobs Golf Instructor</p>
 				<h3>$125</h3>
-				<div class="btn-group visible-desktop">
+				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
 					<a href="#" class="btn btn-primary">Book Now</a>
 				</div>
@@ -45,7 +45,7 @@
 				<h3 class="primary">Playing Lesson</h3>
 				<p>9-hole round with private instruction with a Brian Jacobs Golf Instructor</p>
 				<h3>$275</h3>
-				<div class="btn-group visible-desktop">
+				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>
@@ -78,7 +78,7 @@
 
 				<h4>$1,650</h4>
 				
-				<div class="btn-group visible-desktop">
+				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>
@@ -101,7 +101,7 @@
 
 				<h4>$825</h4>
 
-				<div class="btn-group visible-desktop">
+				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>
@@ -124,7 +124,7 @@
 
 				<h4>$675</h4>
 
-				<div class="btn-group visible-desktop">
+				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>

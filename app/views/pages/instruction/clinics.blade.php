@@ -9,7 +9,7 @@
 
 	<p>Our clinic programs offer all the benefits of private instruction for larger groups and can be done any day of the week, provided we have availability. We're happy to work with you to design a clinic program that fits the needs of your group. Please contact us for more information about building a clinic today.</p>
 
-	<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('clinics')) }}" class="btn btn-primary">Contact Us for Clinic Info</a></div>
+	<div class="hidden-phone"><a href="{{ URL::to_route('contact', array('clinics')) }}" class="btn btn-primary">Contact Us for Clinic Info</a></div>
 
 	<div class="visible-phone"><a href="{{ URL::to_route('contact', array('clinics')) }}" class="btn btn-primary btn-block btn-large">Contact Us for Clinic Info</a></div>
 @endsection

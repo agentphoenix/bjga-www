@@ -1,4 +1,4 @@
-<footer class="visible-desktop">
+<footer class="hidden-phone">
 	<div class="row">
 		<div class="span8">
 			<div class="inner">

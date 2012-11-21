@@ -1,4 +1,4 @@
-<nav class="nav-main visible-desktop">
+<nav class="nav-main hidden-phone">
 	<div class="brand"></div>
 	
 	<ul>
