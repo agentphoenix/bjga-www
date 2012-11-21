@@ -167,6 +167,25 @@
 				</div>
 			</div>
 
+			@if ($topic == 'eyeline')
+				<div class="control-group {{ $errors->has('product') ? 'error' : '' }}">
+					<label class="control-label">Eyeline Golf Product</label>
+					<div class="control">
+						<select name="subject" class="span4">
+							<option value="Ball of Steel - 3 Pack">Ball of Steel - 3 Pack</option>
+							<option value="Eyeline Edge Mirror">Eyeline Edge Mirror</option>
+							<option value="Eyeline Edge Rail">Eyeline Edge Rail</option>
+							<option value="Sweet Spot 360">Sweet Spot 360&deg;</option>
+							<option value="Impact Ball Liner">Impact Ball Liner</option>
+							<option value="Golf Metronome Tour Edition">Golf Metronome Tour Edition</option>
+							<option value="LifeLine Training Grip">LifeLine Training Grip</option>
+							<option value="Short Game Target">Short Game Target</option>
+						</select>
+						<span class="help-inline">{{ $errors->has('product') ? 'Please select an Eyeline Golf product to get more information about' : '' }}</span>
+					</div>
+				</div>
+			@endif
+
 			<div class="control-group {{ $errors->has('message') ? 'error' : '' }}">
 				<label class="control-label">Message</label>
 				<div class="control">
@@ -177,7 +196,7 @@
 		@endif
 
 		<div class="control-group">
-			<div class="control visible-desktop">
+			<div class="control hidden-phone">
 				<button class="btn btn-primary" type="submit">Send</button>
 			</div>
 			<div class="control visible-phone">

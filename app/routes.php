@@ -105,7 +105,7 @@ Route::get('instruction/booking/(:any?)/(:any?)', array('as' => 'booking', funct
 }));
 
 /**
- * About/Contact
+ * Contact
  *
  * @todo	Put Brian's email address in
  */
@@ -129,6 +129,10 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 
 		case 'AdvoCare':
 			$subject = 'AdvoCare Information Request';
+		break;
+
+		case 'Eyeline':
+			$subject = 'EyeLine Golf Information Request';
 		break;
 		
 		default:
@@ -197,6 +201,20 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 
 		$message.= "<strong>How did you hear about us</strong>\r\n".Input::get('schoolHearAbout')."\r\n\r\n";
 		$message.= "<strong>Additional Comments</strong>\r\n".Input::get('schoolComments');
+	}
+
+	if ($topic == 'eyeline')
+	{
+		// Add the eyeline requirements
+		$rules['product'] = 'required';
+
+		// Change the message
+		$message = "<strong>Name:</strong> ".Input::get('name')."\r\n";
+		$message.= "<strong>Email Address:</strong> ".Input::get('emailAddress')."\r\n\r\n";
+
+		$message.= "<strong>Product:</strong> ".Input::get('product')."\r\n\r\n";
+
+		$message.= "<strong>Message</strong>\r\n".Input::get('message');
 	}
 
 	// Create a new validator for the contact form
