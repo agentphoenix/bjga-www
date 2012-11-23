@@ -6,9 +6,6 @@
   background-image: url(../img/img-bjga@2x.png);
   background-size: 322px 75px;
 }
-.nav-sub .social-icons li a {
-  background-position: 0 -26px;
-}
 .nav-sub .social-icons li a.twitter-icon {
   background-image: url(../img/icn-twitter@2x.png);
   background-size: 26px 26px;
@@ -18,7 +15,7 @@
   background-size: 26px 26px;
 }
 .nav-sub .social-icons li a:hover {
-  background-position: 0 -26px;
+  background-position: 0 0;
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
