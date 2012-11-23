@@ -102,4 +102,9 @@
 			</blockquote>
 		</div>
 	</div>
+
+	<blockquote>
+		<p class="lead">I met Brian Jacobs for the first time in 2009 at Hank Haney's teaching seminar. We hit it off right away as it was clear that Brian is truly passionate about teaching golf, and life in general. He is one of the nicest people I've ever met, and a very good golfer. Brian has continued to improve his craft, and I believe <em>he is absolutely one of the best golf instructors in the world</em>.</p>
+		<small class="primary">Scott<span>Camp Hill, PA</span></small>
+	</blockquote>
 @endsection
