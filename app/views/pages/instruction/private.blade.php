@@ -14,11 +14,11 @@
 				<p>30 minutes of private instruction with a Brian Jacobs Golf Instructor</p>
 				<h3>$95</h3>
 				<div class="btn-group hidden-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
 					<a href="#" class="btn btn-primary">Book Now</a>
 				</div>
 				<div class="visible-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
@@ -30,11 +30,11 @@
 				<p>60 minutes of private instruction with a Brian Jacobs Golf Instructor</p>
 				<h3>$125</h3>
 				<div class="btn-group hidden-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
 					<a href="#" class="btn btn-primary">Book Now</a>
 				</div>
 				<div class="visible-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
@@ -46,11 +46,11 @@
 				<p>9-hole round with private instruction with a Brian Jacobs Golf Instructor</p>
 				<h3>$275</h3>
 				<div class="btn-group hidden-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>
 				<div class="visible-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
@@ -79,12 +79,12 @@
 				<h4>$1,650</h4>
 				
 				<div class="btn-group hidden-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>
 
 				<div class="visible-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
@@ -102,12 +102,12 @@
 				<h4>$825</h4>
 
 				<div class="btn-group hidden-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>
 
 				<div class="visible-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
@@ -125,12 +125,12 @@
 				<h4>$675</h4>
 
 				<div class="btn-group hidden-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>
 
 				<div class="visible-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">Get More Info</a>
+					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
@@ -147,7 +147,7 @@
 				<p>Sharpen your short game with this brand-new group instruction program. We'll focus on pitching, chipping, bunker play and short irons and help you lock in on the flag stick more consistently.</p>
 				
 				<ul>
-					<li>Tuesday evenings from 6pm to 7pm on the Mill Creek Short Course (cart not included)</li>
+					<li>Tuesdays from 6pm to 7pm on the Mill Creek Short Course (cart not included)</li>
 					<li>Program runs 5/21, 5/28, 6/4 and 6/11</li>
 				</ul>
 				
@@ -162,7 +162,7 @@
 				<p>Be the putter you always dreamed of being with this brand-new group instruction program geared toward putting. We'll focus on setup, path, impact and speed to make you more consistent with the flat stick.</p>
 
 				<ul>
-					<li>Thursday evenings from 6pm to 7pm on the Mill Creek Short Course (cart not included)</li>
+					<li>Thursdays from 6pm to 7pm on the Mill Creek Short Course (cart not included)</li>
 					<li>Program runs 5/23, 5/30, 6/6 and 6/13</li>
 				</ul>
 				
