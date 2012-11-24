@@ -13,7 +13,7 @@
 			<div class="well">
 				<h3 class="primary visible-desktop">Private Instruction</h3>
 				<h3 class="primary visible-tablet">Private Lessons</h3>
-				<p>Book a private instruction session or playing lesson at Mill Creek Golf Club with a Brian Jacobs Golf Instructor and start improving your game.</p>
+				<p>Book a private instruction session or playing lesson at Mill Creek Golf Club with a Brian Jacobs Golf Instructor and start improving today.</p>
 				
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('private') }}" class="btn btn-primary">More Info</a>
@@ -30,7 +30,7 @@
 		<div class="span4">
 			<div class="well">
 				<h3 class="primary">Golf Schools</h3>
-				<p>Participate in one of our many golf schools where you'll be given all the tools necessary to take your golf game to the next level and beyond.</p>
+				<p>Participate in one of our many golf schools where you'll be given the tools necessary to take your golf game to the next level.</p>
 				
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('schools') }}" class="btn btn-primary">More Info</a>
