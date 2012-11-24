@@ -50,11 +50,11 @@
 				<p>Join us for a getaway to Amelia Island Plantation complete with amazing views from a seaside villa and 3 days of championship golf.</p>
 				
 				<div class="btn-group hidden-phone">
-					<a href="{{ URL::to_route('contact') }}" class="btn btn-primary">Contact Us for Booking Info</a>
+					<a href="{{ URL::to_route('event-amelia-island') }}" class="btn btn-primary">More Info</a>
 				</div>
 
 				<div class="visible-phone">
-					<a href="{{ URL::to_route('contact') }}" class="btn btn-primary btn-block btn-large">Contact Us for Booking Info</a>
+					<a href="{{ URL::to_route('event-amelia-island') }}" class="btn btn-primary btn-block btn-large">More Info</a>
 				</div>
 			</div>
 		</div>

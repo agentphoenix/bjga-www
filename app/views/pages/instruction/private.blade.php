@@ -10,7 +10,7 @@
 	<div class="row-fluid">
 		<div class="span4">
 			<div class="well">
-				<h3 class="primary">30 Minute Lesson</h3>
+				<h3 class="primary">30 Minute <span class="hidden-tablet">Lesson</span></h3>
 				<p>30 minutes of private instruction with a Brian Jacobs Golf Instructor</p>
 				<h3>$95</h3>
 				<div class="btn-group hidden-phone">
@@ -26,7 +26,7 @@
 
 		<div class="span4">
 			<div class="well">
-				<h3 class="primary">60 Minute Lesson</h3>
+				<h3 class="primary">60 Minute <span class="hidden-tablet">Lesson</span></h3>
 				<p>60 minutes of private instruction with a Brian Jacobs Golf Instructor</p>
 				<h3>$125</h3>
 				<div class="btn-group hidden-phone">
@@ -151,7 +151,7 @@
 					<li>Program runs 5/21, 5/28, 6/4 and 6/11</li>
 				</ul>
 				
-				<h3>$125 <small>per person</small></h3>
+				<h3>$125</h3>
 			</div>
 		</div>
 
@@ -166,7 +166,7 @@
 					<li>Program runs 5/23, 5/30, 6/6 and 6/13</li>
 				</ul>
 				
-				<h3>$125 <small>per person</small></h3>
+				<h3>$125</h3>
 			</div>
 		</div>
 	</div>

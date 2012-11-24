@@ -23,7 +23,7 @@
 		<dd>Instructors available to answer questions and to provide further assistance</dd>
 	</dl>
 
-	<h4 class="primary">$299</h4>
+	<h3 class="primary">$299</h3>
 
 	<h3>Half Day Camp</h3>
 
@@ -38,7 +38,7 @@
 		<dd>Instructors available to answer questions and to provide further assistance</dd>
 	</dl>
 
-	<h4 class="primary">$199</h4>
+	<h3 class="primary">$199</h3>
 
 	<h3>Calendar</h3>
 

@@ -12,6 +12,7 @@
 	{{ HTML::style('css/bootstrap.min.css') }}
 	{{ HTML::style('css/bootstrap-responsive.min.css') }}
 	{{ HTML::style('css/style.css') }}
+	{{ HTML::style('css/responsive.css') }}
 	@yield('styles')
 
 	<!--[if lt IE 9]>
