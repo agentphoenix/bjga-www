@@ -31,6 +31,10 @@
 			<li class="{{ URI::is('contact/advocare') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('advocare')) }}">Advocare</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('contact/eyeline') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('eyeline')) }}">Eyeline Golf</a><div class="arrow"></div></li>
 		</ul>
+	@elseif (URI::is('event/*'))
+		<ul>
+			<li class="{{ URI::is('event/amelia-island') ? 'active' : '' }}"><a href="{{ URL::to_route('event-amelia-island') }}">Amelia Island</a><div class="arrow"></div></li>
+		</ul>
 	@endif
 </nav>
 

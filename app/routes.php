@@ -244,6 +244,14 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 		->with('flash', $flash);
 });
 
+/**
+ * Event/Amelia-Island
+ */
+Route::get('/event/amelia-island', array('as' => 'event-amelia-island', function()
+{
+	return View::make('pages.events.amelia-island');
+}));
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
