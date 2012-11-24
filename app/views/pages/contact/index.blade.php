@@ -23,12 +23,6 @@
 
 	<p>We look forward to serving you in meeting your golf goals in the very near future.</p>
 
-	<div class="visible-phone">
-		<a href="{{ URL::to_route('contact') }}" class="btn btn-primary btn-block btn-large">General Questions</a>
-		<a href="{{ URL::to_route('contact', array('schools')) }}" class="btn btn-primary btn-block btn-large">Golf Schools</a>
-		<a href="{{ URL::to_route('contact', array('clinics')) }}" class="btn btn-primary btn-block btn-large">Golf Clinics</a>
-	</div>
-
 	@if (isset($flash))
 		<p class="alert alert-{{ $flash->status }}">{{ $flash->message }}</p>
 	@else
@@ -196,10 +190,10 @@
 		@endif
 
 		<div class="control-group">
-			<div class="control hidden-phone">
+			<div class="control visible-desktop">
 				<button class="btn btn-primary" type="submit">Send</button>
 			</div>
-			<div class="control visible-phone">
+			<div class="control hidden-desktop">
 				<button class="btn btn-primary btn-block btn-large" type="submit">Send</button>
 			</div>
 		</div>

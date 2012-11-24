@@ -45,7 +45,7 @@
 			<li class="{{ URI::is('about/brian') ? 'active' : '' }}"><a href="{{ URL::to_route('about') }}">Meet Brian Jacobs</a></li>
 			<li class="{{ URI::is('about/relationships') ? 'active' : '' }}"><a href="{{ URL::to_route('relationships') }}">Relationships</a></li>
 			<li class="{{ URI::is('about/testimonials') ? 'active' : '' }}"><a href="{{ URL::to_route('testimonials') }}">Testimonials</a></li>
-			<li><a href="#">Blog</a></li>
+			<!--<li><a href="#">Blog</a></li>-->
 			<li class="{{ URI::is('about/contact*') ? 'active' : '' }}"><a href="{{ URL::to_route('contact') }}">Contact</a></li>
 		</ul>
 	@elseif (URI::is('instruction/*'))
@@ -57,6 +57,18 @@
 			<li class="{{ URI::is('instruction/junior-camps') ? 'active' : '' }}"><a href="{{ URL::to_route('juniorcamps') }}">Junior Camps</a></li>
 			<li class="{{ URI::is('instruction/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('clinics') }}">Clinics</a></li>
 			<li class="{{ URI::is('instruction/booking') ? 'active' : '' }}"><a href="{{ URL::to_route('booking') }}">Book Now</a></li>
+		</ul>
+	@elseif (URI::is('contact/*'))
+		<ul class="nav nav-list">
+			<li class="{{ URI::is('contact/general') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('general')) }}">General</a></li>
+			<li class="{{ URI::is('contact/schools*') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('schools')) }}">Golf Schools</a></li>
+			<li class="{{ URI::is('contact/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('clinics')) }}">Golf Clinics</a></li>
+			<li class="{{ URI::is('contact/advocare') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('advocare')) }}">Advocare</a></li>
+			<li class="{{ URI::is('contact/eyeline') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('eyeline')) }}">Eyeline Golf</a></li>
+		</ul>
+	@elseif (URI::is('event/*'))
+		<ul class="nav nav-list">
+			<li class="{{ URI::is('event/amelia-island') ? 'active' : '' }}"><a href="{{ URL::to_route('event-amelia-island') }}">Amelia Island</a></li>
 		</ul>
 	@endif
 </div>

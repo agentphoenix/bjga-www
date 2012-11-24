@@ -59,7 +59,8 @@
 				<li>Eyeline Golf Gift pack</li>
 			</ul>
 
-			<div><a href="{{ URL::to_route('contact', array('schools', 'putting')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('schools', 'putting')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="hidden-desktop"><a href="{{ URL::to_route('contact', array('schools', 'putting')) }}" class="btn btn-primary btn-block btn-large">Contact Us for Information and Booking</a></div>
 
 			<hr>
 
@@ -83,7 +84,8 @@
 				<li>Nike Golf gift pack</li>
 			</ul>
 
-			<div><a href="{{ URL::to_route('contact', array('schools', 'shortgame')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('schools', 'shortgame')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="hidden-desktop"><a href="{{ URL::to_route('contact', array('schools', 'shortgame')) }}" class="btn btn-primary btn-block btn-large">Contact Us for Information and Booking</a></div>
 
 			<hr>
 
@@ -107,7 +109,8 @@
 				<li>Nike Golf gift pack</li>
 			</ul>
 
-			<div><a href="{{ URL::to_route('contact', array('schools', 'newgolfer')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('schools', 'newgolfer')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="hidden-desktop"><a href="{{ URL::to_route('contact', array('schools', 'newgolfer')) }}" class="btn btn-primary btn-block btn-large">Contact Us for Information and Booking</a></div>
 
 			<hr>
 
@@ -127,7 +130,8 @@
 				<li>Nike Golf gift pack</li>
 			</ul>
 
-			<div><a href="{{ URL::to_route('contact', array('schools', 'ladies')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('schools', 'ladies')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="hidden-desktop"><a href="{{ URL::to_route('contact', array('schools', 'ladies')) }}" class="btn btn-primary btn-block btn-large">Contact Us for Information and Booking</a></div>
 
 			<hr>
 
@@ -165,7 +169,8 @@
 				<li>Nike Golf gift pack and Eyeline Golf gift</li>
 			</ul>
 
-			<div><a href="{{ URL::to_route('contact', array('schools', 'elitejunior')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('schools', 'elitejunior')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="hidden-desktop"><a href="{{ URL::to_route('contact', array('schools', 'elitejunior')) }}" class="btn btn-primary btn-block btn-large">Contact Us for Information and Booking</a></div>
 
 			<hr>
 
@@ -198,7 +203,8 @@
 				<li>Nike Golf gift and Eyeline Golf gift</li>
 			</ul>
 
-			<div><a href="{{ URL::to_route('contact', array('schools', 'course')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('schools', 'course')) }}" class="btn btn-primary">Contact Us for Information and Booking</a></div>
+			<div class="hidden-desktop"><a href="{{ URL::to_route('contact', array('schools', 'course')) }}" class="btn btn-primary btn-block btn-large">Contact Us for Information and Booking</a></div>
 		</div>
 
 		<div class="span3">

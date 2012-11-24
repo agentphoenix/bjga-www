@@ -45,8 +45,8 @@
 			<h3><a href="http://www.advocare.com/" target="_blank">Advocare</a></h3>
 			<p>AdvoCare is a premier health and wellness company offering world-class energy, weight-loss, nutrition, and sports performance products along with a rewarding business opportunity.</p>
 			<p>AdvoCare empowers individuals to explore their ultimate potential. When people try the products, the positive testimonials pour in: "I feel better than I have in years." "My energy level is unbelievable." "AdvoCare has changed my life." AdvoCare focuses on wellness and provides an opportunity to enrich your life in the way that you choose.</p>
-			<div class="hidden-phone"><a href="{{ URL::to_route('contact', array('advocare')) }}" class="btn btn-primary">Contact Us About AdvoCare</a></div>
-			<div class="visible-phone"><a href="{{ URL::to_route('contact', array('advocare')) }}" class="btn btn-primary btn-block btn-large">Contact Us About AdvoCare</a></div>
+			<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('advocare')) }}" class="btn btn-primary">Contact Us About AdvoCare</a></div>
+			<div class="hidden-desktop"><a href="{{ URL::to_route('contact', array('advocare')) }}" class="btn btn-primary btn-block btn-large">Contact Us About AdvoCare</a></div>
 		</div>
 		<div class="span4 relationship-logo hidden-phone"><a href="http://www.advocare.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-advocare.png') }}" alt="Advocare"></a></div>
 	</div>
@@ -57,8 +57,8 @@
 		<div class="span8">
 			<h3><a href="http://www.eyelinegolf.com/" target="_blank">Eyeline Golf</a></h3>
 			<p>Since 2002, our passion has been helping golfers unlock their potential. It is exhilarating to break your personal bests. We are very proud to be the #1 Training aid company on the Pro Tours. We actually had 247 Tour Players choose EyeLine in 2011 - PGA, LPGA, Nationwide.</p>
-			<div class="hidden-phone"><a href="{{ URL::to_route('contact', array('eyeline')) }}" class="btn btn-primary">Contact Us About Eyeline Golf</a></div>
-			<div class="visible-phone"><a href="{{ URL::to_route('contact', array('eyeline')) }}" class="btn btn-primary btn-block btn-large">Contact Us About Eyeline Golf</a></div>
+			<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('eyeline')) }}" class="btn btn-primary">Contact Us About Eyeline Golf</a></div>
+			<div class="hidden-desktop"><a href="{{ URL::to_route('contact', array('eyeline')) }}" class="btn btn-primary btn-block btn-large">Contact Us About Eyeline Golf</a></div>
 		</div>
 		<div class="span4 relationship-logo hidden-phone"><a href="http://www.eyelinegolf.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-eyeline.png') }}" alt="Eyeline"></a></div>
 	</div>
