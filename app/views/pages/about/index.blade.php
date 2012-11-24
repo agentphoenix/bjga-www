@@ -13,7 +13,7 @@
 			<div class="span4">
 				<div class="well">
 					<h3 class="primary visible-desktop">Private Instruction</h3>
-					<h3 class="primary visible-tablet">Private Lessons</h3>
+					<h3 class="primary visible-phone">Private Lessons</h3>
 					<p>Book a private instruction session or playing lesson at Mill Creek Golf Club with a Brian Jacobs Golf Instructor and start improving today.</p>
 					
 					<div class="btn-group hidden-phone">
