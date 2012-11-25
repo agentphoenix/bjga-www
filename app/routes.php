@@ -111,9 +111,35 @@ Route::get('instruction/booking/(:any?)/(:any?)', array('as' => 'booking', funct
  */
 Route::get('/contact/(:any?)/(:any?)', array('as' => 'contact', function($topic = 'general', $sub = false)
 {
+	$contactTitle = ': ';
+
+	switch ($topic)
+	{
+		case 'advocare':
+			$contactTitle.= 'AdvoCare';
+		break;
+
+		case 'eyeline':
+			$contactTitle.= 'Eyeline Golf';
+		break;
+
+		case 'schools':
+			$contactTitle.= 'Golf Schools';
+		break;
+
+		case 'clinics':
+			$contactTitle.= 'Golf Clinics';
+		break;
+		
+		default:
+			$contactTitle = '';
+		break;
+	}
+
 	return View::make('pages.contact.index')
 		->with('topic', $topic)
-		->with('sub', $sub);
+		->with('sub', $sub)
+		->with('contactTitle', $contactTitle);
 }));
 Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = false)
 {

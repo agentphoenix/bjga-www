@@ -17,7 +17,7 @@
 @endsection
 
 @section('content')
-	<h1>Contact</h1>
+	<h1>Contact{{ $contactTitle }}</h1>
 
 	<p>Thank you for your interest in Brian Jacobs Golf! Please feel free to contact us and one of our representatives will get back to you as soon as possible. You can use the buttons below to toggle between different contact options.</p>
 
