@@ -1,5 +1,9 @@
 @layout('template')
 
+@section('title')
+	Book an Appointment Now
+@endsection
+
 @section('content')
 	<div class="booking-engine">
 		<div class="loading align-center hide">

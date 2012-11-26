@@ -1,5 +1,9 @@
 @layout('template')
 
+@section('title')
+	2013 Junior Golf Camps
+@endsection
+
 @section('content')
 	<h1>2013 Junior Golf Camps</h1>
 

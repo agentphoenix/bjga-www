@@ -1,5 +1,9 @@
 @layout('template')
 
+@section('title')
+	Junior Team
+@endsection
+
 @section('content')
 	<h1>Junior Team</h1>
 

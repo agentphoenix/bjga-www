@@ -1,5 +1,9 @@
 @layout ('template')
 
+@section('title')
+	Testimonials
+@endsection
+
 @section('content')
 	<h1>Testimonials</h1>
 

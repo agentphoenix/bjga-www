@@ -1,5 +1,9 @@
 @layout ('template')
 
+@section('title')
+	Golf Clinics
+@endsection
+
 @section('content')
 	<h1>Clinics</h1>
 

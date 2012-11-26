@@ -1,5 +1,9 @@
 @layout('template')
 
+@section('title')
+	Contact
+@endsection
+
 @section('styles')
 	{{ HTML::style('css/datepicker.css') }}
 @endsection

@@ -1,5 +1,9 @@
 @layout ('template')
 
+@section('title')
+	Private Instruction
+@endsection
+
 @section('content')
 	<h1>Private Instruction</h1>
 

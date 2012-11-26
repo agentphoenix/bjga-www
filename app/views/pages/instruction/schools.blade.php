@@ -1,5 +1,9 @@
 @layout('template')
 
+@section('title')
+	Golf Schools
+@endsection
+
 @section('content')
 	<div class="row-fluid">
 		<div class="span9">

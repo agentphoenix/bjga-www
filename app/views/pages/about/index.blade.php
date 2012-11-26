@@ -1,5 +1,9 @@
 @layout('template')
 
+@section('title')
+	Home
+@endsection
+
 @section('content')
 	<h1 class="hidden-phone">Welcome to Brian Jacobs Golf</h1>
 	<h1 class="visible-phone">Brian Jacobs Golf</h1>

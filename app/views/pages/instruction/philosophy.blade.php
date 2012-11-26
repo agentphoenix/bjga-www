@@ -1,5 +1,9 @@
 @layout('template')
 
+@section('title')
+	Our Teaching Philosophy
+@endsection
+
 @section('content')
 	<h1>Our Philosophy</h1>
 

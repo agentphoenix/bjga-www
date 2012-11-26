@@ -1,5 +1,9 @@
 @layout('template')
 
+@section('title')
+	Meet Brian Jacobs
+@endsection
+
 @section('content')
 	<h1>Meet Brian Jacobs</h1>
 

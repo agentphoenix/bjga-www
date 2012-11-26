@@ -1,5 +1,9 @@
 @layout('template')
 
+@section('title')
+	2013 Spring Golf Trip - Amelia Island Plantation
+@endsection
+
 @section('content')
 	<h1>Amelia Island Plantation Spring Golf Trip</h1>
 
