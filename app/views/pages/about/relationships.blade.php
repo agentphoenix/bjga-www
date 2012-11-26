@@ -1,5 +1,9 @@
 @layout('template')
 
+@section('title')
+	Relationships
+@endsection
+
 @section('content')
 	<h1>Relationships</h1>
 
@@ -114,6 +118,16 @@
 			<p>Amelia Links, designed by Pete Dye and Bobby Weed, is a 36-hole configuration that includes two signature courses, Oak Marsh and Ocean Links. The natural beauty of tidal marshes, intercoastal waters, the Atlantic Ocean, and mature live oak trees that surround these courses provide stunning and breathtaking views that simultaneously amaze and challenge the novice and professional alike. Having the golf courses be Audobon International Certified Sanctuaries not only preserves the natural heritage of the game, but also the wildlife that thrives there.</p>
 		</div>
 		<div class="span4 relationship-logo hidden-phone"><a href="http://www.edbowegolf.com/amelia-island-golf-resort/" target="_blank"><img src="{{ URL::to_asset('img/logo-ameliaisland.png') }}" alt="Amelia Island Plantation"></a></div>
+	</div>
+
+	<hr>
+
+	<div class="row-fluid">
+		<div class="span8">
+			<h3><a href="https://www.playerstowel.com/" target="_blank">Players Towel</a></h3>
+			<p>The Players Towel was once reserved for only the Players and Caddies on tour and is currently used on all major golf tours. The Players Towel is made of a unique Microfiber technology providing the best absorption and cleaning characteristics available. What started as a golf towel has quickly evolved into a sports towel for all athletes!</p>
+		</div>
+		<div class="span4 relationship-logo hidden-phone"><a href="https://www.playerstowel.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-playerstowel.png') }}" alt="Players Towel"></a></div>
 	</div>
 
 	<hr>
