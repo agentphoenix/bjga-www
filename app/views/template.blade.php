@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<title>Brian Jacobs Golf</title>
 	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="{{ URL::to_asset('favicon.ico') }}" type="image/x-icon">
+	<link rel="apple-touch-icon-precomposed" href="{{ URL::to_asset('apple-touch-icon.png') }}">
 	
 	<!--[if lt IE 9]>
 	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
