@@ -3,11 +3,11 @@
 @section('content')
 	<h1>Amelia Island Plantation Spring Golf Trip</h1>
 
-	<p>Between April 1st and 6th of 2013, Brian Jacobs Golf will be takin a small group of golfers down to sunny Florida and the exquisite golfer's paradise of the Omni Amelia Island Plantation. Featuring 36 holes of championship golf nestled between Spanish moss-covered oaks and the Atlantic Ocean, the resort boasts designs by Bobby Weed and the legendary Pete Dye that will challenge golfers of all levels.</p>
+	<p>Between April 1st and 6th of 2013, Brian Jacobs Golf will be taking a small group of golfers down to sunny Florida and the exquisite golfer's paradise of the Omni Amelia Island Plantation. Featuring 36 holes of championship golf nestled between Spanish moss-covered oaks and the Atlantic Ocean, the resort boasts designs by Bobby Weed and the legendary Pete Dye that will challenge golfers of all levels.</p>
 
 	<p>Space is limited, so make sure you reserve your spot today with your $200 deposit!</p>
 
-	<h3>$999 <small>per golfer*</small></h3>
+	<h3>$995*</h3>
 
 	<div class="row-fluid">
 		<div class="span2">
