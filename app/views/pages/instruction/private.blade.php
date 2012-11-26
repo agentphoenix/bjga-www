@@ -140,38 +140,4 @@
 			</div>
 		</div>
 	</div>
-
-	<h2 class="pinseeker">Pin Seeker</h2>
-
-	<div class="row-fluid">
-		<div class="span6">
-			<div class="well">
-				<h3 class="primary">Pin Seeker: Short Game</h3>
-				
-				<p>Sharpen your short game with this brand-new group instruction program. We'll focus on pitching, chipping, bunker play and short irons and help you lock in on the flag stick more consistently.</p>
-				
-				<ul>
-					<li>Tuesdays from 6pm to 7pm on the Mill Creek Short Course (cart not included)</li>
-					<li>Program runs 5/21, 5/28, 6/4 and 6/11</li>
-				</ul>
-				
-				<h3>$125</h3>
-			</div>
-		</div>
-
-		<div class="span6">
-			<div class="well">
-				<h3 class="primary">Pin Seeker: Putting</h3>
-				
-				<p>Be the putter you always dreamed of being with this brand-new group instruction program geared toward putting. We'll focus on setup, path, impact and speed to make you more consistent with the flat stick.</p>
-
-				<ul>
-					<li>Thursdays from 6pm to 7pm on the Mill Creek Short Course (cart not included)</li>
-					<li>Program runs 5/23, 5/30, 6/6 and 6/13</li>
-				</ul>
-				
-				<h3>$125</h3>
-			</div>
-		</div>
-	</div>
 @endsection
