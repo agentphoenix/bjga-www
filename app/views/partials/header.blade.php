@@ -9,7 +9,7 @@
 	<div class="row overlay hide">
 		<div class="span5 offset1">
 			<h1>2013 Spring Golf Trip</h1>
-			<p>Join us in the exquisite golfer's paradise of the Omni Amelia Island Planation for a golfing getaway this spring, complete with amazing views from a seaside villa and 3 days of championship golf.</p>
+			<p>Join us in the exquisite golfer's paradise of the Omni Amelia Island Plantation for a golfing getaway this spring, complete with amazing views from a seaside villa and 3 days of championship golf.</p>
 			<p><a href="{{ URL::to_route('event-amelia-island') }}" class="btn btn-large btn-inverse btn-block">More Info</a></p>
 		</div>
 	</div>
