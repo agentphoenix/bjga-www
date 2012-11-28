@@ -251,8 +251,8 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 		$message.= "<strong>Preferred Date:</strong> ".Input::get('clinicDate')."\r\n";
 		$message.= "<strong>Preferred Day:</strong> ".Input::get('clinicDay')."\r\n\r\n";
 
-		$message.= "<strong>How did you hear about us</strong>\r\n".Input::get('schoolHearAbout')."\r\n\r\n";
-		$message.= "<strong>Additional Comments</strong>\r\n".Input::get('schoolComments');
+		$message.= "<strong>How did you hear about us</strong>\r\n".Input::get('clinicHearAbout')."\r\n\r\n";
+		$message.= "<strong>Additional Comments</strong>\r\n".Input::get('clinicComments');
 	}
 
 	if ($topic == 'eyeline')
