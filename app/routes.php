@@ -169,6 +169,32 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 	// Set the message
 	$message = Input::get('message');
 
+	// Set the contact title
+	$contactTitle = ': ';
+
+	switch ($topic)
+	{
+		case 'advocare':
+			$contactTitle.= 'AdvoCare';
+		break;
+
+		case 'eyeline':
+			$contactTitle.= 'Eyeline Golf';
+		break;
+
+		case 'schools':
+			$contactTitle.= 'Golf Schools';
+		break;
+
+		case 'clinics':
+			$contactTitle.= 'Golf Clinics';
+		break;
+		
+		default:
+			$contactTitle = '';
+		break;
+	}
+
 	// Create a new object for the flash info
 	$flash = new stdClass;
 
@@ -267,7 +293,8 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 	}
 
 	return View::make('pages.contact.index')
-		->with('flash', $flash);
+		->with('flash', $flash)
+		->with('contactTitle', $contactTitle);
 });
 
 /**
