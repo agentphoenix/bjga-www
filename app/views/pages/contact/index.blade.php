@@ -169,7 +169,7 @@
 				<div class="control-group {{ $errors->has('product') ? 'error' : '' }}">
 					<label class="control-label">Eyeline Golf Product</label>
 					<div class="control">
-						<select name="subject" class="span4">
+						<select name="product" class="span4">
 							<option value="Ball of Steel - 3 Pack">Ball of Steel - 3 Pack</option>
 							<option value="Eyeline Edge Mirror">Eyeline Edge Mirror</option>
 							<option value="Eyeline Edge Rail">Eyeline Edge Rail</option>
