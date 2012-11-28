@@ -280,7 +280,7 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 	else
 	{
 		// Send the message
-		$message = Message::to('david.vanscott@gmail.com')
+		$message = Message::to('bjacobs1@rochester.rr.com')
 			->from(Input::get('emailAddress'), Input::get('name'))
 			->subject('[Brian Jacobs Golf] '.$subject)
 			->body(nl2br($message))
