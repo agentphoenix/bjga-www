@@ -283,7 +283,7 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 		$message = Message::to('david.vanscott@gmail.com')
 			->from(Input::get('emailAddress'), Input::get('name'))
 			->subject('[Brian Jacobs Golf] '.$subject)
-			->body($message)
+			->body(nl2br($message))
 			->html(true)
 			->send();
 
@@ -294,6 +294,8 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 
 	return View::make('pages.contact.index')
 		->with('flash', $flash)
+		->with('topic', $topic)
+		->with('sub', $sub)
 		->with('contactTitle', $contactTitle);
 });
 
