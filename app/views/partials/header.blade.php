@@ -17,7 +17,7 @@
 		<div class="span5 offset1">
 			<h1>Winter Lessons at Valle Sports</h1>
 			<p>Sign up for indoor lessons this winter starting at $125! Or buy packages of 5, 7 or 12 lessons to hone your golf game while there's snow on the ground.</p>
-			<p><a href="{{ URL::to_route('booking') }}" class="btn btn-large btn-inverse btn-block">Book Now</a></p>
+			<p><a href="{{ URL::to_route('contact', array('general')) }}" class="btn btn-large btn-inverse btn-block">Contact Us to Book</a></p>
 		</div>
 	</div>
 </header>
