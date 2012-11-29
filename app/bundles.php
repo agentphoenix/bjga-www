@@ -37,4 +37,13 @@ return array(
 
 	'messages' => array(),
 
+	'carbon' => array(
+		'auto' => true,
+		'autoloads' => array(
+			'namespaces' => array(
+				'Carbon' => '(:bundle)',
+			),
+		),
+	),
+
 );
