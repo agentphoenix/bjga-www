@@ -69,7 +69,7 @@
 
 	<hr>
 
-	<div class="row-fluid">
+	<!--<div class="row-fluid">
 		<div class="span8">
 			<h3><a href="http://rochester.golflocal.com/golf-rochester-ny/" target="_blank">Golf Local</a></h3>
 			<p>GolfLocal.com is 100% dedicated to all aspects of golf and is strictly designed to promote, inform and educate individuals about the game of golf. Their focus is to be the one place golfers go to find information about the game they love. They provide information about local golf courses, tournaments, events and offer Stay-N-Play packages for golfers looking to come to the Rochester, NY area to play golf.</p>
@@ -77,7 +77,7 @@
 		<div class="span4 relationship-logo hidden-phone"><a href="http://rochester.golflocal.com/golf-rochester-ny/" target="_blank"><img src="{{ URL::to_asset('img/logo-golflocal.png') }}" alt="Golf Local"></a></div>
 	</div>
 
-	<hr>
+	<hr>-->
 
 	<div class="row-fluid">
 		<div class="span8">
@@ -128,6 +128,16 @@
 			<p>The Players Towel was once reserved for only the Players and Caddies on tour and is currently used on all major golf tours. The Players Towel is made of a unique Microfiber technology providing the best absorption and cleaning characteristics available. What started as a golf towel has quickly evolved into a sports towel for all athletes!</p>
 		</div>
 		<div class="span4 relationship-logo hidden-phone"><a href="https://www.playerstowel.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-playerstowel.png') }}" alt="Players Towel"></a></div>
+	</div>
+
+	<hr>
+
+	<div class="row-fluid">
+		<div class="span8">
+			<h3><a href="http://teambscott.com/" target="_blank">Team BScott</a></h3>
+			<p>Team BScott, is a movement for anyone who understands the substance of being passionate about what they work for. It is the thought that you do not have to do extraordinary things, but always aim to do things extraordinarily well.</p>
+		</div>
+		<div class="span4 relationship-logo hidden-phone"><a href="http://teambscott.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-teambscott.png') }}" alt="Team BScott"></a></div>
 	</div>
 
 	<hr>
