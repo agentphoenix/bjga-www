@@ -1,5 +1,5 @@
 .nav-main ul li a{font-family:helvetica,arial,sans-serif;}.nav-main ul li a.active{border-color:#bbb;}
-header .overlay{font-family:georgia,times,serif;}
+header .overlay{font-family:georgia,times,serif;background-color:transparent !important;}
 .nav-sub ul li a{font-family:helvetica,arial,sans-serif;font-size:12px;}
 .nav-sub ul li .arrow{display:none !important;}
 section h1{font-family:georgia,times,serif;}
