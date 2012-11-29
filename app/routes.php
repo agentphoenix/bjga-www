@@ -52,7 +52,7 @@ Route::get('/instruction/private', array('as' => 'private', function()
 	$start = Carbon\Carbon::create($now->year, 11, 1, 0, 0, 0);
 
 	// End of winter instruction
-	$end = Carbon\Carbon::create($now->copy()->addYear()->year, 3, 1, 0, 0, 0);
+	$end = Carbon\Carbon::create($now->copy()->addYear()->year, 4, 10, 0, 0, 0);
 
 	// Set the proper view based on today's date
 	$view = ($now->gte($start) and $now->lt($end)) 
