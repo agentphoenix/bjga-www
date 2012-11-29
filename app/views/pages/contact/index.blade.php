@@ -152,6 +152,26 @@
 					<textarea name="clinicComments" class="span8" rows="3"></textarea>
 				</div>
 			</div>
+		@elseif ($topic == 'winter-lessons')
+			<div class="control-group {{ $errors->has('winterInstructionProgram') ? 'error' : '' }}">
+				<label class="control-label">Package to Book</label>
+				<div class="control">
+					<select name="winterInstructionProgram" class="span4">
+						<option value="Private Session">60 Minute Private Instruction Session</option>
+						<option value="5 Session Bundle">5 60 Minute Private Instruction Sessions</option>
+						<option value="7 Session Bundle">7 60 Minute Private Instruction Sessions</option>
+						<option value="12 Session Bundle">12 60 Minute Private Instruction Sessions</option>
+					</select>
+					<span class="help-inline">{{ $errors->has('winterInstructionProgram') ? "Please select the instruction package you want to book" : "" }}</span>
+				</div>
+			</div>
+
+			<div class="control-group">
+				<label class="control-label">Additional Comments</label>
+				<div class="control">
+					<textarea name="winterInstructionComments" class="span8" rows="3"></textarea>
+				</div>
+			</div>
 		@else
 			<div class="control-group">
 				<label class="control-label">Subject</label>

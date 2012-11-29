@@ -34,28 +34,38 @@ Route::get('/about/testimonials', array('as' => 'testimonials', function($num = 
 
 /**
  * Instruction/Index
- *
- * @todo	New image
  */
-Route::get('instruction/index', array('as' => 'instruction', function()
+Route::get('/instruction/index', array('as' => 'instruction', function()
 {
 	return View::make('pages.instruction.philosophy');
 }));
 
 /**
  * Instruction/Private
- *
- * @todo	Links to USchedule
  */
-Route::get('instruction/private', array('as' => 'private', function()
+Route::get('/instruction/private', array('as' => 'private', function()
 {
-	return View::make('pages.instruction.private');
+	// Get the current time
+	$now = Carbon\Carbon::now();
+
+	// Start of winter instruction
+	$start = Carbon\Carbon::create($now->year, 11, 1, 0, 0, 0);
+
+	// End of winter instruction
+	$end = Carbon\Carbon::create($now->copy()->addYear()->year, 3, 1, 0, 0, 0);
+
+	// Set the proper view based on today's date
+	$view = ($now->gte($start) and $now->lt($end)) 
+		? 'pages.instruction.winterprivate' 
+		: 'pages.instruction.private';
+
+	return View::make($view);
 }));
 
 /**
  * Instruction/Schools
  */
-Route::get('instruction/schools', array('as' => 'schools', function()
+Route::get('/instruction/schools', array('as' => 'schools', function()
 {
 	return View::make('pages.instruction.schools');
 }));
@@ -63,7 +73,7 @@ Route::get('instruction/schools', array('as' => 'schools', function()
 /**
  * Instruction/Juniors
  */
-Route::get('instruction/junior-team', array('as' => 'juniorteam', function()
+Route::get('/instruction/junior-team', array('as' => 'juniorteam', function()
 {
 	return View::make('pages.instruction.juniors');
 }));
@@ -71,7 +81,7 @@ Route::get('instruction/junior-team', array('as' => 'juniorteam', function()
 /**
  * Instruction/JuniorCamp
  */
-Route::get('instruction/junior-camps', array('as' => 'juniorcamps', function()
+Route::get('/instruction/junior-camps', array('as' => 'juniorcamps', function()
 {
 	return View::make('pages.instruction.juniorcamp');
 }));
@@ -79,7 +89,7 @@ Route::get('instruction/junior-camps', array('as' => 'juniorcamps', function()
 /**
  * Instruction/Clinics
  */
-Route::get('instruction/clinics', array('as' => 'clinics', function()
+Route::get('/instruction/clinics', array('as' => 'clinics', function()
 {
 	return View::make('pages.instruction.clinics');
 }));
@@ -87,7 +97,7 @@ Route::get('instruction/clinics', array('as' => 'clinics', function()
 /**
  * Instruction/Booking
  */
-Route::get('instruction/booking/(:any?)/(:any?)', array('as' => 'booking', function($type = false, $id = false)
+Route::get('/instruction/booking/(:any?)/(:any?)', array('as' => 'booking', function($type = false, $id = false)
 {
 	switch ($type)
 	{
@@ -106,8 +116,6 @@ Route::get('instruction/booking/(:any?)/(:any?)', array('as' => 'booking', funct
 
 /**
  * Contact
- *
- * @todo	Put Brian's email address in
  */
 Route::get('/contact/(:any?)/(:any?)', array('as' => 'contact', function($topic = 'general', $sub = false)
 {
@@ -129,6 +137,10 @@ Route::get('/contact/(:any?)/(:any?)', array('as' => 'contact', function($topic 
 
 		case 'clinics':
 			$contactTitle.= 'Golf Clinics';
+		break;
+
+		case 'winter-lessons':
+			$contactTitle.= 'Winter Instruction';
 		break;
 		
 		default:
@@ -188,6 +200,10 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 
 		case 'clinics':
 			$contactTitle.= 'Golf Clinics';
+		break;
+
+		case 'winter-lessons':
+			$contactTitle.= 'Winter Instruction';
 		break;
 		
 		default:
@@ -267,6 +283,26 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 		$message.= "<strong>Product:</strong> ".Input::get('product')."\r\n\r\n";
 
 		$message.= "<strong>Message</strong>\r\n".Input::get('message');
+	}
+
+	if ($topic == 'winter-lessons')
+	{
+		// Add the eyeline requirements
+		$rules['winterInstructionProgram'] = 'required';
+
+		// Remove the message requirement
+		unset($rules['message']);
+
+		// Change the subject
+		$subject = 'Winter Private Instruction Booking Request';
+
+		// Change the message
+		$message = "<strong>Name:</strong> ".Input::get('name')."\r\n";
+		$message.= "<strong>Email Address:</strong> ".Input::get('emailAddress')."\r\n\r\n";
+
+		$message.= "<strong>Package to Book:</strong> ".Input::get('winterInstructionProgram')."\r\n\r\n";
+
+		$message.= "<strong>Comments</strong>\r\n".Input::get('winterInstructionComments');
 	}
 
 	// Create a new validator for the contact form
