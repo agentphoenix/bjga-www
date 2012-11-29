@@ -19,7 +19,7 @@
 				<h3>$95</h3>
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
-					<a href="#" class="btn btn-primary">Book Now</a>
+					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>
 				<div class="visible-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
@@ -35,7 +35,7 @@
 				<h3>$125</h3>
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
-					<a href="#" class="btn btn-primary">Book Now</a>
+					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>
 				<div class="visible-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
