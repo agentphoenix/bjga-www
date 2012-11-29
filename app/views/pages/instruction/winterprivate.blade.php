@@ -30,7 +30,7 @@
 			<div class="well">
 				<h3 class="primary">5 Session Bundle</h3>
 				<p>5 private instruction sessions with a Brian Jacobs Golf Instructor</p>
-				<h3>$125</h3>
+				<h3>$525</h3>
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary">Email to Book Now</a>
 				</div>
@@ -44,7 +44,7 @@
 			<div class="well">
 				<h3 class="primary">7 Session Bundle</h3>
 				<p>7 private instruction sessions with a Brian Jacobs Golf Instructor</p>
-				<h3>$125</h3>
+				<h3>$675</h3>
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary">Email to Book Now</a>
 				</div>
@@ -58,7 +58,7 @@
 			<div class="well">
 				<h3 class="primary">12 Session Bundle</h3>
 				<p>12 private instruction sessions with a Brian Jacobs Golf Instructor</p>
-				<h3>$125</h3>
+				<h3>$1,450</h3>
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary">Email to Book Now</a>
 				</div>
