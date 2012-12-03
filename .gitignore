@@ -1,2 +1,7 @@
+# General Items
 
 .DS_Store
+
+# Blog Items
+
+blog/wp-config.php
