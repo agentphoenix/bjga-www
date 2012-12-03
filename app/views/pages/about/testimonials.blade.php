@@ -60,7 +60,7 @@
 	<div class="row-fluid">
 		<div class="span10">
 			<blockquote>
-				Brian Jacobs is a dedicated and gifted golf coach and teacher. He helped our son not only excel on the golf course, but helped him evolve into the young man he was destined to become. He has been there every step of the way. From the moment he began coaching him at age 11, he was invested in his success as coach, teacher, and mentor. Brian will always be a part of our son's life, as well as ours as a family. Anyone who has the opportunity to train, work, or be coached by Brian Jacobs will find that their achievements are limited only by the limits of their dreams. If someone has a goal and dream, and works hard, Brian will stay they course, every step of the way, and help them achieve all that is possible.
+				Brian Jacobs is a dedicated and gifted golf coach and teacher. He helped our son not only excel on the golf course, but helped him evolve into the young man he was destined to become. He has been there every step of the way. From the moment he began coaching him at age 11, he was invested in his success as coach, teacher, and mentor. Brian will always be a part of our son's life, as well as ours as a family. Anyone who has the opportunity to train, work, or be coached by Brian Jacobs will find that their achievements are limited only by the limits of their dreams. If someone has a goal and dream, and works hard, Brian will stay the course, every step of the way, and help them achieve all that is possible.
 				<small>Deb &amp; Mark<span>Pittsford, NY</span></small>
 			</blockquote>
 		</div>
