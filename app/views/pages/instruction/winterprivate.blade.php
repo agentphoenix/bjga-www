@@ -83,4 +83,7 @@
 	<div class="visible-phone">
 		<a href="http://maps.google.com/?q=4659 Ridge Road West Spencerport, NY 14559" target="_blank" class="btn btn-primary btn-large btn-block">View in Google Maps</a>
 	</div>
+
+	<br>
+	<p class="muted"><span class="money"></span>Payment is expected at time of service. Cash, personal check or credit card are all acceptable forms of payment. Please <a href="{{ URL::to_route('contact', array('general')) }}">contact us</a> if you have any questions about this.</p>
 @endsection

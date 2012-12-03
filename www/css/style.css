@@ -24,6 +24,7 @@ section li{line-height:1.6;}
 section dl dt{line-height:1.6;font-family:'Titillium Web',helvetica,arial,sans-serif;}
 section dl dd{line-height:1.6;}
 section .map-pin{display:block;float:left;height:18px;width:18px;margin:2px 5px 0 0;background:transparent url(../img/icn-map-pin-white.png) no-repeat top left;}
+section .money{display:block;float:left;height:18px;width:18px;margin:2px 5px 0 0;background:transparent url(../img/icn-money.png) no-repeat top left;}
 footer{line-height:1.6;border-top:1px solid #cfcfcf;font-size:13px;color:#888888;font-family:'Titillium Web',helvetica,arial,sans-serif;background:#e4e4e4;background:-moz-linear-gradient(top, #f3f3f3 0%, #e4e4e4 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #f3f3f3), color-stop(100%, #e4e4e4));background:-webkit-linear-gradient(top, #f3f3f3 0%, #e4e4e4 100%);background:-o-linear-gradient(top, #f3f3f3 0%, #e4e4e4 100%);background:-ms-linear-gradient(top, #f3f3f3 0%, #e4e4e4 100%);background:linear-gradient(top, #f3f3f3 0%, #e4e4e4 100%);-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px;}footer a{color:#888888;}footer a:hover{color:#666666;}
 footer h1{margin:0;padding:0;font-size:16px;font-weight:700;color:#888888;}
 footer .inner{padding:0 15px 15px 15px;}
