@@ -8,51 +8,151 @@
 
 <url>
   <loc>http://brianjacobsgolf.com/</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://brianjacobsgolf.com/Home.aspx</loc>
+  <loc>http://brianjacobsgolf.com/instruction/index</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://brianjacobsgolf.com/AboutBrian.aspx</loc>
+  <loc>http://brianjacobsgolf.com/contact/general</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://brianjacobsgolf.com/BJGAatMillCreekGolfClub.aspx</loc>
+  <loc>http://brianjacobsgolf.com/contact</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://brianjacobsgolf.com/mobi/Login.aspx</loc>
+  <loc>http://brianjacobsgolf.com/event/amelia-island</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://brianjacobsgolf.com/Contact.aspx</loc>
+  <loc>http://brianjacobsgolf.com/contact/winter-lessons</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://brianjacobsgolf.com/Instruction/eCoaching.aspx</loc>
+  <loc>http://brianjacobsgolf.com/about/brian</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://brianjacobsgolf.com/LinkClick.aspx?fileticket=9yepADdkm9E%3d&amp;tabid=6553</loc>
+  <loc>http://brianjacobsgolf.com/about/relationships</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://brianjacobsgolf.com/Instruction/Clinics.aspx</loc>
+  <loc>http://brianjacobsgolf.com/about/testimonials</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/instruction/private</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/instruction/booking</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/instruction/schools</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/contact/schools</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/instruction/junior-team</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/instruction/junior-camps</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/instruction/clinics</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/contact/clinics</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://brianjacobsgolf.com/Instruction/PrivateTrainingSessions.aspx</loc>
+  <loc>http://brianjacobsgolf.com/contact/advocare</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/contact/eyeline</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/contact/schools/putting</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/contact/schools/shortgame</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/contact/schools/newgolfer</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/contact/schools/ladies</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/contact/schools/elitejunior</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://brianjacobsgolf.com/contact/schools/course</loc>
+  <lastmod>2012-12-04T12:01:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
