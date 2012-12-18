@@ -62,7 +62,7 @@
 
 	<p class="muted"><em>* Payment is due by the 1st day of every month and requires a commitment to at least three out of the four months the program is offered</em></p>
  
-	<p class="muted"><em>** Golf fitness instruction is also available at an additional charge. 3 days per week, 8 weeks, home program for only $139.</em></p>
+	<p class="muted"><em>** Personalized performance coaching is available at an additional charge. <a href="{{ URL::to_route('contact', array('general')) }}">Contact us</a> for pricing.</em></p>
 
 	<p class="muted"><em>*** Pickup time is 6:00pm.</em></p>
 @endsection
