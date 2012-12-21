@@ -15,7 +15,7 @@
 	<body>
 		<div class="container wrapper">
 			<nav class="nav-main hidden-phone">
-				<div class="brand"></div>
+				<a href="http://brianjacobsgolf.com" class="brand"></a>
 				
 				<h1><a href="<?php bloginfo('wpurl');?>"><?php bloginfo('name');?></a></h1>
 			</nav>
