@@ -53,7 +53,6 @@
 		<li>July 16th - July 19th (Half day camp)</li>
 		<li>July 23rd - July 26th (Full day camp)</li>
 		<li>July 30th - August 2nd (Half day camp)</li>
-		<li>August 6th - August 9th (Full day camp)</li>
 		<li>August 13th - August 16th (Full day camp)</li>
 	</ul>
 
