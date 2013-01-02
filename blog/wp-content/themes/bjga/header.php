@@ -5,10 +5,32 @@
 		<title><?php wp_title(); ?> <?php bloginfo( 'name' ); ?></title>
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+		
+		<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
 		<link rel="stylesheet" href="<?php bloginfo('template_directory');?>/css/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory');?>/css/bootstrap-responsive.min.css">
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+		
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" href="<?php bloginfo('template_directory');?>/ie.css">
+		<![endif]-->
+		
+		<!--[if IE 7]>
+		<style type="text/css">
+			.search-query { width: 120px !important; padding-top: 0 !important; padding-bottom: 0 !important; }
+			#searchsubmit { padding: 5px 12px 4px 12px !important; }
+		</style>
+		<![endif]-->
+		
+		<!--[if IE 8]>
+		<style type="text/css">
+			.search-query { padding: 0 !important; }
+			#searchsubmit { padding: 5px 12px !important; }
+		</style>
+		<![endif]-->
 
 		<?php wp_head(); ?>
 	</head>
