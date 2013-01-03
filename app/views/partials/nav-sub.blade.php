@@ -10,7 +10,8 @@
 			<li class="{{ URI::is('about/brian') ? 'active' : '' }}"><a href="{{ URL::to_route('about') }}">Meet Brian Jacobs</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('about/relationships') ? 'active' : '' }}"><a href="{{ URL::to_route('relationships') }}">Relationships</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('about/testimonials') ? 'active' : '' }}"><a href="{{ URL::to_route('testimonials') }}">Testimonials</a><div class="arrow"></div></li>
-			<!--<li><a href="#">Blog</a></li>-->
+			<li><a href="http://blog.brianjacobsgolf.com">Blog</a></li>
+			<li><a href="http://blog.brianjacobsgolf.com">Videos</a></li>
 			<li><a href="{{ URL::to_route('contact', array('general')) }}">Contact</a></li>
 		</ul>
 	@elseif (URI::is('instruction/*'))
@@ -45,7 +46,8 @@
 			<li class="{{ URI::is('about/brian') ? 'active' : '' }}"><a href="{{ URL::to_route('about') }}">Meet Brian Jacobs</a></li>
 			<li class="{{ URI::is('about/relationships') ? 'active' : '' }}"><a href="{{ URL::to_route('relationships') }}">Relationships</a></li>
 			<li class="{{ URI::is('about/testimonials') ? 'active' : '' }}"><a href="{{ URL::to_route('testimonials') }}">Testimonials</a></li>
-			<!--<li><a href="#">Blog</a></li>-->
+			<li><a href="http://blog.brianjacobsgolf.com">Blog</a></li>
+			<li><a href="http://blog.brianjacobsgolf.com">Videos</a></li>
 			<li class="{{ URI::is('about/contact*') ? 'active' : '' }}"><a href="{{ URL::to_route('contact') }}">Contact</a></li>
 		</ul>
 	@elseif (URI::is('instruction/*'))
