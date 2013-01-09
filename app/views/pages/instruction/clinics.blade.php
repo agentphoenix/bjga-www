@@ -23,7 +23,7 @@
 					<li>Program runs 5/21, 5/28, 6/4 and 6/11</li>
 				</ul>
 				
-				<h3>$125</h3>
+				<h3>$99</h3>
 			</div>
 		</div>
 
@@ -38,7 +38,7 @@
 					<li>Program runs 5/23, 5/30, 6/6 and 6/13</li>
 				</ul>
 				
-				<h3>$125</h3>
+				<h3>$99</h3>
 			</div>
 		</div>
 	</div>
