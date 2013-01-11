@@ -5,6 +5,8 @@
 		<title><?php wp_title(); ?> <?php bloginfo( 'name' ); ?></title>
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+		<link rel="icon" href="http://brianjacobsgolf.com/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon-precomposed" href="http://brianjacobsgolf.com/apple-touch-icon.png">
 		
 		<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
