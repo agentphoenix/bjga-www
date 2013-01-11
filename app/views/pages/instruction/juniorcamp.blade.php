@@ -27,7 +27,26 @@
 		<dd>Instructors available to answer questions and to provide further assistance</dd>
 	</dl>
 
-	<h3 class="primary">$299</h3>
+	<div class="row">
+		<div class="span1">
+			<h3 class="primary no-margin">$299</h3>
+		</div>
+		<div class="span2">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+				">
+
+				<div class="hidden-phone">
+					<input type="submit" name="submit" class="btn btn-primary btn-block" value="Pay Now">
+				</div>
+				<div class="visible-phone">
+					<input type="submit" name="submit" class="btn btn-primary btn-block btn-large" value="Pay Now">
+				</div>
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+		</div>
+	</div>
 
 	<h3>Half Day Camp</h3>
 
@@ -42,7 +61,26 @@
 		<dd>Instructors available to answer questions and to provide further assistance</dd>
 	</dl>
 
-	<h3 class="primary">$199</h3>
+	<div class="row">
+		<div class="span1">
+			<h3 class="primary no-margin">$199</h3>
+		</div>
+		<div class="span2">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+				">
+
+				<div class="hidden-phone">
+					<input type="submit" name="submit" class="btn btn-primary btn-block" value="Pay Now">
+				</div>
+				<div class="visible-phone">
+					<input type="submit" name="submit" class="btn btn-primary btn-block btn-large" value="Pay Now">
+				</div>
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+		</div>
+	</div>
 
 	<h3>Calendar</h3>
 
