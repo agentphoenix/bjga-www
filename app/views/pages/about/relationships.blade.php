@@ -46,6 +46,16 @@
 
 	<div class="row-fluid">
 		<div class="span8">
+			<h3><a href="http://www.powertrainsports.com/" target="_blank">Power Train Sports Institute</a></h3>
+			<p>Power Train Sports Institute believes that in order to truly understand what an athlete needs, you must first be an athlete. Their performance team is made up of national and world-class athletes. Their commitment to sports and experience as athletes brings a positive approach to performance enhancement training. Power Train coaches utilize their experience as athletes and education as coaches to enhance the performance of each client. With respect as a coach and the acknowledgement as an athlete our program creates the optimal environment for success. Power Train Sports Institute is the players place to train and the athletes place to succeed.  Athletes demand quality, they want results and will do whatever is takes to reach the next level. Through education, commitment, and discipline, Power Train Sports Institute provides the environment for athletes to achieve their goals and full potential.  Our programs are specific to the individual athlete and their particular sport.</p>
+		</div>
+		<div class="span4 relationship-logo hidden-phone"><a href="http://www.powertrainsports.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-powertrain.png') }}" alt="Power Train Sports Institute"></a></div>
+	</div>
+
+	<hr>
+
+	<div class="row-fluid">
+		<div class="span8">
 			<h3><a href="http://www.advocare.com/" target="_blank">Advocare</a></h3>
 			<p>AdvoCare is a premier health and wellness company offering world-class energy, weight-loss, nutrition, and sports performance products along with a rewarding business opportunity.</p>
 			<p>AdvoCare empowers individuals to explore their ultimate potential. When people try the products, the positive testimonials pour in: "I feel better than I have in years." "My energy level is unbelievable." "AdvoCare has changed my life." AdvoCare focuses on wellness and provides an opportunity to enrich your life in the way that you choose.</p>
