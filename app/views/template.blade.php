@@ -12,6 +12,9 @@
 	<!--[if lt IE 9]>
 	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+
+	<script type="text/javascript" src="//use.typekit.net/ucb4auf.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	
 	{{ HTML::style('css/bootstrap.min.css') }}
 	{{ HTML::style('css/bootstrap-responsive.min.css') }}

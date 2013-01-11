@@ -1,8 +1,6 @@
 @import "variables.less";
 @import "mixins.less";
-@import "http://fonts.googleapis.com/css?family=Crete+Round:400,400italic";
 @import "http://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700";
-@import "http://fonts.googleapis.com/css?family=Audiowide";
 
 body {
 	background: @color-body url(../img/bg-body.jpg) repeat top left;
@@ -106,7 +104,7 @@ header {
 		padding-top: 40px;
 
 		color: @color-white;
-		font-family: @font-crete;
+		font-family: @font-serif;
 		text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
 
 		.italic {
@@ -217,7 +215,7 @@ section {
 	}
 	
 	h1 {
-		font-family: @font-crete;
+		font-family: @font-serif;
 		color: @color-green;
 	}
 	h2, h3, h4 {
@@ -370,7 +368,7 @@ blockquote {
 
 	small {
 		color: @color-darkgray;
-		font-family: @font-crete;
+		font-family: @font-serif;
 		font-size: 18px;
 
 		span {
@@ -394,7 +392,7 @@ blockquote {
 	}
 
 	.lead {
-		font-family: @font-crete;
+		font-family: @font-serif;
 		color: @color-dark;
 
 		em {
@@ -427,8 +425,9 @@ blockquote {
 .pinseeker {
 	padding-left: 42px;
 
-	font-family: "Audiowide";
-	font-size: 32px;
+	font-family: @font-pinseeker;
+	font-size: 40px;
+	font-weight: 300;
 	background: transparent url(../img/img-target.png) no-repeat center left;
 }
 
@@ -469,5 +468,9 @@ blockquote {
 }
 
 .span2 form {
+	margin: 0;
+}
+
+.no-margin {
 	margin: 0;
 }
