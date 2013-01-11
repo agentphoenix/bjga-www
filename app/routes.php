@@ -5,7 +5,16 @@
  */
 Route::get('/', array('as' => 'home', function()
 {
-	return View::make('pages.about.index');
+	// Get the current time
+	$now = Carbon\Carbon::now();
+
+	// End of release
+	$end = Carbon\Carbon::create(2013, 2, 4, 0, 0, 0);
+
+	//dd($end);
+
+	return View::make('pages.about.index')
+		->with('pressRelease', ($now < $end));
 }));
 
 /**
