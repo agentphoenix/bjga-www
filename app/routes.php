@@ -11,10 +11,14 @@ Route::get('/', array('as' => 'home', function()
 	// End of release
 	$end = Carbon\Carbon::create(2013, 2, 4, 0, 0, 0);
 
+	// End of Eyeline release
+	$egEnd = Carbon\Carbon::create(2013, 3, 4, 0, 0, 0);
+
 	//dd($end);
 
 	return View::make('pages.about.index')
-		->with('pressRelease', ($now < $end));
+		->with('pressRelease', ($now < $end))
+		->with('eyelinePressRelease', ($now < $egEnd));
 }));
 
 /**

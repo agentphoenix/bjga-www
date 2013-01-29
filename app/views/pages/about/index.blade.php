@@ -129,4 +129,12 @@
 
 		<p>The Brian Jacobs Golf Academy is proud to introduce <a href="http://www.powertrainsports.com/" target="_blank">Power Train Sports Rochester</a> as our official Strength and Conditioning Program. Brian Jacobs' legacy within the golf community paired with the strength and conditioning knowledge of Power Train Sports is an elite tandem for adults and juniors looking to take their golf game to the next level.</p>
 	<?php endif;?>
+
+	<?php if ($eyelinePressRelease === true): ?>
+		<h3>Brian Jacobs and Eyeline Golf</h3>
+
+		<a href="http://www.eyelinegolf.com/" target="_blank" class="pull-right"><img src="{{ URL::to_asset('img/eyeline.png') }}" alt="Eyeline Golf"></a>
+
+		<p>The Brian Jacobs Golf Academy is proud to introduce <a href="http://www.powertrainsports.com/" target="_blank">Power Train Sports Rochester</a> as our official Strength and Conditioning Program. Brian Jacobs' legacy within the golf community paired with the strength and conditioning knowledge of Power Train Sports is an elite tandem for adults and juniors looking to take their golf game to the next level.</p>
+	<?php endif;?>
 @endsection
