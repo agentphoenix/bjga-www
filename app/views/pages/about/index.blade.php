@@ -32,7 +32,7 @@
 				</div>
 			</div>
 
-			<div class="span4">
+			<!--<div class="span4">
 				<div class="well">
 					<h3 class="primary">Golf Schools</h3>
 					<p>Participate in one of our many golf schools where you'll be given the tools necessary to take your golf game to the next level.</p>
@@ -60,6 +60,24 @@
 
 					<div class="visible-phone">
 						<a href="{{ URL::to_route('event-amelia-island') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+					</div>
+				</div>
+			</div>-->
+
+			<div class="span8">
+				<div class="well">
+					<h2 class="pinseeker">Pin Seeker</h2>
+
+					<p>Sharpen your short game and be the putter you always dreamed of with this brand-new series of group instruction programs focusing on the game from 100 yards and in. Sign up today for one or both of the programs (only <strong class="primary">$99</strong> per person per program) and get a month of free play on Mill Creek's short course!</p>
+
+					<div class="btn-group hidden-phone">
+						<a href="{{ URL::to_route('clinics') }}" class="btn btn-primary">More Info</a>
+						<a href="{{ URL::to_route('contact') }}" class="btn btn-primary">Contact to Book</a>
+					</div>
+
+					<div class="visible-phone">
+						<a href="{{ URL::to_route('clinics') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+						<a href="{{ URL::to_route('contact') }}" class="btn btn-primary btn-block btn-large">Contact to Book</a>
 					</div>
 				</div>
 			</div>
