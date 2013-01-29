@@ -51,8 +51,7 @@
 
 	<ul>
 		<li>Certificate of participation for each child on team</li>
-		<li>Brian Jacobs Golf alignment rods (2 per participant)</li>
-		<li>Brian Jacobs Golf silicone wristband</li>
+		<li>Eyeline Golf yardage book</li>
 		<li>10% off all Nike products in the Pro Shop (excludes golf balls and gloves)</li>
 		<li>15% off Custom Nike orders and/or Brian Jacobs Golf Nike Gear</li>
 		<li>Player of the Year and runner up (boys and girls) trophy</li>
