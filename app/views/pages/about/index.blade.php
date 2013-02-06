@@ -72,12 +72,10 @@
 
 					<div class="btn-group hidden-phone">
 						<a href="{{ URL::to_route('clinics') }}" class="btn btn-primary">More Info</a>
-						<a href="{{ URL::to_route('contact') }}" class="btn btn-primary">Contact to Book</a>
 					</div>
 
 					<div class="visible-phone">
 						<a href="{{ URL::to_route('clinics') }}" class="btn btn-primary btn-block btn-large">More Info</a>
-						<a href="{{ URL::to_route('contact') }}" class="btn btn-primary btn-block btn-large">Contact to Book</a>
 					</div>
 				</div>
 			</div>

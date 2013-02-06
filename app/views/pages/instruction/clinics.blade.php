@@ -21,9 +21,21 @@
 				<ul>
 					<li>Tuesdays from 6pm to 7pm on the Mill Creek Short Course (cart not included)</li>
 					<li>Program runs 5/21, 5/28, 6/4 and 6/11</li>
+					<li>Sign up today and get 1 month of free play on the Mill Creek Short Course</li>
 				</ul>
 				
 				<h3>$99</h3>
+
+				<div class="visible-desktop">
+					<div class="btn-group">
+						<a href="{{ URL::to_route('contact', array('clinics')) }}" class="btn btn-primary">Contact Us for More Info</a>
+						<a href="{{ URL::to_route('booking', array('event', 77769)) }}" class="btn btn-primary">Book Now</a>
+					</div>
+				</div>
+				<div class="hidden-desktop">
+					<a href="{{ URL::to_route('contact', array('clinics')) }}" class="btn btn-primary btn-block btn-large">Contact Us for More Info</a>
+					<a href="{{ URL::to_route('booking', array('event', 77769)) }}" class="btn btn-primary btn-block btn-large">Book Now</a>
+				</div>
 			</div>
 		</div>
 
@@ -36,9 +48,21 @@
 				<ul>
 					<li>Thursdays from 6pm to 7pm on the Mill Creek Short Course (cart not included)</li>
 					<li>Program runs 5/23, 5/30, 6/6 and 6/13</li>
+					<li>Sign up today and get 1 month of free play on the Mill Creek Short Course</li>
 				</ul>
 				
 				<h3>$99</h3>
+
+				<div class="visible-desktop">
+					<div class="btn-group">
+						<a href="{{ URL::to_route('contact', array('clinics')) }}" class="btn btn-primary">Contact Us for More Info</a>
+						<a href="{{ URL::to_route('booking', array('event', 77771)) }}" class="btn btn-primary">Book Now</a>
+					</div>
+				</div>
+				<div class="hidden-desktop">
+					<a href="{{ URL::to_route('contact', array('clinics')) }}" class="btn btn-primary btn-block btn-large">Contact Us for More Info</a>
+					<a href="{{ URL::to_route('booking', array('event', 77771)) }}" class="btn btn-primary btn-block btn-large">Book Now</a>
+				</div>
 			</div>
 		</div>
 	</div>
