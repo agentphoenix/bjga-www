@@ -130,7 +130,7 @@
 		<div class="span4 relationship-logo hidden-phone"><a href="http://www.edbowegolf.com/amelia-island-golf-resort/" target="_blank"><img src="{{ URL::to_asset('img/logo-ameliaisland.png') }}" alt="Amelia Island Plantation"></a></div>
 	</div>
 
-	<hr>
+	<!--<hr>
 
 	<div class="row-fluid">
 		<div class="span8">
@@ -138,7 +138,7 @@
 			<p>The Players Towel was once reserved for only the Players and Caddies on tour and is currently used on all major golf tours. The Players Towel is made of a unique Microfiber technology providing the best absorption and cleaning characteristics available. What started as a golf towel has quickly evolved into a sports towel for all athletes!</p>
 		</div>
 		<div class="span4 relationship-logo hidden-phone"><a href="https://www.playerstowel.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-playerstowel.png') }}" alt="Players Towel"></a></div>
-	</div>
+	</div>-->
 
 	<hr>
 
