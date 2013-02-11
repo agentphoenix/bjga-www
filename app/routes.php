@@ -100,6 +100,14 @@ Route::get('/instruction/junior-camps', array('as' => 'juniorcamps', function()
 }));
 
 /**
+ * Instruction/Linksters
+ */
+Route::get('/instruction/linksters', array('as' => 'linksters', function()
+{
+	return View::make('pages.instruction.linksters');
+}));
+
+/**
  * Instruction/Clinics
  */
 Route::get('/instruction/clinics', array('as' => 'clinics', function()
@@ -354,6 +362,14 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 Route::get('/event/amelia-island', array('as' => 'event-amelia-island', function()
 {
 	return View::make('pages.events.amelia-island');
+}));
+
+/**
+ * Event/Storm-the-Course
+ */
+Route::get('/event/storm-the-course', array('as' => 'event-storm', function()
+{
+	return View::make('pages.events.storm-the-course');
 }));
 
 /*
