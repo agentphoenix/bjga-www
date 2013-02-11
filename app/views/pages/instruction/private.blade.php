@@ -12,7 +12,7 @@
 	<p>Book your private instruction session today and take your game to a higher level!</p>
 
 	<div class="row-fluid">
-		<div class="span4">
+		<!--<div class="span4">
 			<div class="well">
 				<h3 class="primary">30 Minute <span class="hidden-tablet">Lesson</span></h3>
 				<p>30 minutes of private instruction with a Brian Jacobs Golf Instructor</p>
@@ -26,12 +26,12 @@
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
-		</div>
+		</div>-->
 
-		<div class="span4">
+		<div class="span6">
 			<div class="well">
 				<h3 class="primary">60 Minute <span class="hidden-tablet">Lesson</span></h3>
-				<p>60 minutes of private instruction with a Brian Jacobs Golf Instructor</p>
+				<p>60 minutes of private instruction with a Brian Jacobs Golf Instructor. Includes 30 minutes of on-range instruction, 30 minutes of on-course instructions and unlimited play on the Mill Creek Short Course for the remainder of the day.</p>
 				<h3>$125</h3>
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
@@ -44,10 +44,10 @@
 			</div>
 		</div>
 
-		<div class="span4">
+		<div class="span6">
 			<div class="well">
 				<h3 class="primary">Playing Lesson</h3>
-				<p>9-hole round with private instruction with a Brian Jacobs Golf Instructor</p>
+				<p>Get in-depth and total instruction on your game with an on-course playing lesson from a Brian Jacobs Golf Instructor as you navigate 9 holes on either the Mill Creek Championship Course or the Mill Creek Short Course.</p>
 				<h3>$275</h3>
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
@@ -100,7 +100,7 @@
 
 				<ul>
 					<li>5 hours of private instruction (60 minute sessions only)</li>
-					<li>9-hole playing lessons with follow-up after the round</li>
+					<li>9-hole playing lesson with follow-up after the round</li>
 				</ul>
 
 				<h4>$825</h4>
@@ -123,7 +123,7 @@
 
 				<ul>
 					<li>3 hours of private instruction (60 minute sessions only)</li>
-					<li>9-hole playing lessons with follow-up after the round</li>
+					<li>9-hole playing lesson with follow-up after the round</li>
 				</ul>
 
 				<h4>$675</h4>
