@@ -68,7 +68,7 @@
 				<div class="well">
 					<h2 class="pinseeker">Pin Seeker</h2>
 
-					<p>Sharpen your short game and be the putter you always dreamed of with this brand-new series of group instruction programs focusing on the game from 100 yards and in. Sign up today for one or both of the programs (only <strong class="primary">$99</strong> per person per program) and get a month of free play on Mill Creek's short course!</p>
+					<p>Sharpen your short game and be the putter you always dreamed of with this brand-new series of group instruction programs focusing on the game from 100 yards and in, exclusively from Brian Jacobs Golf. Sign up today for one or both of the programs (only <strong class="primary">$99</strong> per person per program) and get a month of free play on Mill Creek's short course!</p>
 
 					<div class="btn-group hidden-phone">
 						<a href="{{ URL::to_route('clinics') }}" class="btn btn-primary">More Info</a>
@@ -85,7 +85,7 @@
 			</div>
 		</div>
 
-		<div class="row-fluid">
+		<!--<div class="row-fluid">
 			<div class="span12">
 				<div class="well">
 					<h2 class="stormthecourse">Storm the Course</h2>
@@ -101,7 +101,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 	</div>
 
 	<div class="visible-tablet">
@@ -123,7 +123,7 @@
 				<div class="well">
 					<h2 class="pinseeker">Pin Seeker</h2>
 
-					<p>Sharpen your short game and be the putter you always dreamed of with this brand-new series of group instruction programs focusing on the game from 100 yards and in. Sign up today for one or both of the programs (only <strong class="primary">$99</strong> per person per program) and get a month of free play on Mill Creek's short course!</p>
+					<p>Sharpen your short game and be the putter you always dreamed of with this brand-new series of group instruction programs focusing on the game from 100 yards and in, exclusively from Brian Jacobs Golf. Sign up today for one or both of the programs (only <strong class="primary">$99</strong> per person per program) and get a month of free play on Mill Creek's short course!</p>
 
 					<a href="{{ URL::to_route('clinics') }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					<a href="{{ URL::to_route('booking', array('event', 77769)) }}" class="btn btn-primary btn-block btn-large">Book Short Game Session</a>
