@@ -18,9 +18,10 @@
 		<ul>
 			<li class="{{ URI::is('instruction/index') ? 'active' : '' }}"><a href="{{ URL::to_route('instruction') }}"><span class="hidden-tablet">Our</span> Philosophy</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/private') ? 'active' : '' }}"><a href="{{ URL::to_route('private') }}"><span class="hidden-tablet">Private Instruction</span><span class="hidden-desktop">Lessons</span></a><div class="arrow"></div></li>
-			<li class="{{ URI::is('instruction/schools') ? 'active' : '' }}"><a href="{{ URL::to_route('schools') }}"><span class="hidden-tablet">1:1</span> Golf Schools</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('instruction/schools') ? 'active' : '' }}"><a href="{{ URL::to_route('schools') }}">Golf Schools</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/junior-team') ? 'active' : '' }}"><a href="{{ URL::to_route('juniorteam') }}">Junior Team</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/junior-camps') ? 'active' : '' }}"><a href="{{ URL::to_route('juniorcamps') }}">Junior Camps</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('instruction/linksters') ? 'active' : '' }}"><a href="{{ URL::to_route('linksters') }}">Linksters</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('clinics') }}">Clinics</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/booking') ? 'active' : '' }}"><a href="{{ URL::to_route('booking') }}">Book <span class="hidden-tablet">Now</span></a><div class="arrow"></div></li>
 		</ul>
@@ -54,9 +55,10 @@
 		<ul class="nav nav-list">
 			<li class="{{ URI::is('instruction/index') ? 'active' : '' }}"><a href="{{ URL::to_route('instruction') }}">Our Philosophy</a></li>
 			<li class="{{ URI::is('instruction/private') ? 'active' : '' }}"><a href="{{ URL::to_route('private') }}">Private Instruction</a></li>
-			<li class="{{ URI::is('instruction/schools') ? 'active' : '' }}"><a href="{{ URL::to_route('schools') }}">1:1 Golf Schools</a></li>
+			<li class="{{ URI::is('instruction/schools') ? 'active' : '' }}"><a href="{{ URL::to_route('schools') }}">Golf Schools</a></li>
 			<li class="{{ URI::is('instruction/junior-team') ? 'active' : '' }}"><a href="{{ URL::to_route('juniorteam') }}">Junior Team</a></li>
 			<li class="{{ URI::is('instruction/junior-camps') ? 'active' : '' }}"><a href="{{ URL::to_route('juniorcamps') }}">Junior Camps</a></li>
+			<li class="{{ URI::is('instruction/linksters') ? 'active' : '' }}"><a href="{{ URL::to_route('linksters') }}">Linksters</a></li>
 			<li class="{{ URI::is('instruction/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('clinics') }}">Clinics</a></li>
 			<li class="{{ URI::is('instruction/booking') ? 'active' : '' }}"><a href="{{ URL::to_route('booking') }}">Book Now</a></li>
 		</ul>

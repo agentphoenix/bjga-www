@@ -33,9 +33,10 @@
 			<ul class="unstyled">
 				<li><a href="{{ URL::to_route('instruction') }}">Our Philosophy</a></li>
 				<li><a href="{{ URL::to_route('private') }}">Private Instruction</a></li>
-				<li><a href="{{ URL::to_route('schools') }}">1:1 Golf Schools</a></li>
+				<li><a href="{{ URL::to_route('schools') }}">Golf Schools</a></li>
 				<li><a href="{{ URL::to_route('juniorteam') }}">Junior Team</a></li>
 				<li><a href="{{ URL::to_route('juniorcamps') }}">Junior Camps</a></li>
+				<li><a href="{{ URL::to_route('linksters') }}">Linksters</a></li>
 				<li><a href="{{ URL::to_route('clinics') }}">Clinics</a></li>
 				<li><a href="{{ URL::to_route('booking') }}">Book Now</a></li>
 			</ul>
@@ -93,13 +94,14 @@
 						<ul class="unstyled">
 							<li><a href="{{ URL::to_route('instruction') }}">Our Philosophy</a></li>
 							<li><a href="{{ URL::to_route('private') }}">Private Instruction</a></li>
-							<li><a href="{{ URL::to_route('schools') }}">1:1 Golf Schools</a></li>
+							<li><a href="{{ URL::to_route('schools') }}">Golf Schools</a></li>
 							<li><a href="{{ URL::to_route('juniorteam') }}">Junior Team</a></li>
 						</ul>
 					</div>
 					<div class="span6">
 						<ul class="unstyled">
 							<li><a href="{{ URL::to_route('juniorcamps') }}">Junior Camps</a></li>
+							<li><a href="{{ URL::to_route('linksters') }}">Linksters</a></li>
 							<li><a href="{{ URL::to_route('clinics') }}">Clinics</a></li>
 							<li><a href="{{ URL::to_route('booking') }}">Book Now</a></li>
 						</ul>
