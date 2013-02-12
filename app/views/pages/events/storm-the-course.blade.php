@@ -14,21 +14,21 @@
 			<div class="well">
 				<h2>Private Instruction</h2>
 
-				<p>Take advantage of special rates on private instruction during <em>Storm the Course</em>. With 30 minutes of on-range time and 30 minutes of on-course instruction, we can help you take what you learn on the range and translate it to real results on the course so you can <strong class="primary">storm the course</strong> in 2013!</p>
+				<p>Take advantage of special rates on private instruction sessions during <em>Storm the Course</em> and take your game inside the ropes. With 30 minutes of on-range time and 30 minutes of on-course instruction, we can help you take what you learn on the range and translate it to real results on the course so you can <strong class="primary">storm the course</strong> in 2013!</p>
 
-				<h3>$100 <small>per hour</small></h3>
+				<h2 class="primary">$100 <small>per hour</small></h2>
 			</div>
 		</div>
 
 		<div class="span6">
 			<div class="well">
 				<!--<h2>The 4 Elements</h2>-->
-				<h2>Eye of the Storm</h2>
+				<h2>Eye of the Storm*</h2>
 
-				<p>Get serious about your putting and your golf fitness with this 4 week program during March that will get you ready to <strong class="primary">storm the course</strong> in 2013. Each week of the program consists of a putting clinic with a Brian Jacobs Golf instructor and two training sessions at the <a href="http://www.powertrainsports.com/" target="_blank">Power Train</a> Fitness Institute.</p>
+				<p>Get serious about your putting and your golf fitness with this 4 week program during March that'll get you ready to <strong class="primary">storm the course</strong> in 2013. Each week of the program consists of a 60 minute putting clinic with PGA Professional and Eyeline Putting Certfied Instructor Brian Jacobs and two training sessions at the <a href="http://www.powertrainsports.com/" target="_blank">Power Train</a> Sports Institute.</p>
 
-				<h3 class="pull-left">$100 <small>putting only</small></h3>
-				<h3 class="pull-right">$370 <small>putting &amp; fitness</small></h3>
+				<h2 class="primary pull-left">$100 <small>putting only</small></h2>
+				<h2 class="primary pull-right">$370 <small>putting &amp; fitness</small></h2>
 				<br><br>
 			</div>
 		</div>
@@ -39,7 +39,7 @@
 			<div class="well">
 				<h2>The Final Storm</h2>
 
-				<p>Make a final push before the 2013 golf season gets into full swing with the <strong class="primary">Final Storm</strong> event at the Mill Creek Golf Club. Participants will be able to take advantage of instruction on the full swing, short game or putting with a Brian Jacobs Golf instructor as well as unlimited golf on the Mill Creek Short Course. More info coming soon.</p>
+				<p>Make a final push before the 2013 golf season gets into full swing with the <strong class="primary">Final Storm</strong> event at the Mill Creek Golf Club. Participants will be able to take advantage of instruction on the full swing, short game or putting with a Brian Jacobs Golf instructor as well as unlimited golf on the Mill Creek Short Course. More information coming soon; stay tuned.</p>
 			</div>
 		</div>
 
@@ -51,4 +51,6 @@
 			</div>
 		</div>
 	</div>
+
+	<p><em>* Program is subject to adequate enrollment numbers</em></p>
 @endsection
