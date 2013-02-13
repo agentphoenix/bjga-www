@@ -26,7 +26,7 @@
 		<dd><span class="clock-icon"></span> 1:00 pm</dd>
 	</dl>
 
-	<h3>$70</h3>
+	<h3>$70 <small>per child per semester</small></h3>
 
 	<div class="hidden-phone">
 		<a href="{{ URL::to_route('booking', array('event', 85631)) }}" class="btn btn-primary">Book Now</a>
