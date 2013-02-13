@@ -18,7 +18,7 @@
 				<div class="well">
 					<h3 class="primary visible-desktop">Private Instruction</h3>
 					<h3 class="primary visible-phone">Private Lessons</h3>
-					<p>Book a private instruction session or playing lesson at Mill Creek Golf Club with a Brian Jacobs Golf Instructor and start improving today.</p>
+					<p>The golf season is coming. Book a private instruction session or 9-hole playing lesson at Mill Creek Golf Club with a Brian Jacobs Golf Instructor and start improving today.</p>
 					
 					<div class="btn-group hidden-phone">
 						<a href="{{ URL::to_route('private') }}" class="btn btn-primary">More Info</a>
@@ -68,7 +68,7 @@
 				<div class="well">
 					<h2 class="pinseeker">Pin Seeker</h2>
 
-					<p>Sharpen your short game and be the putter you always dreamed of with this brand-new series of group instruction programs focusing on the game from 100 yards and in, exclusively from Brian Jacobs Golf. Sign up today for one or both of the programs (only <strong class="primary">$99</strong> per person per program) and get a month of free play on Mill Creek's short course!</p>
+					<p>Sharpen your short game and be the putter you always dreamed of with this brand-new series of group instruction programs from Brian Jacobs Golf focusing exclusively on the game from 100 yards and in. Sign up today for one or both of the programs (only <strong class="primary">$99</strong> per person per program) and get a month of free play on Mill Creek's short course!</p>
 
 					<div class="btn-group hidden-phone">
 						<a href="{{ URL::to_route('clinics') }}" class="btn btn-primary">More Info</a>
@@ -85,23 +85,23 @@
 			</div>
 		</div>
 
-		<!--<div class="row-fluid">
+		<div class="row-fluid">
 			<div class="span12">
 				<div class="well">
 					<h2 class="stormthecourse">Storm the Course</h2>
 
-					<p>The 2013 golf season is quickly approaching and if you're serious about making 2013 your best golf season yet, take advantage of this limited-time special pricing on private instruction from Brian Jacobs Golf. For only <strong class="primary">$100</strong> per session we can help you <strong>storm the course</strong> in 2013 and take your game inside the ropes.</p>
+					<p>The 2013 golf season is quickly approaching and if you're serious about making 2013 your best golf season yet, take advantage of this 2-month collection of programs, including limited-time special pricing on private instruction from Brian Jacobs Golf, The 4 Elements putting school and more. For only <strong class="primary">$100</strong> per session we can help you <strong>storm the course</strong> in 2013 and take your game inside the ropes.</p>
 
 					<div class="btn-group hidden-phone">
-						<a href="{{ URL::to_route('clinics') }}" class="btn btn-primary">More Info</a>
+						<a href="{{ URL::to_route('event-storm') }}" class="btn btn-primary">More Info</a>
 					</div>
 
 					<div class="visible-phone">
-						<a href="{{ URL::to_route('clinics') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+						<a href="{{ URL::to_route('event-storm') }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					</div>
 				</div>
 			</div>
-		</div>-->
+		</div>
 	</div>
 
 	<div class="visible-tablet">
@@ -132,16 +132,17 @@
 			</div>
 		</div>
 
-		<!--<div class="row-fluid">
+		<div class="row-fluid">
 			<div class="span12">
 				<div class="well">
-					<h3 class="primary">Spring Golf Trip</h3>
-					<p>Join us for a getaway to Amelia Island Plantation complete with amazing views from a seaside villa and 3 days of championship golf.</p>
-					
-					<a href="{{ URL::to_route('event-amelia-island') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+					<h2 class="stormthecourse">Storm the Course</h2>
+
+					<p>The 2013 golf season is quickly approaching and if you're serious about making 2013 your best golf season yet, take advantage of this 2-month collection of programs, including limited-time special pricing on private instruction from Brian Jacobs Golf, The 4 Elements putting school and more. For only <strong class="primary">$100</strong> per session we can help you <strong>storm the course</strong> in 2013 and take your game inside the ropes.</p>
+
+					<a href="{{ URL::to_route('event-storm') }}" class="btn btn-primary btn-block btn-large">More Info</a>
 				</div>
 			</div>
-		</div>-->
+		</div>
 	</div>
 
 	<?php if ($eyelinePressRelease === true): ?>
