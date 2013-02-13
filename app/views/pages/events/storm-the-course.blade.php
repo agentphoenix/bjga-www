@@ -1,7 +1,7 @@
 @layout('template')
 
 @section('title')
-	2013 Spring Golf Trip - Amelia Island Plantation
+	Storm the Course
 @endsection
 
 @section('content')
@@ -22,8 +22,7 @@
 
 		<div class="span6">
 			<div class="well">
-				<!--<h2>The 4 Elements</h2>-->
-				<h2>Eye of the Storm*</h2>
+				<h2>The 4 Elements*</h2>
 
 				<p>Get serious about your putting and your golf fitness with this 4 week program during March that'll get you ready to <strong class="primary">storm the course</strong> in 2013. Each week of the program consists of a 60 minute putting clinic with PGA Professional and Eyeline Putting Certfied Instructor Brian Jacobs and two training sessions at the <a href="http://www.powertrainsports.com/" target="_blank">Power Train</a> Sports Institute.</p>
 
