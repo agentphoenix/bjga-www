@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Brian Jacobs Golf :: @yield('title')</title>
+	<title>Brian Jacobs Golf &bull; @yield('title')</title>
 	<meta name="description" content="Brian Jacobs Golf Academy is committed to providing the best golf instruction in western New York and helping golfers of all skills be more consistent and enjoy the game more.">
 	<meta name="author" content="Brian Jacobs">
 	<meta name="viewport" content="width=device-width">
