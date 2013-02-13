@@ -30,6 +30,14 @@ Route::get('/about/brian', array('as' => 'about', function($num = 1)
 }));
 
 /**
+ * About/Staff
+ */
+Route::get('/about/staff', array('as' => 'staff', function($num = 1)
+{
+	return View::make('pages.about.staff');
+}));
+
+/**
  * About/Relationships
  */
 Route::get('/about/relationships', array('as' => 'relationships', function($num = 1)
