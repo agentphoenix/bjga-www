@@ -504,3 +504,22 @@ textarea,
 select {
 	font-family: @font-base;
 }
+
+.progress-warning.progress-striped .bar,
+.progress-striped .bar-warning {
+	background-color: #FCBA32;
+}
+.progress {
+	margin-bottom: 0;
+	height: 40px;
+	line-height: 40px;
+
+	.rounded(0);
+
+	.bar {
+		font-size: 18px;
+		font-weight: 600;
+		color: #9A711F;
+		text-shadow: 0 1px 0 rgba(255, 255, 255, .35);
+	}
+}
