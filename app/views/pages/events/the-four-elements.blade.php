@@ -74,12 +74,16 @@
 
 			<dl>
 				<dt>Stability</dt>
+				<dd>Whenever there's unnecessary movement in your golf swing, you're potentially losing power and distance. It's crucial to maintain stability and balance throughout the golf swing so you can turn on the proper axis and prevent injuries.</dd>
 
 				<dt>Strength</dt>
+				<dd>Power! As a golfer strength means creating more leverage in your swing from takeaway to follow-through. That power and leverage are directly correlated to hitting the ball farther and more durability during the season.</dd>
 
 				<dt>Speed</dt>
+				<dd>Coupled with stability and strength, speed allows you to hit the ball farther by increase club head speed and ball speed.</dd>
 
 				<dt>Flexibility</dt>
+				<dd>One of the most important things in the golf swing is a full turn around the proper axis. With more flexibility, you can make a more effective turn and lay a foundation for better ball striking. Additionally, flexibility prevents injury to keep you healthy and playing all season long.</dd>
 			</dl>
 		</div>
 	</div>
