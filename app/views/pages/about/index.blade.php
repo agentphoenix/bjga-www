@@ -32,38 +32,6 @@
 				</div>
 			</div>
 
-			<!--<div class="span4">
-				<div class="well">
-					<h3 class="primary">Golf Schools</h3>
-					<p>Participate in one of our many golf schools where you'll be given the tools necessary to take your golf game to the next level.</p>
-					
-					<div class="btn-group hidden-phone">
-						<a href="{{ URL::to_route('schools') }}" class="btn btn-primary">More Info</a>
-						<a href="{{ URL::to_route('contact', array('schools')) }}" class="btn btn-primary">Book Now</a>
-					</div>
-
-					<div class="visible-phone">
-						<a href="{{ URL::to_route('schools') }}" class="btn btn-primary btn-block btn-large">More Info</a>
-						<a href="{{ URL::to_route('contact', array('schools')) }}" class="btn btn-primary btn-block btn-large">Book Now</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="span4">
-				<div class="well">
-					<h3 class="primary">Spring Golf Trip</h3>
-					<p>Join us for a getaway to Amelia Island Plantation complete with amazing views from a seaside villa and 3 days of championship golf.</p>
-					
-					<div class="btn-group hidden-phone">
-						<a href="{{ URL::to_route('event-amelia-island') }}" class="btn btn-primary">More Info</a>
-					</div>
-
-					<div class="visible-phone">
-						<a href="{{ URL::to_route('event-amelia-island') }}" class="btn btn-primary btn-block btn-large">More Info</a>
-					</div>
-				</div>
-			</div>-->
-
 			<div class="span8">
 				<div class="well">
 					<h2 class="pinseeker">Pin Seeker</h2>
@@ -145,19 +113,15 @@
 		</div>
 	</div>
 
-	<?php if ($eyelinePressRelease === true): ?>
-		<h3>Brian Jacobs and Eyeline Golf</h3>
+	<?php foreach ($announcements as $a): ?>
+		<?php if ($now >= $a['start'] and $now < $a['end']): ?>
+			<h3>{{ $a['title'] }}</h3>
 
-		<a href="http://www.eyelinegolf.com/" target="_blank" class="pull-right"><img src="{{ URL::to_asset('img/eyeline.png') }}" alt="Eyeline Golf"></a>
+			<?php if (isset($a['image'])): ?>
+				<a href="{{ $a['link'] }}" target="_blank" class="pull-right"><img src="{{ URL::to_asset($a['image']) }}" alt=""></a>
+			<?php endif;?>
 
-		<p><a href="http://www.eyelinegolf.com/" target="_blank">Eyeline Golf</a> has joined Brian Jacobs Golf as the official provider to the Brian Jacobs Golf Academy of short game training aids. Since 2002, Eyeline Golf products have been helping golfers unlock their potential in addition have been the #1 Training aid company on the Pro Tours (247 Tour Players chose EyeLine in 2011 - PGA, LPGA, Nationwide). Let Brian Jacobs Golf Academy and Eyeline Golf unlock <em>your</em> potential and take your game inside the ropes!</p>
-	<?php endif;?>
-
-	<?php if ($pressRelease === true): ?>
-		<h3>Brian Jacobs and Power Train Sports Rochester</h3>
-
-		<a href="http://www.powertrainsports.com/" target="_blank" class="pull-right"><img src="{{ URL::to_asset('img/powertrain.png') }}" alt="Power Train Sports Institute"></a>
-
-		<p>The Brian Jacobs Golf Academy is proud to introduce <a href="http://www.powertrainsports.com/" target="_blank">Power Train Sports Rochester</a> as our official Strength and Conditioning Program. Brian Jacobs' legacy within the golf community paired with the strength and conditioning knowledge of Power Train Sports is an elite tandem for adults and juniors looking to take their golf game to the next level.</p>
-	<?php endif;?>
+			{{ $a['content'] }}
+		<?php endif;?>
+	<?php endforeach;?>
 @endsection
