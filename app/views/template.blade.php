@@ -29,14 +29,14 @@
 	<!-- High pixel density displays -->
 	<link rel='stylesheet' href='{{ URL::to_asset('css/retina.css') }}' media='only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)'>
 </head>
-<body>
-	@if (Request::env() == 'local')
-		<div class="container">
-			<div class="progress progress-warning progress-striped">
-				<div class="bar" style="width: 100%">This page is for testing only!</div>
-			</div>
+@if (Request::env() == 'local')
+	<body class="dev">
+		<div class="progress progress-warning progress-striped">
+			<div class="bar" style="width: 100%">This page is for testing only!</div>
 		</div>
-	@endif
+@else
+	<body>
+@endif
 
 	<div class="container wrapper">
 		@render('partials.nav-main')
