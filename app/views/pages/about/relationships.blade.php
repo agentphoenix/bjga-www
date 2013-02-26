@@ -79,6 +79,18 @@
 
 	<hr>
 
+	<div class="row-fluid">
+		<div class="span8">
+			<h3><a href="http://www.puregrips.com/" target="_blank">PURE Grips</a></h3>
+			<p>As passionate golfers we're always trying to improve our game. That's why the founders of PURE Grips came together in the first place - to give all golfers one more way to find an edge. Our consistently tacky, all-weather line of grips are the first to combine everything golfers and pro shops want in a grip: superior feel and comfort, exceptional durability and easy installation, all at a great value.</p>
+
+			<p>We know smart change can make a big difference in the quality and consistency of our shots. A better grip is one of those smart changes. We're glad to be able to help our fellow golfers hit more of the pure shots we all love.</p>
+		</div>
+		<div class="span4 relationship-logo hidden-phone"><a href="http://www.puregrips.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-puregrips.png') }}" alt="PURE Grips"></a></div>
+	</div>
+
+	<hr>
+
 	<!--<div class="row-fluid">
 		<div class="span8">
 			<h3><a href="http://rochester.golflocal.com/golf-rochester-ny/" target="_blank">Golf Local</a></h3>

@@ -23,15 +23,13 @@
 @section('content')
 	<h1>Contact{{ $contactTitle }}</h1>
 
-	<p>Thank you for your interest in Brian Jacobs Golf! Please feel free to contact us and one of our representatives will get back to you as soon as possible. You can use the buttons below to toggle between different contact options.</p>
-
-	<p>We look forward to serving you in meeting your golf goals in the very near future.</p>
+	<p>{{ $introMessage }}</p>
 
 	@if (isset($flash))
 		<p class="alert alert-{{ $flash->status }}">{{ $flash->message }}</p>
-	@else
-		<p>&nbsp;</p>
 	@endif
+
+	<hr>
 
 	{{ Form::open() }}
 		<div class="control-group {{ $errors->has('name') ? 'error' : '' }}">
@@ -170,6 +168,49 @@
 				<label class="control-label">Additional Comments</label>
 				<div class="control">
 					<textarea name="winterInstructionComments" class="span8" rows="3"></textarea>
+				</div>
+			</div>
+		@elseif ($topic == 'regripping')
+			<div class="control-group {{ $errors->has('phone') ? 'error' : '' }}">
+				<label class="control-label">Phone Number</label>
+				<div class="control">
+					<input type="text" name="phone" class="span2">
+					<span class="help-inline">{{ $errors->has('phone') ? "Please enter a phone number" : "" }}</span>
+				</div>
+			</div>
+
+			<div class="control-group {{ $errors->has('numberOfClubs') ? 'error' : '' }}">
+				<label class="control-label">Number of clubs to re-grip</label>
+				<div class="control">
+					<input type="text" name="numberOfClubs" class="span1">
+					<span class="help-inline">{{ $errors->has('numberOfClubs') ? "Please enter the number of clubs to be re-gripped" : "" }}</span>
+				</div>
+			</div>
+
+			<div class="control-group {{ $errors->has('typeOfGrip') ? 'error' : '' }}">
+				<label class="control-label">Type of Grip</label>
+				<div class="control">
+					<select name="typeOfGrip" class="span4">
+						<option value="P2 Wrap">P2 Wrap</option>
+						<option value="PURE Midsize Wrap">PURE Midsize Wrap</option>
+						<option value="PURE Pro">PURE Pro</option>
+						<option value="PURE Midsize Pro">PURE Midsize Pro</option>
+						<option value="PURE Undersize Pro">PURE Undersize Pro</option>
+						<option value="Old School Wrap">Old School Wrap</option>
+					</select>
+					<span class="help-inline">{{ $errors->has('typeOfGrip') ? "Please select the types of grips you want" : "" }}</span>
+				</div>
+			</div>
+
+			<div class="control-group">
+				<label class="control-label checkbox">Re-grip Putter? <input type="checkbox" name="includePutter" value="Yes"></label>
+			</div>
+
+			<div class="control-group">
+				<label class="control-label">Special Instructions</label>
+				<div class="control">
+					<textarea name="specialInstructions" class="span8" rows="3"></textarea>
+					<p class="help-block">If you're ordering different types of grips for different clubs or want extra tape wraps, please describe that here. Additional charges may be incurred for different grip types, tape wraps and putter re-gripping.</p>
 				</div>
 			</div>
 		@else

@@ -57,5 +57,24 @@
 		</div>
 	</div>
 
+	<div class="row-fluid">
+		<div class="span6">
+			<div class="well">
+				<h2>Weather the Storm</h2>
+
+				<p>From now until April 31st, get your entire set of clubs (up to 13 clubs excluding putter) regripped with PURE Grips for just <strong class='primary'>$99</strong>**. If you only need a few clubs regripped, it's only <strong class='primary'>$9</strong> per grip and only .25 per club to build up tape under the grip. Take advantage of this offer and <strong class='primary'>storm the course</strong> in 2013!</p>
+
+				<div class="hidden-phone">
+					<a href="{{ URL::to_route('puregrips') }}" class="btn btn-primary">More Info</a>
+				</div>
+
+				<div class="visible-phone">
+					<a href="{{ URL::to_route('puregrips') }}" class="btn btn-primary bnt-large btn-block">More Info</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<p class="muted"><em>* Program is subject to adequate enrollment numbers</em></p>
+	<p class="muted"><em>** Some restrictions apply</em></p>
 @endsection

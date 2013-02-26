@@ -22,6 +22,7 @@
 				<li><a href="{{ URL::to_route('about') }}">Meet Brian Jacobs</a></li>
 				<li><a href="{{ URL::to_route('relationships') }}">Relationships</a></li>
 				<li><a href="{{ URL::to_route('testimonials') }}">Testimonials</a></li>
+				<li><a href="{{ URL::to_route('puregrips') }}">PURE Grips</a></li>
 				<li><a href="http://blog.brianjacobsgolf.com">Blog</a></li>
 				<li><a href="http://blog.brianjacobsgolf.com/?cat=2">Videos</a></li>
 				<li><a href="{{ URL::to_route('contact') }}">Contact</a></li>
@@ -75,6 +76,7 @@
 					</div>
 					<div class="span6">
 						<ul class="unstyled">
+							<li><a href="{{ URL::to_route('puregrips') }}">PURE Grips</a></li>
 							<li><a href="http://blog.brianjacobsgolf.com">Blog</a></li>
 							<li><a href="http://blog.brianjacobsgolf.com/?cat=2">Videos</a></li>
 							<li><a href="{{ URL::to_route('contact') }}">Contact</a></li>
