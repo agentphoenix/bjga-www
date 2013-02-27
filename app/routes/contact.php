@@ -223,7 +223,7 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 		unset($rules['message']);
 
 		// Set who the email is going to
-		$to = 'eric@golfwny.com';
+		$to = 'bjacobsgolf@gmail.com';
 
 		// Change the message
 		$message = "<strong>Name:</strong> ".Input::get('name')."\r\n";
