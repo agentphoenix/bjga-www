@@ -76,5 +76,5 @@
 	</div>
 
 	<p class="muted"><em>* Program is subject to adequate enrollment numbers</em></p>
-	<p class="muted"><em>** Some restrictions apply</em></p>
+	<p class="muted"><em>** PURE Pro in black</em></p>
 @endsection

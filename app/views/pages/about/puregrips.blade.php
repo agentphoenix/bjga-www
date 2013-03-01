@@ -31,5 +31,13 @@
 
 	<h2>Storm the Course Special</h2>
 
-	<p>From now until April 31st, get your entire set of clubs (up to 13 clubs excluding putter) regripped with PURE Grips for just <strong class='primary'>$99</strong> (P2 Wrap in black). If you only need a few clubs regripped, it's only <strong class='primary'>$9</strong> per grip and only .25 per club to build up tape under the grip. Take advantage of this offer and <strong class='primary'>storm the course</strong> in 2013!</p>
+	<p>From now until April 31st, get your entire set of clubs (up to 13 clubs excluding putter) regripped with PURE Grips for just <strong class='primary'>$99</strong> (PURE Pro in black). If you only need a few clubs regripped, it's only <strong class='primary'>$9</strong> per grip and only .25 per club to build up tape under the grip. Take advantage of this offer and <strong class='primary'>storm the course</strong> in 2013!</p>
+
+	<div class="hidden-phone">
+		<a href="{{ URL::to_route('contact', array('regripping')) }}" class="btn btn-primary">More Info</a>
+	</div>
+
+	<div class="visible-phone">
+		<a href="{{ URL::to_route('contact', array('regripping')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
+	</div>
 @endsection

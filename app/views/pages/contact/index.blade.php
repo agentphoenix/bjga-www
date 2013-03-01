@@ -191,11 +191,11 @@
 				<label class="control-label">Type of Grip</label>
 				<div class="control">
 					<select name="typeOfGrip" class="span4">
-						<option value="P2 Wrap">P2 Wrap</option>
-						<option value="PURE Midsize Wrap">PURE Midsize Wrap</option>
 						<option value="PURE Pro">PURE Pro</option>
 						<option value="PURE Midsize Pro">PURE Midsize Pro</option>
 						<option value="PURE Undersize Pro">PURE Undersize Pro</option>
+						<option value="P2 Wrap">P2 Wrap</option>
+						<option value="PURE Midsize Wrap">PURE Midsize Wrap</option>
 						<option value="Old School Wrap">Old School Wrap</option>
 					</select>
 					<span class="help-inline">{{ $errors->has('typeOfGrip') ? "Please select the types of grips you want" : "" }}</span>
