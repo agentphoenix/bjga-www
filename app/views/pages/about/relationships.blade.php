@@ -152,7 +152,7 @@
 		<div class="span4 relationship-logo hidden-phone"><a href="https://www.playerstowel.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-playerstowel.png') }}" alt="Players Towel"></a></div>
 	</div>-->
 
-	<hr>
+	<!--<hr>
 
 	<div class="row-fluid">
 		<div class="span8">
@@ -160,6 +160,16 @@
 			<p>Team BScott, is a movement for anyone who understands the substance of being passionate about what they work for. It is the thought that you do not have to do extraordinary things, but always aim to do things extraordinarily well.</p>
 		</div>
 		<div class="span4 relationship-logo hidden-phone"><a href="http://teambscott.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-teambscott.png') }}" alt="Team BScott"></a></div>
+	</div>-->
+
+	<hr>
+
+	<div class="row-fluid">
+		<div class="span8">
+			<h3><a href="http://sectionvathlete.com/" target="_blank">Section V</a></h3>
+			<p>Do you have questions about the recruiting process? Concerns about your grades, financial aid or which test you should be taking? Whether you're a freshman just getting started or a senior worried about the next step SectionVAthlete.com is here to help. SectionVAthlete.com is not a recruiting site. It's actually FREE and its mission is simple: to help student-athletes become better prepared, whether it's for college or even just to become a better athlete. Find out about camps, clinics and other professional services in their directory or learn the right way to get colleges interested in you at SectionVAthlete.com.</p>
+		</div>
+		<div class="span4 relationship-logo hidden-phone"><a href="http://sectionvathlete.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-sectionv.png') }}" alt="Section V"></a></div>
 	</div>
 
 	<hr>
