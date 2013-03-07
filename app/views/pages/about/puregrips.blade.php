@@ -23,8 +23,6 @@
 		<li>Endorsed by Hank Haney</li>
 	</ul>
 
-	<p>P2 Wrap features a perforated wrap design and fits golfers with standard size hands that prefer a slightly softer, more muted feel at impact. This grip is great for wet or humid locations and for those that really like a tacky feeling grip that will absorb some vibration.</p>
-
 	<h4>Tapeless Installation</h4>
 
 	<p>The installation of PURE Grips requires no adhesive tapes or solvents. The simple power of air pressure installs our grips as securely as any adhesive tape. Once installed on a steel or graphite shaft, the grip provides optimal stability while the elasticity of the rubber combines with friction to create "rubber memory," ensuring the grip will not loosen or slip.</p>
