@@ -37,7 +37,7 @@
 		<ul>
 			<li class="{{ URI::is('event/amelia-island') ? 'active' : '' }}"><a href="{{ URL::to_route('event-amelia-island') }}">Amelia Island</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('event/storm-the-course') ? 'active' : '' }}"><a href="{{ URL::to_route('event-storm') }}">Storm the Course</a><div class="arrow"></div></li>
-			<li class="{{ URI::is('event/4-elements') ? 'active' : '' }}"><a href="{{ URL::to_route('event-elements') }}">The 4 Elements</a><div class="arrow"></div></li>
+			<!--<li class="{{ URI::is('event/4-elements') ? 'active' : '' }}"><a href="{{ URL::to_route('event-elements') }}">The 4 Elements</a><div class="arrow"></div></li>-->
 		</ul>
 	@endif
 </nav>
@@ -75,7 +75,7 @@
 		<ul class="nav nav-list">
 			<li class="{{ URI::is('event/amelia-island') ? 'active' : '' }}"><a href="{{ URL::to_route('event-amelia-island') }}">Amelia Island</a></li>
 			<li class="{{ URI::is('event/storm-the-course') ? 'active' : '' }}"><a href="{{ URL::to_route('event-storm') }}">Storm the Course</a><div class="arrow"></div></li>
-			<li class="{{ URI::is('event/4-elements') ? 'active' : '' }}"><a href="{{ URL::to_route('event-elements') }}">The 4 Elements</a><div class="arrow"></div></li>
+			<!--<li class="{{ URI::is('event/4-elements') ? 'active' : '' }}"><a href="{{ URL::to_route('event-elements') }}">The 4 Elements</a><div class="arrow"></div></li>-->
 		</ul>
 	@endif
 </div>

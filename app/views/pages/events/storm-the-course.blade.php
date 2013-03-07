@@ -22,18 +22,18 @@
 
 		<div class="span6">
 			<div class="well">
-				<h2>The 4 Elements*</h2>
+				<h2>Weather the Storm</h2>
 
-				<p>Get serious about your putting and your golf fitness with this 4 week program during March that'll get you ready to <strong class="primary">storm the course</strong> in 2013. Each week of the program consists of a 60 minute putting clinic with PGA Professional and Eyeline Putting Certfied Instructor Brian Jacobs and two training sessions at the <a href="http://www.powertrainsports.com/" target="_blank">Power Train</a> Sports Institute.</p>
+				<p>From now until April 31st, get your entire set of clubs (up to 13 clubs excluding putter) regripped with PURE Grips for just <strong class='primary'>$99</strong>*. If you only need a few clubs regripped, it's only <strong class='primary'>$9</strong> per grip and only .25 per club to build up tape under the grip. Take advantage of this offer and <strong class='primary'>storm the course</strong> in 2013!</p>
 
-				<div style="height:20px;"></div>
+				<div style="height:44px"></div>
 
 				<div class="hidden-phone">
-					<a href="{{ URL::to_route('event-elements') }}" class="btn btn-primary">More Info</a>
+					<a href="{{ URL::to_route('puregrips') }}" class="btn btn-primary">More Info</a>
 				</div>
 
 				<div class="visible-phone">
-					<a href="{{ URL::to_route('event-elements') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+					<a href="{{ URL::to_route('puregrips') }}" class="btn btn-primary bnt-large btn-block">More Info</a>
 				</div>
 			</div>
 		</div>
@@ -57,24 +57,5 @@
 		</div>
 	</div>
 
-	<div class="row-fluid">
-		<div class="span6">
-			<div class="well">
-				<h2>Weather the Storm</h2>
-
-				<p>From now until April 31st, get your entire set of clubs (up to 13 clubs excluding putter) regripped with PURE Grips for just <strong class='primary'>$99</strong>**. If you only need a few clubs regripped, it's only <strong class='primary'>$9</strong> per grip and only .25 per club to build up tape under the grip. Take advantage of this offer and <strong class='primary'>storm the course</strong> in 2013!</p>
-
-				<div class="hidden-phone">
-					<a href="{{ URL::to_route('puregrips') }}" class="btn btn-primary">More Info</a>
-				</div>
-
-				<div class="visible-phone">
-					<a href="{{ URL::to_route('puregrips') }}" class="btn btn-primary bnt-large btn-block">More Info</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<p class="muted"><em>* Program is subject to adequate enrollment numbers</em></p>
-	<p class="muted"><em>** PURE Pro in black</em></p>
+	<p class="muted"><em>* PURE Pro in black</em></p>
 @endsection

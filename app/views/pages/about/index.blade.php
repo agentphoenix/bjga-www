@@ -58,7 +58,7 @@
 				<div class="well">
 					<h2 class="stormthecourse">Storm the Course</h2>
 
-					<p>The 2013 golf season is quickly approaching and if you're serious about making 2013 your best golf season yet, take advantage of this 2-month collection of programs, including limited-time special pricing on private instruction from Brian Jacobs Golf, The 4 Elements putting school and more. For only <strong class="primary">$100</strong> per session we can help you <strong>storm the course</strong> in 2013 and take your game inside the ropes.</p>
+					<p>The 2013 golf season is quickly approaching and if you're serious about making 2013 your best golf season yet, take advantage of this 2-month program that includes limited-time special pricing on private instruction from Brian Jacobs Golf. For only <strong class="primary">$100</strong> per session we can help you <strong>storm the course</strong> in 2013 and take your game inside the ropes.</p>
 
 					<div class="btn-group hidden-phone">
 						<a href="{{ URL::to_route('event-storm') }}" class="btn btn-primary">More Info</a>
