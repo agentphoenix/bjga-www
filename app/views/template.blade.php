@@ -53,6 +53,13 @@
 		
 		@render('partials.footer')
 	</div>
+
+	<div class="container">
+		<div class="copyright">
+			<!--<div class="pull-right">By <a href="#" target="_blank">Concurrent Studios</a></div>-->
+			&copy; {{ date('Y') }} Brian Jacobs Golf
+		</div>
+	</div>
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 	{{ HTML::script('js/bootstrap.min.js') }}
