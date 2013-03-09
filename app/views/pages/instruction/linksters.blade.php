@@ -29,11 +29,11 @@
 	<h3>$70 <small>per semester per participant</small></h3>
 
 	<div class="hidden-phone">
-		<a href="{{ URL::to_route('booking', array('event', 85631)) }}" class="btn btn-primary">Book Now</a>
+		<a href="{{ URL::to_route('booking', array('event', 85629)) }}" class="btn btn-primary">Book Now</a>
 	</div>
 
 	<div class="visible-phone">
-		<a href="{{ URL::to_route('booking', array('event', 85631)) }}" class="btn btn-primary btn-block btn-large">Book Now</a>
+		<a href="{{ URL::to_route('booking', array('event', 85629)) }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 	</div>
 
 	<p class="muted"><em>* Parents/guardians are encouraged to remain at Linksters and are welcome to observe and supervise the children and even play golf themselves!</em></p>
