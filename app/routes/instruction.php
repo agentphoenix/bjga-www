@@ -86,7 +86,7 @@ Route::get('/instruction/booking/(:any?)/(:any?)', array('as' => 'booking', func
 	switch ($type)
 	{
 		case 'event':
-			$link = '?View=EventDetails&eventid='.$id;
+			$link = '?View=EventDetails&eventoccurrenceid='.$id;
 		break;
 		
 		default:
