@@ -81,6 +81,18 @@
 
 	<div class="row-fluid">
 		<div class="span8">
+			<h3><a href="http://www.golfwny.com/" target="_blank">Golf Western New York</a></h3>
+			<p>Golf Western NY is your Stay &amp; Play golf concierge service focused on booking golf packages in the Rochester, NY area.</p>
+
+			<p>It's never easy planning a golf trip in an area you aren't familiar with, so Golf Western NY here to guide you in the right direction. Their golf packages offer excellent accommodations that cater to both large and small groups. Designed to fit your budget and allow you to play some of the best golf courses in Rochester, NY, their Play &amp; Stay golf packages offer something for everyone.</p>
+		</div>
+		<div class="span4 relationship-logo hidden-phone"><a href="http://www.golfwny.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-golfwny.png') }}" alt="GolfWNY"></a></div>
+	</div>
+
+	<hr>
+
+	<div class="row-fluid">
+		<div class="span8">
 			<h3><a href="http://www.puregrips.com/" target="_blank">PURE Grips</a></h3>
 			<p>As passionate golfers we're always trying to improve our game. That's why the founders of PURE Grips came together in the first place - to give all golfers one more way to find an edge. Our consistently tacky, all-weather line of grips are the first to combine everything golfers and pro shops want in a grip: superior feel and comfort, exceptional durability and easy installation, all at a great value.</p>
 
