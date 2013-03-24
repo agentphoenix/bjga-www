@@ -45,7 +45,14 @@
 
 	<p class="alert alert-info">There will be a mandatory parents meeting on Wednesday May 29th at 6:00p at Mill Creek's Tavern dining area.</p>
 
-	<p>On Wednesdays, we'll focus on the short game at Mill Creek's Short Course and on Sunday afternoons we'll focus on the long game on Mill Creek's Championship Course. Each afternoon we'll start with a clinic from 3:30p until 4:30p, followed by 9 holes of supervised play on one of Mill Creek's courses***. Additionally, there will be two scoring events each month and two of the weeks there will be tournaments within their age groups (7-9, 10-12, 13-15 and 16-18). All scoring goes into a points system for Player of the Year in each age group.</p>
+	<p>On Wednesdays, we'll focus on the short game at Mill Creek's Short Course and on Sunday afternoons we'll focus on the long game on Mill Creek's Championship Course.</p>
+
+	<ul>
+		<li>On Wednesdays, we'll start with a clinic at 6:00pm at the Mill Creek Short Course followed by supervised play.***</li>
+		<li>On Sundays, we'll start with a clinic at 3:30pm at the Mill Creek Championship Course Practice Tee followed by supervised play.****</li>
+	</ul>
+
+	<p>Each week there will be two scoring events within each students' age groups (7-9, 10-12, 13-15 and 16-18). All scoring goes into a points system for Player of the Year in each age group.</p>
 
 	<p>Participation in the Brian Jacobs Golf Junior Team includes:</p>
 
@@ -63,5 +70,7 @@
  
 	<p class="muted"><em>** Personalized performance coaching is available at an additional charge. <a href="{{ URL::to_route('contact', array('general')) }}">Contact us</a> for pricing.</em></p>
 
-	<p class="muted"><em>*** Pickup time is 6:00pm.</em></p>
+	<p class="muted"><em>*** Pickup time on Wednesdays is 8:15pm.</em></p>
+
+	<p class="muted"><em>**** Pickup time on Sundays is 6:00pm.</em></p>
 @endsection
