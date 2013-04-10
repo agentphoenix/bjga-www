@@ -22,14 +22,34 @@
 
 					<div class="btn-group hidden-phone">
 						<a href="{{ URL::to_route('clinics') }}" class="btn btn-primary">More Info</a>
-						<a href="{{ URL::to_route('booking', array('event', 77769)) }}" class="btn btn-primary">Book Short Game Session Now</a>
-						<a href="{{ URL::to_route('booking', array('event', 77771)) }}" class="btn btn-primary">Book  Putting Session Now</a>
+						<a href="{{ URL::to_route('booking', array('event', 77769)) }}" class="btn btn-primary">Book Short Game Now</a>
+						<a href="{{ URL::to_route('booking', array('event', 77771)) }}" class="btn btn-primary">Book Putting Now</a>
 					</div>
 
 					<div class="visible-phone">
 						<a href="{{ URL::to_route('clinics') }}" class="btn btn-primary btn-block btn-large">More Info</a>
-						<a href="{{ URL::to_route('booking', array('event', 77769)) }}" class="btn btn-primary btn-block btn-large">Book Short Game Session</a>
-						<a href="{{ URL::to_route('booking', array('event', 77771)) }}" class="btn btn-primary btn-block btn-large">Book  Putting Session</a>
+						<a href="{{ URL::to_route('booking', array('event', 77769)) }}" class="btn btn-primary btn-block btn-large">Book Short Game</a>
+						<a href="{{ URL::to_route('booking', array('event', 77771)) }}" class="btn btn-primary btn-block btn-large">Book Putting</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row-fluid">
+			<div class="span12">
+				<div class="well">
+					<h2 class="primary">Nike Golf VRS Covert Distance Challenge</h2>
+
+					<p>Come find out how Nike Golf's 2013 line of products stacks up against what you've got in your bag at the <strong class="primary">Nike Golf VRS Covert Distance Challenge</strong> at Mill Creek Golf Club on May 1st.</p>
+
+					<p>In addition to working with Nike Golf reps, you'll also get preferred pricing on all Nike Golf clubs today only! Space is limited, so contact us today to book your spot.</p>
+
+					<div class="btn-group hidden-phone">
+						<a href="{{ URL::to_route('contact') }}" class="btn btn-primary">Book Now</a>
+					</div>
+
+					<div class="visible-phone">
+						<a href="{{ URL::to_route('contact') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 					</div>
 				</div>
 			</div>
