@@ -23,12 +23,12 @@ Route::get('/', array('as' => 'home', function()
 			'content'	=> "<p><a href='http://www.eyelinegolf.com/' target='_blank'>Eyeline Golf</a> has joined Brian Jacobs Golf as the official provider to the Brian Jacobs Golf Academy of short game training aids. Since 2002, Eyeline Golf products have been helping golfers unlock their potential in addition have been the #1 Training aid company on the Pro Tours (247 Tour Players chose EyeLine in 2011 - PGA, LPGA, Nationwide). Let Brian Jacobs Golf Academy and Eyeline Golf unlock <em>your</em> potential and take your game inside the ropes!</p>"),
 		array(
 			'start'		=> Carbon\Carbon::create(2013, 5, 1, 0, 0, 0),
-			'end'		=> Carbon\Carbon::create(2013, 6, 1, 0, 0, 0),
+			'end'		=> Carbon\Carbon::create(2013, 5, 14, 0, 0, 0),
 			'title'		=> "Brian Jacobs Golf Welcomes Apprentice Instructor",
 			'content'	=> "<p>Brian Jacobs Golf is pleased to announce the arrival of Nick DiDuro as an apprentice instructor over the cource of the summer. Nick is currently a student in the Professional Golf Management program at Coastal Carolina. Nick's full bio is available on the <a href='".URL::to_route('staff')."'>staff page</a>.</p>"),
 		array(
 			'start'		=> Carbon\Carbon::create(2013, 3, 4, 0, 0, 0),
-			'end'		=> Carbon\Carbon::create(2013, 5, 1, 0, 0, 0),
+			'end'		=> Carbon\Carbon::create(2013, 4, 1, 0, 0, 0),
 			'image'		=> 'img/announcements/puregrips.png',
 			'link'		=> 'http://www.puregrips.com/',
 			'title'		=> "Brian Jacobs Golf and PURE Grips Help You Weather the Storm",

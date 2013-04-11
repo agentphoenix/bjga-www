@@ -1,7 +1,7 @@
 @layout('template')
 
 @section('title')
-	2013 Spring Golf Trip - Amelia Island Plantation
+	2013 Specialized Instruction
 @endsection
 
 @section('content')
@@ -24,7 +24,9 @@
 
 	<h2>This Month</h2>
 
-	@if ($now->gte($mayStart) and $now->lte($mayEnd))
+	@if ($now->gte($aprilStart) and $now->lte($aprilEnd))
+		<p>Get into Brian Jacobs Golf today and start sharpening your game for the 2013 season. Starting next month, we'll be offering specialized instruction to help you get better with every club in your bag. Get ready to take your game inside the ropes!</p>
+	@elseif ($now->gte($mayStart) and $now->lte($mayEnd))
 		<p>During the month of May, bring in your driver and in addition to teaching you how to hit it the right way, we'll also give you a free driver fitting as well. The best way to ensure you're hitting the ball long and straight off the tee is to make sure you're using the right equipment. If you're in the market for a new driver, let us get you into the revolutionary Nike VRS Covert driver for 10% off all month long.</p>
 	@elseif ($now->gte($junStart) and $now->lte($junEnd))
 		<p>For the entire month of June, we're focusing on fairway woods and hybrids at Brian Jacobs Golf. Bring in your fairway wood(s) and/or hybrid(s) and we'll teach you how to get the most out of these clubs as well as a free fitting to ensure you're hitting the ball with the right equipment. If you're in the market for a new fairway wood and/or hybrid, let us get you into the long and versatile Nike VRS Covert fairway woods and hybrids for 10% off all month long.</p>
@@ -33,14 +35,6 @@
 	@elseif ($now->gte($augStart) and $now->lte($augEnd))
 		<p>With the golf season halfway over, it's time to dial in your wedges and putter to save precious strokes. Throughout August, Brian Jacobs Golf is the best place to go to hone your short game. When you come in during August, in addition to world-class instruction, you'll also get fit for your wedges and putter and see the benefits of our Eyeline Golf products.</p>
 	@endif
-
-	<p>During the month of May, bring in your driver and in addition to teaching you how to hit it the right way, we'll also give you a free driver fitting as well. The best way to ensure you're hitting the ball long and straight off the tee is to make sure you're using the right equipment. If you're in the market for a new driver, let us get you into the revolutionary Nike VRS Covert driver for 10% off all month long.</p>
-
-	<p>For the entire month of June, we're focusing on fairway woods and hybrids at Brian Jacobs Golf. Bring in your fairway wood(s) and/or hybrid(s) and we'll teach you how to get the most out of these clubs as well as a free fitting to ensure you're hitting the ball with the right equipment. If you're in the market for a new fairway wood and/or hybrid, let us get you into the long and versatile Nike VRS Covert fairway woods and hybrids for 10% off all month long.</p>
-
-	<p>With the summer in full swing, we're turning our attention to your irons at Brian Jacobs Golf. All month long, bring your irons in and we'll give you world-class instruction on hitting everything from a 3 iron to a wedge to get your approach shots as close as possible as well as providing a free iron fitting. Whether you're looking for the long and forgiving Nike VRS Covert irons or the impeccable precision of Nike's forged irons, we'll get you into the right irons for 10% off all month long.</p>
-
-	<p>With the golf season halfway over, it's time to dial in your wedges and putter to save precious strokes. Throughout August, Brian Jacobs Golf is the best place to go to hone your short game. When you come in during August, in addition to world-class instruction, you'll also get fit for your wedges and putter and see the benefits of our Eyeline Golf products.</p>
 
 	<div class="btn-group hidden-phone">
 		<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
