@@ -211,6 +211,16 @@
 
 	<div class="row-fluid">
 		<div class="span8">
+			<h3><a href="http://theheadcoach.us/" target="_blank">The HEAD Coach</a></h3>
+			<p>The HEAD Coach shows golfers how to eliminate their A.N.T.s (Automatic Negative Thoughts), to create a high achiever mindset. We provide the education and tools to become your BEST, on and off the course.</p>
+		</div>
+		<div class="span4 relationship-logo hidden-phone"><a href="http://theheadcoach.us/" target="_blank"><img src="{{ URL::to_asset('img/logo-headcoach.png') }}" alt="The HEAD Coach"></a></div>
+	</div>
+
+	<hr>
+
+	<div class="row-fluid">
+		<div class="span8">
 			<h3>Santa's Vision</h3>
 			<p>Santa's Vision "Day out with Santa and Friends" is a way for community leaders, local businesses and people in various towns and cities to come together to support the needs of children during the Holiday season.</p>
 		</div>
