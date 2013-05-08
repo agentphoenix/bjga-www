@@ -51,7 +51,7 @@
 			<div class="well">
 				<h3 class="primary">Long &amp; Straight</h3>
 
-				<p>Make your driver one of the strengths of your game in 2013! Book a private instruction session during May and let us know you want to work on your driver. In addition to world-class instruction on how to hit your driver, you'll also receive a free driver fitting as part of your lesson and 10% off the brand-new Nike VRS Covert driver throughout the month of May!</p>
+				<p>Make your driver one of the strengths of your game in 2013! Book a private instruction session during May and let us know you want to work on your driver. In addition to world-class instruction on how to hit your driver, you'll also receive a free driver fitting as part of your lesson and 10% off the brand-new Nike VRS Covert driver throughout the month!</p>
 
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('event-special') }}" class="btn btn-primary">More Info</a>
