@@ -13,7 +13,25 @@
 	<p>We believe that the true joy for any student of the game comes from the passion to learn more about the subject, the commitment to practice and develop their golf game and the challenge to continually improve their golf and themselves. Make a commitment to yourself to get better and visit our Academy to take your game inside the ropes.</p>
 
 	<div class="row-fluid">
-		<div class="span6">
+		<div class="span4">
+			<div class="well">
+				<h3 class="primary">Private Instruction</h3>
+
+				<p>Whether you're just getting started or are an avid golfer, we have the tools and resources to customize a program that fits your needs and will empower you to take your game to the next level. Our instructors are equipped to help you in all aspects of the game, including: club fitting, the full swing, putting, short game and on course strategy.</p>
+
+				<div class="btn-group hidden-phone">
+					<a href="{{ URL::to_route('juniors') }}" class="btn btn-primary">More Info</a>
+					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
+				</div>
+
+				<div class="visible-phone">
+					<a href="{{ URL::to_route('juniors') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="span4">
 			<div class="well">
 				<h3 class="primary">Junior Golf</h3>
 
@@ -29,11 +47,11 @@
 			</div>
 		</div>
 
-		<div class="span6">
+		<div class="span4">
 			<div class="well">
-				<h3 class="primary">Hit It Long, Hit It Straight</h3>
+				<h3 class="primary">Long &amp; Straight</h3>
 
-				<p>Make your driver one of the strengths of your game in 2013! Book a private instruction session during May and let us know you want to work on your driver. In addition to world-class instruction on how to hit your driver, you'll also receive a free driver fitting as part of your lesson and 10% off the Nike VRS Covert driver all month long!</p>
+				<p>Make your driver one of the strengths of your game in 2013! Book a private instruction session during May and let us know you want to work on your driver. In addition to world-class instruction on how to hit your driver, you'll also receive a free driver fitting as part of your lesson and 10% off the brand-new Nike VRS Covert driver throughout the month of May!</p>
 
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('event-special') }}" class="btn btn-primary">More Info</a>
