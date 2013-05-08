@@ -134,13 +134,36 @@
 
 	<hr>
 
-	<div class="row-fluid">
+	<!--<div class="row-fluid">
 		<div class="span8">
 			<h3><a href="http://www.holidayinn.com/hotels/us/en/reservation" target="_blank">Holiday Inn &amp; Suites</a></h3>
 			<p>Come and stay at the Holiday Inn Hotel &amp; Suites Rochester - Marketplace near the Rochester Airport. Our Rochester, NY hotel provides a complimentary hot breakfast buffet with Chef Attend Omelet Station daily and complimentary dinner and drinks at Manager Reception Monday-Thursday and free shuttle to take you to and from the airport for your traveling convenience.</p>
 			<p>Families looking for lodging in Rochester, New York will love staying at our hotel, located just off Interstate 390 in southern Rochester. This hotel is convenient to numerous local attractions, including the Strong National Museum of Play, the Marketplace Mall, Seabreeze Amusement Park, Frontier Field and beautiful Lake Ontario.</p>
 		</div>
 		<div class="span4 relationship-logo hidden-phone"><a href="http://www.holidayinn.com/hotels/us/en/reservation" target="_blank"><img src="{{ URL::to_asset('img/logo-holidayinn.png') }}" alt="Holiday Inn and Suites"></a></div>
+	</div>
+
+	<hr>-->
+
+	<div class="row-fluid">
+		<div class="span8">
+			<h3><a href="http://www.mirrortee.com" target="_blank">Mirror Tee</a></h3>
+			<p>The Mirror Tee&reg; Golf Tee enables golfers of all abilities to hit the ball longer and straighter!</p>
+
+			<ul>
+				<li>The tee is 3 and 1/4 inches long &ndash; perfect for any sized driver head.</li>
+				<li>Conforms to USGA Rules.</li>
+				<li>Conforms to the R &amp; A rules of golf.</li>
+				<li>The only golf tee to enable 17&deg; of randomly placed forward lean.</li>
+				<li>Reduced ball spin off the tee = better ball flight dynamics.</li>
+				<li>Increased bounce and roll.</li>
+				<li>Straighter.</li>
+				<li>Durable. Each tee can be hit more than 100+ times!</li>
+				<li>More stable even in windy conditions.</li>
+				<li>Patented and Made in America.</li>
+			</ul>
+		</div>
+		<div class="span4 relationship-logo hidden-phone"><a href="http://www.mirrortee.com" target="_blank"><img src="{{ URL::to_asset('img/logo-mirrortee.png') }}" alt="Mirror Tee"></a></div>
 	</div>
 
 	<hr>
@@ -183,6 +206,16 @@
 		</div>
 		<div class="span4 relationship-logo hidden-phone"><a href="http://sectionvathlete.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-sectionv.png') }}" alt="Section V Athlete"></a></div>
 	</div>-->
+
+	<hr>
+
+	<div class="row-fluid">
+		<div class="span8">
+			<h3><a href="http://theheadcoach.us/" target="_blank">The HEAD Coach</a></h3>
+			<p>The HEAD Coach shows golfers how to eliminate their A.N.T.s (Automatic Negative Thoughts), to create a high achiever mindset. We provide the education and tools to become your BEST, on and off the course.</p>
+		</div>
+		<div class="span4 relationship-logo hidden-phone"><a href="http://theheadcoach.us/" target="_blank"><img src="{{ URL::to_asset('img/logo-headcoach.png') }}" alt="The HEAD Coach"></a></div>
+	</div>
 
 	<hr>
 

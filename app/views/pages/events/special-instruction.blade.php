@@ -9,7 +9,7 @@
 
 	<p>Each month this summer, we're offering specialized instruction on the different clubs in your bag as well as free club fittings and discounts on Nike Golf equipment.</p>
 
-	<p>When you take one of our specialized insturction sessions each month, you'll get a ticket. Collect all four tickets and you'll earn a free lesson in September. Collect three and you'll be able to enjoy a full day of play on the Mill Creek Golf Club Short Course. Collect 2 and you'l enjoy 9 holes on the Mill Creek Golf Club Short Course.</p>
+	<p>When you take one of our specialized instruction sessions each month, you'll get a ticket. Collect all four tickets and you'll earn a free lesson in September. Collect three and you'll be able to enjoy a full day of play on the Mill Creek Golf Club Short Course. Collect 2 and you'll enjoy 9 holes on the Mill Creek Golf Club Short Course.</p>
 
 	<p>Come in today and let us help you take your game inside the ropes!</p>
 
