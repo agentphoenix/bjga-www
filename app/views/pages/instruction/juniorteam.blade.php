@@ -66,6 +66,14 @@
 
 	<h3>$199 <small>per month*</small></h3>
 
+	<div class="hidden-phone">
+		<a href="{{ URL::to_route('booking', array('event', 79219)) }}" class="btn btn-primary">Book Now</a>
+	</div>
+
+	<div class="visible-phone">
+		<a href="{{ URL::to_route('booking', array('event', 79219)) }}" class="btn btn-primary btn-block btn-large">Book Now</a>
+	</div>
+
 	<p class="muted"><em>* Payment is due by the 1st day of every month and requires a commitment to at least three out of the four months the program is offered</em></p>
  
 	<p class="muted"><em>** Personalized performance coaching is available at an additional charge. <a href="{{ URL::to_route('contact', array('general')) }}">Contact us</a> for pricing.</em></p>

@@ -59,12 +59,14 @@
 
 				<p>The Junior Team is designed for serious junior golfers who are interested in taking their game to the next level through instruction and play twice a week.</p>
 
-				<div class="hidden-phone">
+				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('juniorteam') }}" class="btn btn-primary">More Info</a>
+					<a href="{{ URL::to_route('booking', array('event', 79219)) }}" class="btn btn-primary">Book Now</a>
 				</div>
 
 				<div class="visible-phone">
 					<a href="{{ URL::to_route('juniorteam') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+					<a href="{{ URL::to_route('booking', array('event', 79219)) }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
 		</div>
