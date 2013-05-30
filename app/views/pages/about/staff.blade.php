@@ -17,7 +17,7 @@
 
 	<hr>
 
-	<div class="pull-right inline-image"><img src="{{ URL::to_asset('img/img-ryan.png') }}" alt="" class="img-rounded"></div>
+	<div class="pull-right inline-image"><img src="{{ URL::to_asset('img/img-ryan.jpg') }}" alt="" class="img-rounded"></div>
 
 	<h3>Ryan Welch <small>Club Fitter</small></h3>
 
