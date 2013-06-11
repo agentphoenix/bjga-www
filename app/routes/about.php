@@ -33,6 +33,11 @@ Route::get('/', array('as' => 'home', function()
 			'link'		=> 'http://www.puregrips.com/',
 			'title'		=> "Brian Jacobs Golf and PURE Grips Help You Weather the Storm",
 			'content'	=> "<blockquote>If you play or practice once a week or more you should consider re-gripping your golf clubs a minimum of once a year. New grips can add greater shock absorption, traction and prevent the club from twisting in your hands. Old grips dry out over the course of the golf season and tend to be less shock absorbent. PURE Grips can also add life to your golf clubs and eliminate unnecessary shock or tension in the hands and arms. I highly recommend PURE Grips for any level of player due to their strength, durability and they stay consistently tacky in all types of weather.<small class='primary'>Brian Jacobs</small></blockquote><p>Advantages of using PURE Grips:</p><ul><li>100% rubber formula makes PURE Grips exceedingly durable in all weather conditions</li><li>PURE Grips are guaranteed to remain tacky and supple up to twelve months</li><li>Clubs can be used immediately after install - no dry time due to the use of NO SOLVENTS</li><li>Endorsed by Hank Haney</li></ul><p><strong class='primary'>Storm the Course Special</strong></p><p>From now until April 31st, get your entire set of clubs (up to 13 clubs excluding putter) regripped with PURE Grips for just <strong class='primary'>$99</strong>*. If you only need a few clubs regripped, it's only <strong class='primary'>$9</strong> per grip and only .25 per club to build up tape under the grip. Take advantage of this offer and <strong class='primary'>storm the course</strong> in 2013!</p><p class='muted'><em>* PURE Pro grips in black only</em></p>"),
+		array(
+			'start'		=> Carbon\Carbon::create(2013, 6, 1, 0, 0, 0),
+			'end'		=> Carbon\Carbon::create(2013, 8, 10, 0, 0, 0),
+			'title'		=> "Brian Jacobs Golf PGA Championship Tip",
+			'content'	=> "<p>The word is out about Brian Jacobs Golf and people are starting to notice! Brian Jacobs Golf was selected to film a series of swing tips that will air on local television during the PGA Championship week. Check out the video now and book your lessons today with a Brian Jacobs Golf instructor and take your game inside the ropes.</p><p><a href='http://rochesterhomepage.net/fulltext?nxd_id=393492' class='btn btn-primary'>Check It Out</a></p>"),
 	);
 
 	return View::make('pages.about.index')
@@ -78,4 +83,12 @@ Route::get('/about/testimonials', array('as' => 'testimonials', function($num = 
 Route::get('/about/pure-grips', array('as' => 'puregrips', function()
 {
 	return View::make('pages.about.puregrips');
+}));
+
+/**
+ * About/Services
+ */
+Route::get('/about/services', array('as' => 'services', function()
+{
+	return View::make('pages.about.services');
 }));

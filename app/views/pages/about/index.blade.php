@@ -49,9 +49,9 @@
 
 		<div class="span4">
 			<div class="well">
-				<h3 class="primary">Long &amp; Straight</h3>
+				<h3 class="primary">Woods &amp; Hybrids</h3>
 
-				<p>Make your driver one of the strengths of your game in 2013! Book a private instruction session during May and let us know you want to work on your driver. In addition to world-class instruction on how to hit your driver, you'll also receive a free driver fitting as part of your lesson and 10% off the brand-new Nike VRS Covert driver throughout the month of May!</p>
+				<p>For the entire month of June, we're focusing on fairway woods and hybrids at Brian Jacobs Golf. Bring in your fairway wood(s) and/or hybrid(s) and we'll teach you how to get the most out of these versatile clubs. In addition, get a free club fitting for your fairway woods and hybrids as well as 10% off Nike fairway woods and hybrids all months long!</p>
 
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('event-special') }}" class="btn btn-primary">More Info</a>
