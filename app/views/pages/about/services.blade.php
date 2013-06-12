@@ -9,7 +9,7 @@
 
 	<p>At Brian Jacobs Golf, we offer a wide range of services beyond our world-class golf instruction. If you need your clubs re-gripped or premier fitting services, we can help you make sure your equipment is fit perfectly for you and that you're getting the most out of it. Contact us today about our services.</p>
 
-	<h2>PURE Grips</h2>
+	<!--<h2>PURE Grips</h2>
 
 	<div class="pull-right inline-image"><img src="{{ URL::to_asset('img/logo-puregrips.png') }}" alt=""></div>
 
@@ -31,9 +31,9 @@
 
 	<p>The installation of PURE Grips requires no adhesive tapes or solvents. The simple power of air pressure installs our grips as securely as any adhesive tape. Once installed on a steel or graphite shaft, the grip provides optimal stability while the elasticity of the rubber combines with friction to create "rubber memory," ensuring the grip will not loosen or slip.</p>
 
-	<!--<h2>Storm the Course Special</h2>
+	<h2>Storm the Course Special</h2>
 
-	<p>From now until April 31st, get your entire set of clubs (up to 13 clubs excluding putter) regripped with PURE Grips for just <strong class='primary'>$99</strong> (PURE Pro in black). If you only need a few clubs regripped, it's only <strong class='primary'>$9</strong> per grip and only .25 per club to build up tape under the grip. Take advantage of this offer and <strong class='primary'>storm the course</strong> in 2013!</p>-->
+	<p>From now until April 31st, get your entire set of clubs (up to 13 clubs excluding putter) regripped with PURE Grips for just <strong class='primary'>$99</strong> (PURE Pro in black). If you only need a few clubs regripped, it's only <strong class='primary'>$9</strong> per grip and only .25 per club to build up tape under the grip. Take advantage of this offer and <strong class='primary'>storm the course</strong> in 2013!</p>
 
 	<div class="hidden-phone">
 		<a href="{{ URL::to_route('contact', array('regripping')) }}" class="btn btn-primary">More Info</a>
@@ -43,7 +43,7 @@
 		<a href="{{ URL::to_route('contact', array('regripping')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
 	</div>
 
-	<hr>
+	<hr>-->
 
 	<h2>Club Fitting</h2>
 

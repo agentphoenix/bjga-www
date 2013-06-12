@@ -7,7 +7,7 @@
 	@if (URI::is('about/*') or URI::is('/'))
 		<ul>
 			<li class="{{ URI::is('/') ? 'active' : '' }}"><a href="{{ URL::to_route('home') }}">Home</a><div class="arrow"></div></li>
-			<li class="{{ URI::is('about/brian') ? 'active' : '' }}"><a href="{{ URL::to_route('about') }}">Meet Brian</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('about/brian') ? 'active' : '' }}"><a href="{{ URL::to_route('about') }}">Meet Brian Jacobs</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('about/staff') ? 'active' : '' }}"><a href="{{ URL::to_route('staff') }}">Staff</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('about/relationships') ? 'active' : '' }}"><a href="{{ URL::to_route('relationships') }}">Relationships</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('about/testimonials') ? 'active' : '' }}"><a href="{{ URL::to_route('testimonials') }}">Testimonials</a><div class="arrow"></div></li>
@@ -31,7 +31,8 @@
 			<li class="{{ URI::is('contact/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('clinics')) }}">Golf Clinics</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('contact/advocare') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('advocare')) }}">Advocare</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('contact/eyeline') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('eyeline')) }}">Eyeline Golf</a><div class="arrow"></div></li>
-			<li class="{{ URI::is('contact/regripping') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('regripping')) }}">Re-Gripping Services</a><div class="arrow"></div></li>
+			<!--<li class="{{ URI::is('contact/regripping') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('regripping')) }}">Re-Gripping Services</a><div class="arrow"></div></li>-->
+			<li class="{{ URI::is('contact/fitting') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('fitting')) }}">Club Fitting Services</a><div class="arrow"></div></li>
 		</ul>
 	@elseif (URI::is('event/*'))
 		<ul>
@@ -47,7 +48,7 @@
 	@if (URI::is('about/*') or URI::is('/'))
 		<ul class="nav nav-list">
 			<li class="{{ URI::is('/') ? 'active' : '' }}"><a href="{{ URL::to_route('home') }}">Home</a></li>
-			<li class="{{ URI::is('about/brian') ? 'active' : '' }}"><a href="{{ URL::to_route('about') }}">Meet Brian</a></li>
+			<li class="{{ URI::is('about/brian') ? 'active' : '' }}"><a href="{{ URL::to_route('about') }}">Meet Brian Jacobs</a></li>
 			<li class="{{ URI::is('about/staff') ? 'active' : '' }}"><a href="{{ URL::to_route('staff') }}">Staff</a></li>
 			<li class="{{ URI::is('about/relationships') ? 'active' : '' }}"><a href="{{ URL::to_route('relationships') }}">Relationships</a></li>
 			<li class="{{ URI::is('about/testimonials') ? 'active' : '' }}"><a href="{{ URL::to_route('testimonials') }}">Testimonials</a></li>
@@ -70,7 +71,8 @@
 			<li class="{{ URI::is('contact/schools*') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('schools')) }}">Golf Schools</a></li>
 			<li class="{{ URI::is('contact/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('clinics')) }}">Golf Clinics</a></li>
 			<li class="{{ URI::is('contact/advocare') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('advocare')) }}">Advocare</a></li>
-			<li class="{{ URI::is('contact/eyeline') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('eyeline')) }}">Eyeline Golf</a></li>
+			<!--<li class="{{ URI::is('contact/eyeline') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('eyeline')) }}">Eyeline Golf</a></li>-->
+			<li class="{{ URI::is('contact/fitting') ? 'active' : '' }}"><a href="{{ URL::to_route('contact', array('fitting')) }}">Club Fitting Services</a><div class="arrow"></div></li>
 		</ul>
 	@elseif (URI::is('event/*'))
 		<ul class="nav nav-list">

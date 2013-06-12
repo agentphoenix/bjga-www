@@ -222,6 +222,7 @@
 						<option value="Private Instruction"{{ ($topic == 'instruction') ? 'selected' : '' }}>Private Instruction Information/Question</option>
 						<option value="AdvoCare"{{ ($topic == 'advocare') ? 'selected' : '' }}>AdvoCare Information/Ordering</option>
 						<option value="Eyeline"{{ ($topic == 'eyeline') ? 'selected' : '' }}>Eyeline Products</option>
+						<option value="Club Fitting"{{ ($topic == 'fitting') ? 'selected' : '' }}>Club Fitting Services</option>
 					</select>
 				</div>
 			</div>

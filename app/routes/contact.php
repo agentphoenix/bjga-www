@@ -35,6 +35,10 @@ Route::get('/contact/(:any?)/(:any?)', array('as' => 'contact', function($topic 
 			$contactTitle.= 'Re-Gripping Services';
 			$introMessage = "Brian Jacobs Golf has partnered with PURE Grips to provide you premier grips at great prices. If you'd like to have your clubs re-gripped, let us know using the form below. A representative will be in touch with a quote and to schedule when to do your re-gripping.";
 		break;
+
+		case 'fitting':
+			$contactTitle.= 'Club Fitting Services';
+		break;
 		
 		default:
 			$contactTitle = '';
@@ -71,6 +75,10 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 
 		case 'Eyeline':
 			$subject = 'Re-Gripping Service Request';
+		break;
+
+		case 'Club Fitting':
+			$subject = 'Club Fitting Service Request';
 		break;
 		
 		default:
@@ -109,6 +117,10 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 		case 'regripping':
 			$contactTitle.= 'Re-Gripping Services';
 			$introMessage = "Brian Jacobs Golf has partnered with PURE Grips to provide you premier grips at great prices. If you'd like to have your clubs re-gripped, let us know using the form below. A representative will be in touch with a quote and to schedule when to do your re-gripping.";
+		break;
+
+		case 'fitting':
+			$contactTitle.= 'Club Fitting Services';
 		break;
 		
 		default:
