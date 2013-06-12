@@ -13,7 +13,7 @@
 	<p>We believe that the true joy for any student of the game comes from the passion to learn more about the subject, the commitment to practice and develop their golf game and the challenge to continually improve their golf and themselves. Make a commitment to yourself to get better and visit our Academy to take your game inside the ropes.</p>
 
 	<div class="row-fluid">
-		<div class="span4">
+		<div class="span6">
 			<div class="well">
 				<h3 class="primary">Private Instruction</h3>
 
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 
-		<div class="span4">
+		<div class="span6">
 			<div class="well">
 				<h3 class="primary">Junior Golf</h3>
 
@@ -47,7 +47,7 @@
 			</div>
 		</div>
 
-		<div class="span4">
+		<!--<div class="span4">
 			<div class="well">
 				<h3 class="primary">Woods &amp; Hybrids</h3>
 
@@ -63,7 +63,7 @@
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
-		</div>
+		</div>-->
 	</div>
 
 	<?php foreach ($announcements as $a): ?>
