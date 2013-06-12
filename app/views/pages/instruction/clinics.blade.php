@@ -9,7 +9,7 @@
 
 	<p>While our private instruction is usually one-on-one or two-on-one, there are times when larger groups of 3, 6, 9 or more may want to utilize the resources and expertise of our staff. For those situations, we offer flexible clinic programs that can be scheduled to accommodate larger groups.</p>
 
-	<h2 class="pinseeker">Pin Seeker</h2>
+	<!--<h2 class="pinseeker">Pin Seeker</h2>
 
 	<div class="row-fluid">
 		<div class="span6">
@@ -65,7 +65,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 
 	<h2>Custom Clinics</h2>
 
