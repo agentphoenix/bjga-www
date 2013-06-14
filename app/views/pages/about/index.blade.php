@@ -46,24 +46,6 @@
 				</div>
 			</div>
 		</div>
-
-		<!--<div class="span4">
-			<div class="well">
-				<h3 class="primary">Woods &amp; Hybrids</h3>
-
-				<p>For the entire month of June, we're focusing on fairway woods and hybrids at Brian Jacobs Golf. Bring in your fairway wood(s) and/or hybrid(s) and we'll teach you how to get the most out of these versatile clubs. In addition, get a free club fitting for your fairway woods and hybrids as well as 10% off Nike fairway woods and hybrids all months long!</p>
-
-				<div class="btn-group hidden-phone">
-					<a href="{{ URL::to_route('event-special') }}" class="btn btn-primary">More Info</a>
-					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
-				</div>
-
-				<div class="visible-phone">
-					<a href="{{ URL::to_route('event-special') }}" class="btn btn-primary btn-block btn-large">More Info</a>
-					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
-				</div>
-			</div>
-		</div>-->
 	</div>
 
 	<?php foreach ($announcements as $a): ?>
