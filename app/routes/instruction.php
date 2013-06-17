@@ -71,6 +71,14 @@ Route::get('/instruction/linksters', array('as' => 'linksters', function()
 }));
 
 /**
+ * Instruction/JuniorAcademy
+ */
+Route::get('/instruction/junior-academy', array('as' => 'junioracademy', function()
+{
+	return View::make('pages.instruction.junioracademy');
+}));
+
+/**
  * Instruction/Clinics
  */
 Route::get('/instruction/clinics', array('as' => 'clinics', function()

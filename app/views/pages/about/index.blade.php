@@ -13,7 +13,7 @@
 	<p>We believe that the true joy for any student of the game comes from the passion to learn more about the subject, the commitment to practice and develop their golf game and the challenge to continually improve their golf and themselves. Make a commitment to yourself to get better and visit our Academy to take your game inside the ropes.</p>
 
 	<div class="row-fluid">
-		<div class="span6">
+		<div class="span4">
 			<div class="well">
 				<h3 class="primary">Private Instruction</h3>
 
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 
-		<div class="span6">
+		<div class="span4">
 			<div class="well">
 				<h3 class="primary">Junior Golf</h3>
 
@@ -43,6 +43,22 @@
 
 				<div class="visible-phone">
 					<a href="{{ URL::to_route('juniors') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="span4">
+			<div class="well">
+				<h3 class="primary">Junior Academy</h3>
+
+				<p>We are the <strong>Home of Junior Golf</strong> and the Junior Academy provides elite junior golfers the opportunity to hone their skills through 30 hours of instruction and play a week during the summer. Covering everything from the full swing to short game to rules and etiquette, this specialized academy will help your junior take their game inside the ropes.</p>
+
+				<div class="btn-group hidden-phone">
+					<a href="{{ URL::to_route('junioracademy') }}" class="btn btn-primary">More Info</a>
+				</div>
+
+				<div class="visible-phone">
+					<a href="{{ URL::to_route('junioracademy') }}" class="btn btn-primary btn-block btn-large">More Info</a>
 				</div>
 			</div>
 		</div>
