@@ -44,6 +44,14 @@
 
 			<h3 class="primary">$799 <small>per student</small></h3>
 
+			<div class="btn-group hidden-phone">
+				<a href="{{ URL::to_route('contact', array('general')) }}" class="btn btn-primary">Contact to Book Now</a>
+			</div>
+
+			<div class="visible-phone">
+				<a href="{{ URL::to_route('contact', array('general')) }}" class="btn btn-primary btn-block btn-large">Contact to Book Now</a>
+			</div>
+
 			<!--<h4>Fall Sessions></h4>
 
 			<h4>Winter Sessions></h4>
