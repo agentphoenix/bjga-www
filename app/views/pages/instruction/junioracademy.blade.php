@@ -80,7 +80,6 @@
 				<li>Guest clinicians</li>
 				<li>Motivational speakers</li>
 				<li>Meet and train with new friends and develop lifetime friendships!</li>
-				<li>Early drop off and late pick up (additional charge &ndash; $5 for 30 minutes/$10 for 60 minutes)</li>
 				<li>Family discounts available for additional children</li>
 			</ul>
 		</div>
