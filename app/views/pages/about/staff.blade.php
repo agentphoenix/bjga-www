@@ -9,7 +9,7 @@
 
 	<div class="pull-right inline-image"><img src="{{ URL::to_asset('img/img-nick.png') }}" alt="" class="img-rounded"></div>
 
-	<h3>Nick DiDuro <small>Apprentice Instructor</small></h3>
+	<h3>Nick DiDuro <small>Associate Instructor</small></h3>
 
 	<p>Nick was born and raised in Geneva, N.Y. He is currently a PGA Golf Management student at Coastal Carolina University in South Carolina. Prior to Coastal Carolina, Nick worked at Geneva Country Club under PGA Professional John Rossi for 4 years.</p>
 
