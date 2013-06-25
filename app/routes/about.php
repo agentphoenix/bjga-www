@@ -37,7 +37,7 @@ Route::get('/', array('as' => 'home', function()
 			'start'		=> Carbon\Carbon::create(2013, 6, 1, 0, 0, 0),
 			'end'		=> Carbon\Carbon::create(2013, 8, 10, 0, 0, 0),
 			'title'		=> "Brian Jacobs Golf PGA Championship Tip",
-			'content'	=> "<p>The word is out about Brian Jacobs Golf and people are starting to notice! Brian Jacobs Golf was selected to film a series of swing tips that will air on local television during the PGA Championship week. Check out the video now and book your lessons today with a Brian Jacobs Golf instructor and take your game inside the ropes.</p><p><a href='http://rochesterhomepage.net/fulltext?nxd_id=393492' class='btn btn-primary'>Check It Out</a></p>"),
+			'content'	=> "<p>The word is out about Brian Jacobs Golf and people are starting to notice! Brian Jacobs Golf was selected to film a series of swing tips that will air on local television during the PGA Championship week. Check out the video now and book your lessons today with a Brian Jacobs Golf instructor and take your game inside the ropes.</p><div class='btn-group'><a href='http://rochesterhomepage.net/fulltext?nxd_id=393492' target='_blank' class='btn btn-primary'>Check It Out</a><a href='http://www.13wham.com/content/sports/local/story/Brian-Jacobs-Golf-Tips/9dkzVmpqsUe_1c3wwiOVeA.cspx' target='_blank' class='btn btn-primary'>More Tips</a></div>"),
 	);
 
 	return View::make('pages.about.index')
