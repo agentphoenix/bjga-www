@@ -55,6 +55,14 @@ Route::get('/instruction/junior-team', array('as' => 'juniorteam', function()
 }));
 
 /**
+ * Instruction/JuniorElite
+ */
+Route::get('/instruction/junior-elite', array('as' => 'juniorelite', function()
+{
+	return View::make('pages.instruction.juniorelite');
+}));
+
+/**
  * Instruction/JuniorCamp
  */
 Route::get('/instruction/junior-camps', array('as' => 'juniorcamps', function()

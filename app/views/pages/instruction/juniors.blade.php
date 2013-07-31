@@ -44,12 +44,12 @@
 				<p>The Junior Elite Program is designed for serious junior golfers who are interested in taking their game to the next level. Competing with juniors their own age, they'll be given the opportunity to hone their skills through instruction and play twice a week.</p>
 
 				<div class="btn-group hidden-phone">
-					<a href="{{ URL::to_route('juniorteam') }}" class="btn btn-primary">More Info</a>
+					<a href="{{ URL::to_route('juniorelite') }}" class="btn btn-primary">More Info</a>
 					<a href="{{ URL::to_route('booking', array('event', 79219)) }}" class="btn btn-primary">Book Now</a>
 				</div>
 
 				<div class="visible-phone">
-					<a href="{{ URL::to_route('juniorteam') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+					<a href="{{ URL::to_route('juniorelite') }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					<a href="{{ URL::to_route('booking', array('event', 79219)) }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
