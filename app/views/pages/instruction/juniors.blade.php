@@ -39,9 +39,9 @@
 
 		<div class="span6">
 			<div class="well">
-				<h2>Junior Team</h2>
+				<h2>Junior Elite</h2>
 
-				<p>The Junior Team is designed for serious junior golfers who are interested in taking their game to the next level. Competing with juniors their own age, they'll be given the opportunity to hone their skills through instruction and play twice a week.</p>
+				<p>The Junior Elite Program is designed for serious junior golfers who are interested in taking their game to the next level. Competing with juniors their own age, they'll be given the opportunity to hone their skills through instruction and play twice a week.</p>
 
 				<div class="btn-group hidden-phone">
 					<a href="{{ URL::to_route('juniorteam') }}" class="btn btn-primary">More Info</a>
