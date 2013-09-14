@@ -39,6 +39,10 @@ Route::get('/contact/(:any?)/(:any?)', array('as' => 'contact', function($topic 
 		case 'fitting':
 			$contactTitle.= 'Club Fitting Services';
 		break;
+
+		case 'book':
+			$contactTitle.= 'Book a Lesson';
+		break;
 		
 		default:
 			$contactTitle = '';
@@ -79,6 +83,10 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 
 		case 'Club Fitting':
 			$subject = 'Club Fitting Service Request';
+		break;
+
+		case 'Book Lesson':
+			$subject = 'Lesson Booking Request';
 		break;
 		
 		default:
@@ -121,6 +129,10 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 
 		case 'fitting':
 			$contactTitle.= 'Club Fitting Services';
+		break;
+
+		case 'book':
+			$contactTitle.= 'Book a Lesson';
 		break;
 		
 		default:
@@ -247,6 +259,28 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 		$message.= "<strong>Re-Grip Putter:</strong> ".Input::get('includePutter')."\r\n\r\n";
 
 		$message.= "<strong>Special Instructions:</strong> ".Input::get('specialInstructions');
+	}
+
+	if ($topic == 'book')
+	{
+		// Add the eyeline requirements
+		$rules['instructionDate'] = 'required';
+		$rules['instructionTime'] = 'required';
+
+		// Remove the message requirement
+		unset($rules['message']);
+
+		// Change the subject
+		$subject = 'Private Instruction Booking Request';
+
+		// Change the message
+		$message = "<strong>Name:</strong> ".Input::get('name')."\r\n";
+		$message.= "<strong>Email Address:</strong> ".Input::get('emailAddress')."\r\n\r\n";
+
+		$message.= "<strong>Desired Date:</strong> ".Input::get('instructionDate')."\r\n";
+		$message.= "<strong>Desired Time:</strong> ".Input::get('instructionTime')."\r\n\r\n";
+
+		$message.= "<strong>Comments</strong>\r\n".Input::get('instructionComments');
 	}
 
 	// Create a new validator for the contact form

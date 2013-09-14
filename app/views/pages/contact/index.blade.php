@@ -6,16 +6,20 @@
 
 @section('styles')
 	{{ HTML::style('css/datepicker.css') }}
+	{{ HTML::style('css/bootstrap-timepicker.min.css') }}
 @endsection
 
 @section('scripts')
 	{{ HTML::script('js/bootstrap-datepicker.js') }}
+	{{ HTML::script('js/bootstrap-timepicker.min.js') }}
 	<script type="text/javascript">
 		$(document).ready(function(){
 
 			$('.datepicker').datepicker().on('changeDate', function(e){
 				$(this).datepicker('hide');
 			});
+
+			$('.timepicker').timepicker();
 		});
 	</script>
 @endsection
@@ -211,6 +215,31 @@
 				<div class="control">
 					<textarea name="specialInstructions" class="span8" rows="3"></textarea>
 					<p class="help-block">If you're ordering different types of grips for different clubs or want extra tape wraps, please describe that here. Additional charges may be incurred for different grip types, tape wraps and putter re-gripping.</p>
+				</div>
+			</div>
+		@elseif ($topic == 'book')
+			<div class="control-group {{ $errors->has('instructionDate') ? 'error' : '' }}">
+				<label class="control-label">Lesson Date</label>
+				<div class="control">
+					<input type="text" name="instructionDate" class="span2 datepicker" data-date-format="mm/dd/yyyy">
+					<span class="help-inline">{{ $errors->has('instructionDate') ? "Please select the desired date for your lesson" : "" }}</span>
+					<p class="help-block">Instruction date is subject to instructor and facility availability. A Brian Jacobs Golf representative will contact you to book the most appropriate date.</p>
+				</div>
+			</div>
+
+			<div class="control-group {{ $errors->has('instructionTime') ? 'error' : '' }}">
+				<label class="control-label">Lesson Time</label>
+				<div class="control bootstrap-timepicker">
+					<input type="text" name="instructionTime" class="span2 timepicker">
+					<span class="help-inline">{{ $errors->has('instructionTime') ? "Please select the desired time for your lesson" : "" }}</span>
+					<p class="help-block">Instruction time is subject to instructor and facility availability. A Brian Jacobs Golf representative will contact you to book the most appropriate time.</p>
+				</div>
+			</div>
+
+			<div class="control-group">
+				<label class="control-label">Additional Comments</label>
+				<div class="control">
+					<textarea name="instructionComments" class="span8" rows="5"></textarea>
 				</div>
 			</div>
 		@else
