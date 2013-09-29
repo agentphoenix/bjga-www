@@ -17,15 +17,15 @@ Route::get('/instruction/private', array('as' => 'private', function()
 	$now = Carbon\Carbon::now();
 
 	// Start of winter instruction
-	$start = Carbon\Carbon::create(2012, 11, 1, 0, 0, 0);
+	$start = Carbon\Carbon::create(2013, 11, 4, 0, 0, 0);
 
 	// End of winter instruction
-	$end = Carbon\Carbon::create(2013, 4, 10, 0, 0, 0);
+	$end = Carbon\Carbon::create(2014, 3, 31, 0, 0, 0);
 
 	// Set the proper view based on today's date
 	$view = ($now->gte($start) and $now->lt($end)) 
 		? 'pages.instruction.winterprivate' 
-		: 'pages.instruction.private';
+		: 'pages.instruction.offseason';
 
 	return View::make($view);
 }));
@@ -99,6 +99,8 @@ Route::get('/instruction/clinics', array('as' => 'clinics', function()
  */
 Route::get('/instruction/booking/(:any?)/(:any?)', array('as' => 'booking', function($type = false, $id = false)
 {
+	return View::make('pages.instruction.no_instruction');
+
 	switch ($type)
 	{
 		case 'event':
@@ -112,4 +114,9 @@ Route::get('/instruction/booking/(:any?)/(:any?)', array('as' => 'booking', func
 
 	return View::make('pages.instruction.booking')
 		->with('link', $link);
+}));
+
+Route::get('/instruction/offseason', array('as' => 'offseason', function()
+{
+	return View::make('pages.instruction.offseason');
 }));
