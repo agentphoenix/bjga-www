@@ -20,7 +20,7 @@
 			<ul class="unstyled">
 				<li><a href="{{ URL::to_route('home') }}">Home</a></li>
 				<li><a href="{{ URL::to_route('about') }}">Meet Brian Jacobs</a></li>
-				<li><a href="{{ URL::to_route('staff') }}">Staff</a></li>
+				<!--<li><a href="{{ URL::to_route('staff') }}">Staff</a></li>-->
 				<li><a href="{{ URL::to_route('relationships') }}">Relationships</a></li>
 				<li><a href="{{ URL::to_route('testimonials') }}">Testimonials</a></li>
 				<!--<li><a href="{{ URL::to_route('services') }}">Services</a></li>-->
@@ -71,7 +71,7 @@
 						<ul class="unstyled">
 							<li><a href="{{ URL::to_route('home') }}">Home</a></li>
 							<li><a href="{{ URL::to_route('about') }}">Meet Brian Jacobs</a></li>
-							<li><a href="{{ URL::to_route('staff') }}">Staff</a></li>
+							<!--<li><a href="{{ URL::to_route('staff') }}">Staff</a></li>-->
 							<li><a href="{{ URL::to_route('relationships') }}">Relationships</a></li>
 							<li><a href="{{ URL::to_route('testimonials') }}">Testimonials</a></li>
 						</ul>

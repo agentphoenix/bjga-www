@@ -141,7 +141,7 @@
 		</div>
 	</div>
 
-	<h3>Juniors and Beginners</h3>
+	<!--<h3>Juniors and Beginners</h3>
 
 	<p>Brian Jacobs Golf Associate Instructor Nick DiDuro is available for private instruction for Juniors and Beginners over the course of this summer. You can book lessons with Nick directly using the information below.</p>
 
@@ -153,7 +153,7 @@
 		<dd>(315) 719-5082</dd>
 	</dl>
 
-	<h3 class="primary">$50 <small>per hour</small></h3>
+	<h3 class="primary">$50 <small>per hour</small></h3>-->
 
 	<br>
 	<p class="muted"><span class="money"></span>Payment is expected at time of service. Cash, personal check or credit card are all acceptable forms of payment. Please <a href="{{ URL::to_route('contact', array('general')) }}">contact us</a> if you have any questions about this.</p>

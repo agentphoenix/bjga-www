@@ -24,8 +24,8 @@ Route::get('/instruction/private', array('as' => 'private', function()
 
 	// Set the proper view based on today's date
 	$view = ($now->gte($start) and $now->lt($end)) 
-		? 'pages.instruction.winterprivate' 
-		: 'pages.instruction.offseason';
+		? 'pages.instruction.offseason' 
+		: 'pages.instruction.private';
 
 	return View::make($view);
 }));
