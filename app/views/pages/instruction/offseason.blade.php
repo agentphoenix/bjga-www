@@ -30,33 +30,21 @@
 	</div>
 	
 	<div id="adults">
-		<p>The Adult Performance Series will be available <strong class="primary">November 4th 2013</strong> through <strong class="primary">March 31st 2014</strong>. All services will be performed at Valle Sports on Ridge Road West.</p>
+		<p>The Adult Performance Series will be available <strong class="primary">November 4th 2013</strong> through <strong class="primary">March 31st 2014</strong>. All services will be performed at Valle Sports on Ridge Road West unless booking the 12 month Performance Series.</p>
 
 		<p>Each bundle will include:</p>
 
 		<ul>
-			<li>1 60 minute lesson with PGA Director of Instruction Brian Jacobs*</li>
-			<li>3 60 minute practice sessions per month*</li>
+			<li>2 60 minute lesson with PGA Director of Instruction Brian Jacobs*</li>
+			<li>2 60 minute practice sessions per month (range balls included)*</li>
 		</ul>
 
 		<div class="row-fluid">
 			<div class="span4">
 				<div class="well">
-					<h3 class="primary">1 Month Committment</h3>
-					<h3>$299 <small>per month</small></h3>
-					<div class="btn-group hidden-phone">
-						<a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary">Email to Book Now</a>
-					</div>
-					<div class="visible-phone">
-						<a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary btn-large btn-block">Email to Book Now</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="span4">
-				<div class="well">
 					<h3 class="primary">3 Month Committment</h3>
-					<h3>$279 <small>per month</small></h3>
+					<h3>$280 <small>per month</small></h3>
+					<p>12 sessons @ $70/hour</p>
 					<div class="btn-group hidden-phone">
 						<a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary">Email to Book Now</a>
 					</div>
@@ -69,7 +57,22 @@
 			<div class="span4">
 				<div class="well">
 					<h3 class="primary">6 Month Committment</h3>
-					<h3>$259 <small>per month</small></h3>
+					<h3>$260 <small>per month</small></h3>
+					<p>24 sessons @ $65/hour</p>
+					<div class="btn-group hidden-phone">
+						<a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary">Email to Book Now</a>
+					</div>
+					<div class="visible-phone">
+						<a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary btn-large btn-block">Email to Book Now</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="span4">
+				<div class="well">
+					<h3 class="primary">12 Month Committment**</h3>
+					<h3>$240 <small>per month</small></h3>
+					<p>48 sessons @ $60/hour</p>
 					<div class="btn-group hidden-phone">
 						<a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary">Email to Book Now</a>
 					</div>
@@ -81,6 +84,8 @@
 		</div>
 
 		<p class="muted">*Each student will have reserved the same lesson and practice day and time each month.</p>
+
+		<p class="muted">**Combination of indoor season at Valle Sports and outdoor season at The Brian Jacobs Golf Academy at Mill Creek Golf Club.</p>
 
 		<p class="muted">Performance Series is non-transferrable to the outdoor season at The Brian Jacobs Golf Academy at Mill Creek Golf Club and Practice Center.</p>
 
