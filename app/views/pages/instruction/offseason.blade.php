@@ -107,8 +107,8 @@
 			<div class="span6">
 				<div class="well">
 					<h3 class="primary">Performance Training</h3>
-					<p><strong>Wednesdays, Fridays</strong></p>
-					<p>TSE Total Sports Experience Fitness Center<br>800 Elmgrove Road</p>
+					<p><strong>Wednesdays &amp; Fridays, 3:00p - 4:00p</strong></p>
+					<p>Agape Physical Therapy<br>880 Elmgrove Road</p>
 				</div>
 			</div>
 		</div>
@@ -134,7 +134,7 @@
 	</div>
 
 	<div id="linksters" class="hide">
-		<p>The Linksters Performance Series will be available <strong class="primary">November 4th 2013</strong> through <strong class="primary">March 31st 2014</strong> on Mondays from <strong>5:45p</strong> to <strong>6:45p</strong>. The program is open to children ages 5 to 10 and is open to players of any ability.</p>
+		<p>The Linksters Performance Series will be available <strong class="primary">November 4th 2013</strong> through <strong class="primary">March 31st 2014</strong> on Saturdays from <strong>10:00a</strong> to <strong>11:00a</strong>. The program is open to children ages 5 to 10 and is open to players of any ability.</p>
 
 		<h4>Instruction &amp; Play</h4>
 		<p><strong class="primary">$150</strong> per month per child</p>
