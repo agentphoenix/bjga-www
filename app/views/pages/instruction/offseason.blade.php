@@ -109,8 +109,8 @@
 			<div class="span6">
 				<div class="well">
 					<h3 class="primary">Performance Training</h3>
-					<p>Assessment and functional movement for golf</p>
 					<p><strong>Wednesdays &amp; Fridays, 3:00p - 4:00p</strong></p>
+					<p>Assessment and functional movement for golf</p>
 					<p>Agape Physical Therapy, Brockport Office<br>92 West Ave Brockport</p>
 					<p>Starts November 6th</p>
 				</div>
