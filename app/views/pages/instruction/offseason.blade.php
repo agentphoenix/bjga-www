@@ -101,14 +101,18 @@
 					<h3 class="primary">Instruction &amp; Play</h3>
 					<p><strong>Mondays, 3:30p - 5:30p</strong></p>
 					<p>Valle Sports<br>4659 Ridge Road West</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
 				</div>
 			</div>
 
 			<div class="span6">
 				<div class="well">
 					<h3 class="primary">Performance Training</h3>
+					<p>Assessment and functional movement for golf</p>
 					<p><strong>Wednesdays &amp; Fridays, 3:00p - 4:00p</strong></p>
-					<p>Agape Physical Therapy<br>880 Elmgrove Road</p>
+					<p>Agape Physical Therapy, Brockport Office<br>92 West Ave Brockport</p>
+					<p>Starts November 6th</p>
 				</div>
 			</div>
 		</div>
@@ -119,7 +123,7 @@
 		<p><strong class="primary">$250</strong> per month per participant<br>(Use of simulator on day of program only)</p>
 
 		<h4>Golf &amp; Performance Training</h4>
-		<p><strong class="primary">$275</strong> per month<br>(Use of simulator on program day, use of fitness center with supervised training on training days, unlimited usage of fitness center for month of program)</p>
+		<p><strong class="primary">$275</strong> per month<br>(Use of simulator on program day, use of Agape Physical Therapy Fitness area on training days only - memberships for additional training are available at an additional cost and can be used at any of the 4 locations - Brockport, Gates, Chili or Webster.)</p>
 
 		<div class="btn-group hidden-phone">
 			<p><a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary">Email to Book Now</a></p>
@@ -134,7 +138,7 @@
 	</div>
 
 	<div id="linksters" class="hide">
-		<p>The Linksters Performance Series will be available <strong class="primary">November 4th 2013</strong> through <strong class="primary">March 31st 2014</strong> on Saturdays from <strong>10:00a</strong> to <strong>11:00a</strong>. The program is open to children ages 5 to 10 and is open to players of any ability.</p>
+		<p>The Linksters Performance Series will be available <strong class="primary">November 9th 2013</strong> through <strong class="primary">March 29th 2014</strong> on Saturdays from <strong>10:00a</strong> to <strong>11:00a</strong>. The program is open to children ages 5 to 10 and is open to players of any ability.</p>
 
 		<h4>Instruction &amp; Play</h4>
 		<p><strong class="primary">$150</strong> per month per child</p>
