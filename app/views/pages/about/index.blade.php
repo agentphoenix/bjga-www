@@ -30,7 +30,7 @@
 		<p>We believe that the true joy for any student of the game comes from the passion to learn more about the subject, the commitment to practice and develop their golf game and the challenge to continually improve their golf and themselves. Make a commitment to yourself to get better and visit our Academy to take your game inside the ropes.</p>
 
 		<div class="row-fluid">
-			<div class="span4">
+			<!--<div class="span4">
 				<div class="well">
 					<h3 class="primary">Private Instruction</h3>
 
@@ -76,6 +76,42 @@
 
 					<div class="visible-phone">
 						<a href="{{ URL::to_route('junioracademy') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+					</div>
+				</div>
+			</div>-->
+
+			<div class="span8">
+				<div class="well">
+					<h3 class="primary">Welcome to the Offseason!</h3>
+
+					<p>Just because the weather's getting colder doesn't mean you need to put your golf clubs on ice too. In fact, this winter is the perfect opportunity to let Brian Jacobs Golf take your game inside the ropes with the new <strong class="primary">Offseason Performance Series</strong>!</p>
+
+					<p>The Offseason Performance Series is just what you need to hit better drives, hit the ball closer to the hole with your irons and wedges and improve your putting, all through a series of instruction and practice! Make sure you don't lose your edge during the offseason and stay in "golf shape" so you're ready to go in the spring! There's an Offseason Performance Series for you regardless of age or experience so check it out today!</p>
+
+					<div class="btn-group hidden-phone">
+						<a href="{{ URL::to_route('offseason') }}" class="btn btn-primary">More Info</a>
+					</div>
+
+					<div class="visible-phone">
+						<a href="{{ URL::to_route('offseason') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="span4">
+				<div class="well">
+					<h3 class="primary">Mark Your Calendar</h3>
+
+					<p>Brian Jacobs Golf is doing another golf getaway this spring back to sunny Florida and Amelia Island Plantation (April Xth through the Yth)!</p>
+
+					<p>Like previous golf trips, you'll have the opportunity for instruction with a Brian Jacobs Golf instructor and lots of time on the course, so grab some friends and take your game inside the ropes!</p>
+
+					<div class="btn-group hidden-phone">
+						<a href="#" class="btn disabled">More Info Coming Soon</a>
+					</div>
+
+					<div class="visible-phone">
+						<a href="#" class="btn btn-block btn-large disabled">More Info Coming Soon</a>
 					</div>
 				</div>
 			</div>
