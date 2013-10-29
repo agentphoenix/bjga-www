@@ -44,7 +44,7 @@
 
 	<hr>
 
-	<div class="row-fluid">
+	<!--<div class="row-fluid">
 		<div class="span8">
 			<h3><a href="http://www.powertrainsports.com/" target="_blank">Power Train Sports Institute</a></h3>
 			<p>Power Train Sports Institute believes that in order to truly understand what an athlete needs, you must first be an athlete. Their performance team is made up of national and world-class athletes. Their commitment to sports and experience as athletes brings a positive approach to performance enhancement training. Power Train coaches utilize their experience as athletes and education as coaches to enhance the performance of each client. With respect as a coach and the acknowledgement as an athlete our program creates the optimal environment for success. Power Train Sports Institute is the players place to train and the athletes place to succeed.  Athletes demand quality, they want results and will do whatever is takes to reach the next level. Through education, commitment, and discipline, Power Train Sports Institute provides the environment for athletes to achieve their goals and full potential.  Our programs are specific to the individual athlete and their particular sport.</p>
@@ -52,7 +52,7 @@
 		<div class="span4 relationship-logo hidden-phone"><a href="http://www.powertrainsports.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-powertrain.png') }}" alt="Power Train Sports Institute"></a></div>
 	</div>
 
-	<hr>
+	<hr>-->
 
 	<div class="row-fluid">
 		<div class="span8">
@@ -124,7 +124,7 @@
 
 	<hr>
 
-	<div class="row-fluid">
+	<!--<div class="row-fluid">
 		<div class="span8">
 			<h3><a href="http://uschedule.com" target="_blank">USchedule</a></h3>
 			<p>At its core, USchedule is a web based scheduling system for you to more efficiently manage your calendar and allow your clients to book appointments via the web 24/7. When your clients schedule an appointment, they automatically receive an email confirmation as well as email and text message reminders, drastically reducing or eliminating no-shows altogether. By having your availability online, you will get more client bookings and phone tag will become a thing of the past.</p>
@@ -132,7 +132,7 @@
 		<div class="span4 relationship-logo hidden-phone"><a href="http://uschedule.com" target="_blank"><img src="{{ URL::to_asset('img/logo-uschedule.png') }}" alt="USchedule"></a></div>
 	</div>
 
-	<hr>
+	<hr>-->
 
 	<!--<div class="row-fluid">
 		<div class="span8">
