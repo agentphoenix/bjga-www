@@ -102,7 +102,7 @@
 				<div class="well">
 					<h3 class="primary">Mark Your Calendar</h3>
 
-					<p>Brian Jacobs Golf is doing another golf getaway this spring back to sunny Florida and Amelia Island Plantation (April Xth through the Yth)!</p>
+					<p>Brian Jacobs Golf is doing another golf getaway this spring back to sunny Florida and Amelia Island Plantation (April 13th through the 17th)!</p>
 
 					<p>Like previous golf trips, you'll have the opportunity for instruction with a Brian Jacobs Golf instructor and lots of time on the course, so grab some friends and take your game inside the ropes!</p>
 
