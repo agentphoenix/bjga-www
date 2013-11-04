@@ -35,8 +35,8 @@
 		<p>Each bundle will include:</p>
 
 		<ul>
-			<li>2 60 minute lesson with PGA Director of Instruction Brian Jacobs*</li>
-			<li>2 60 minute practice sessions per month (range balls included)*</li>
+			<li>1 60 minute lesson with PGA Director of Instruction Brian Jacobs*</li>
+			<li>3 60 minute practice sessions per month (range balls included)*</li>
 		</ul>
 
 		<div class="row-fluid">
