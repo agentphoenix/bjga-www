@@ -107,11 +107,11 @@
 					<p>Like previous golf trips, you'll have the opportunity for instruction with a Brian Jacobs Golf instructor and lots of time on the course, so grab some friends and take your game inside the ropes!</p>
 
 					<div class="btn-group hidden-phone">
-						<a href="#" class="btn disabled">More Info Coming Soon</a>
+						<a href="{{ URL::to_route('event-amelia-island-2014') }}" class="btn btn-primary">More Info</a>
 					</div>
 
 					<div class="visible-phone">
-						<a href="#" class="btn btn-block btn-large disabled">More Info Coming Soon</a>
+						<a href="{{ URL::to_route('event-amelia-island-2014') }}" class="btn btn-block btn-large btn-primary">More Info</a>
 					</div>
 				</div>
 			</div>

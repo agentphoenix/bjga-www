@@ -36,10 +36,11 @@
 		</ul>
 	@elseif (URI::is('event/*'))
 		<ul>
-			<li class="{{ URI::is('event/storm-the-course') ? 'active' : '' }}"><a href="{{ URL::to_route('event-storm') }}">Storm the Course</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('event/amelia-island-2014') ? 'active' : '' }}"><a href="{{ URL::to_route('event-amelia-island-2014') }}">Amelia Island Spring Trip</a><div class="arrow"></div></li>
+			<!--<li class="{{ URI::is('event/storm-the-course') ? 'active' : '' }}"><a href="{{ URL::to_route('event-storm') }}">Storm the Course</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('event/special-instruction') ? 'active' : '' }}"><a href="{{ URL::to_route('event-special') }}">Special Instruction</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('event/distance-challenge') ? 'active' : '' }}"><a href="{{ URL::to_route('event-distance') }}">Nike Distance Challenge</a><div class="arrow"></div></li>
-			<li class="{{ URI::is('event/putt-for-dough') ? 'active' : '' }}"><a href="{{ URL::to_route('event-putt') }}">Putt For Dough</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('event/putt-for-dough') ? 'active' : '' }}"><a href="{{ URL::to_route('event-putt') }}">Putt For Dough</a><div class="arrow"></div></li>-->
 		</ul>
 	@endif
 </nav>
@@ -76,10 +77,11 @@
 		</ul>
 	@elseif (URI::is('event/*'))
 		<ul class="nav nav-list">
-			<li class="{{ URI::is('event/storm-the-course') ? 'active' : '' }}"><a href="{{ URL::to_route('event-storm') }}">Storm the Course</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('event/amelia-island-2014') ? 'active' : '' }}"><a href="{{ URL::to_route('event-amelia-island-2014') }}">Amelia Island Spring Trip</a></li>
+			<!--<li class="{{ URI::is('event/storm-the-course') ? 'active' : '' }}"><a href="{{ URL::to_route('event-storm') }}">Storm the Course</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('event/special-instruction') ? 'active' : '' }}"><a href="{{ URL::to_route('event-special') }}">Special Instruction</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('event/distance-challenge') ? 'active' : '' }}"><a href="{{ URL::to_route('event-distance') }}">Nike Distance Challenge</a><div class="arrow"></div></li>
-			<li class="{{ URI::is('event/putt-for-dough') ? 'active' : '' }}"><a href="{{ URL::to_route('event-putt') }}">Putt For Dough</a><div class="arrow"></div></li>
+			<li class="{{ URI::is('event/putt-for-dough') ? 'active' : '' }}"><a href="{{ URL::to_route('event-putt') }}">Putt For Dough</a><div class="arrow"></div></li>-->
 		</ul>
 	@endif
 </div>

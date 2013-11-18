@@ -5,6 +5,14 @@ use Carbon\Carbon;
 /**
  * Event/Amelia-Island
  */
+Route::get('/event/amelia-island-2014', array('as' => 'event-amelia-island-2014', function()
+{
+	return View::make('pages.events.amelia-island-2014');
+}));
+
+/**
+ * Event/Amelia-Island
+ */
 Route::get('/event/amelia-island', array('as' => 'event-amelia-island', function()
 {
 	return View::make('pages.events.amelia-island');
