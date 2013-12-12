@@ -1,8 +1,8 @@
 # General Items
 
 .DS_Store
-bjga.sublime-project
-bjga.sublime-workspace
+*.sublime-project
+*.sublime-workspace
 
 # Blog Items
 
