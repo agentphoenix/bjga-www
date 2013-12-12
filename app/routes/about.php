@@ -38,6 +38,13 @@ Route::get('/', array('as' => 'home', function()
 			'end'		=> Carbon\Carbon::create(2013, 8, 10, 0, 0, 0),
 			'title'		=> "Brian Jacobs Golf PGA Championship Tip",
 			'content'	=> "<p>The word is out about Brian Jacobs Golf and people are starting to notice! Brian Jacobs Golf was selected to film a series of swing tips that will air on local television during the PGA Championship week. Check out the video now and book your lessons today with a Brian Jacobs Golf instructor and take your game inside the ropes.</p><div class='btn-group'><a href='http://rochesterhomepage.net/fulltext?nxd_id=393492' target='_blank' class='btn btn-primary'>Check It Out</a><a href='http://www.13wham.com/content/sports/local/story/Brian-Jacobs-Golf-Tips/9dkzVmpqsUe_1c3wwiOVeA.cspx' target='_blank' class='btn btn-primary'>More Tips</a></div>"),
+		array(
+			'start'		=> Carbon\Carbon::create(2013, 12, 10, 0, 0, 0),
+			'end'		=> Carbon\Carbon::create(2014, 2, 1, 0, 0, 0),
+			'image'		=> 'img/announcements/trackman.png',
+			'link'		=> 'http://trackmangolf.com/',
+			'title'		=> "TrackMan Is Coming!",
+			'content'	=> "<p>Unlike other new years, 2014 won't just usher in a new year of golf, but new ways to take your game inside the ropes with Brian Jacobs Golf and TrackMan Pro. Combining our intuitive and highly effective personal teaching skills with the industry leading swing analysis tool, Brian Jacobs Golf will give golfers a whole new perspective on their golf swing and new ways to form good swing habits that will lead to better scores year round. Stay tuned for more details in the new year!</p>"),
 	);
 
 	return View::make('pages.about.index')
