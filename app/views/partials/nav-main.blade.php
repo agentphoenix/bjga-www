@@ -2,9 +2,10 @@
 	<div class="brand"></div>
 	
 	<ul>
-		<li><a href="{{ URL::to_route('home') }}" class="{{ (URI::is('about*') or URI::is('/')) ? 'active' : '' }}">About<div>meet brian jacobs</div></a></li>
-		<li><a href="{{ URL::to_route('instruction') }}" class="{{ URI::is('instruction*') ? 'active' : '' }}">Instruction<div>take control of your game</div></a></li>
-		<li><a href="{{ URL::to_route('contact', array('general')) }}" class="{{ URI::is('contact*') ? 'active' : '' }}">Contact<div>get in touch</div></a></li>
+		<li><a href="{{ URL::to_route('home') }}" class="{{ (URI::is('about*') or URI::is('/')) ? 'active' : '' }}">About Us</a></li>
+		<li><a href="{{ URL::to_route('instruction') }}" class="{{ URI::is('instruction*') ? 'active' : '' }}">Instruction</a></li>
+		<li><a href="{{ URL::to_route('contact', array('general')) }}" class="{{ URI::is('contact*') ? 'active' : '' }}">Contact</a></li>
+		<li><a href="http://scheduling.brianjacobsgolf.com" target="_blank">Book Now</a></li>
 	</ul>
 </nav>
 

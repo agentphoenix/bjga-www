@@ -22,7 +22,7 @@
 			<li class="{{ URI::is('instruction/schools') ? 'active' : '' }}"><a href="{{ URL::to_route('schools') }}">Golf Schools</a><div class="arrow"></div></li>
 			<li class="{{ (URI::is('instruction/junior*') or URI::is('instruction/linksters')) ? 'active' : '' }}"><a href="{{ URL::to_route('juniors') }}">Junior Golf</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('clinics') }}">Clinics</a><div class="arrow"></div></li>
-			<!--<li class="{{ URI::is('instruction/booking') ? 'active' : '' }}"><a href="{{ URL::to_route('booking') }}">Book <span class="hidden-tablet">Now</span></a><div class="arrow"></div></li>-->
+			<li class="{{ URI::is('instruction/booking') ? 'active' : '' }}"><a href="{{ URL::to_route('booking') }}">Book <span class="hidden-tablet">Now</span></a><div class="arrow"></div></li>
 		</ul>
 	@elseif (URI::is('contact/*'))
 		<ul>

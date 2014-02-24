@@ -94,10 +94,15 @@ Route::get('/instruction/clinics', array('as' => 'clinics', function()
 	return View::make('pages.instruction.clinics');
 }));
 
+Route::get('/instruction/booking', array('as' => 'booking', function()
+{
+	return View::make('pages.instruction.scheduler');
+}));
+
 /**
  * Instruction/Booking
  */
-Route::get('/instruction/booking/(:any?)/(:any?)', array('as' => 'booking', function($type = false, $id = false)
+/*Route::get('/instruction/booking/(:any?)/(:any?)', array('as' => 'booking', function($type = false, $id = false)
 {
 	return View::make('pages.instruction.no_instruction');
 
@@ -114,7 +119,7 @@ Route::get('/instruction/booking/(:any?)/(:any?)', array('as' => 'booking', func
 
 	return View::make('pages.instruction.booking')
 		->with('link', $link);
-}));
+}));*/
 
 Route::get('/instruction/offseason', array('as' => 'offseason', function()
 {
