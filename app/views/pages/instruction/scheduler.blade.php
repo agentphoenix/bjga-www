@@ -17,7 +17,7 @@
 
 	<p>You will always have quick access to book a lesson or enroll in a program from the side navigation on every page. Each page offers different options for that type of service. For lessons, you'll be able to select what type of lesson you want, for programs, you'll be given a list of programs that you can enroll in. Additionally, the Upcoming Programs page will give you one-click access to enrolling in a program or withdrawing from programs you're enrolled in.</p>
 
-	<p class="alert">Note: when booking a lesson, you will have 2 minutes to select a time once you've checked the availability of a date before the selections are reset. Once you've selected a time, you'll have an additional 2 minutes to book the appointment before your selections will be reset.</p>
+	<p class="alert">Note: when booking a lesson, you will have 3 minutes to select a time once you've checked the availability of a date before the selections are reset. Once you've selected a time, you'll have an additional 3 minutes to book the appointment before your selections will be reset.</p>
 
 	<h3>For Phone and Tablet Users</h3>
 
