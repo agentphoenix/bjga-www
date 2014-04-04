@@ -28,9 +28,9 @@
 	<p>We've optimized the scheduler to look and work seamlessly on your phone or tablet. Like many apps on your devices, you'll see a series of 3 lines in the upper left corner. Tapping that icon will reveal the navigation for the scheduler. From there, you'll be able to navigate through the site the same as you would with a laptop or desktop.</p>
 
 	<div class="btn-group hidden-phone">
-		<a href="http://scheduling.brianjacobsgolf.com" target="_blank" class="btn btn-primary">Book Now</a>
+		<a href="http://booknow.brianjacobsgolf.com" class="btn btn-primary">Book Now</a>
 	</div>
 	<div class="visible-phone">
-		<a href="http://scheduling.brianjacobsgolf.com" target="_blank" class="btn btn-primary btn-block btn-large">Book Now</a>
+		<a href="http://booknow.brianjacobsgolf.com" class="btn btn-primary btn-block btn-large">Book Now</a>
 	</div>
 @endsection
