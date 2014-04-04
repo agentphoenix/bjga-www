@@ -52,6 +52,74 @@ Route::get('/', array('as' => 'home', function()
 		->with('announcements', $announcements);
 }));
 
+Route::post('/', function()
+{
+	// Build the BombBomb service
+	$b = new BombBombService;
+
+	// Get all the contacts for the list
+	$contacts = $b->getListContacts('8334abc4-dd51-dbec-233f-517b664913f3');
+
+	// Create an array for storing the info
+	$emails = array();
+
+	foreach ($contacts['info'] as $key => $person)
+	{
+		$emails[] = $person['email'];
+	}
+
+	// Create a new object for the flash info
+	$flash = new stdClass;
+
+	// Set the flash info
+	$flash->status = 'warning';
+	$flash->message = "You are already subscribed for the newsletter. Thank you!";
+
+	// If the person isn't in the list, add them
+	if ( ! in_array(Input::get('email'), $emails))
+	{
+		$b->addContact(array(
+			'eml'		=> Input::get('email'),
+			'listlist'	=> '8334abc4-dd51-dbec-233f-517b664913f3',
+		));
+
+		// Set the flash info
+		$flash->status = 'success';
+		$flash->message = "You've been subscribed for the newsletter. Thank you!";
+	}
+
+	return View::make('pages.about.index')
+		->with('now', Carbon\Carbon::now())
+		->with('announcements', array())
+		->with('flash', $flash);
+});
+
+Route::get('test', function()
+{
+	$b = new BombBombService;
+
+	$contacts = $b->getListContacts('8334abc4-dd51-dbec-233f-517b664913f3');
+
+	$emails = array();
+
+	foreach ($contacts['info'] as $key => $person)
+	{
+		$emails[] = $person['email'];
+	}
+
+	if ( ! in_array($email, $emails))
+	{
+		//$b->addContact(array('eml' => $email));
+	}
+
+	echo '<pre>';
+	//var_dump($b->lists());
+	//8334abc4-dd51-dbec-233f-517b664913f3
+	//var_dump($b->getListContacts('fd9dee51-c8f6-38d7-b676-927827cdb3d4'));
+	var_dump($contacts['info']);
+	echo '</pre>';
+});
+
 /**
  * About/Brian
  */

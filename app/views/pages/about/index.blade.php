@@ -25,6 +25,10 @@
 		<h1 class="hidden-phone">Welcome to Brian Jacobs Golf</h1>
 		<h1 class="visible-phone">Brian Jacobs Golf</h1>
 
+		@if (isset($flash))
+			<p class="alert alert-{{ $flash->status }}">{{ $flash->message }}</p>
+		@endif
+
 		<p>Welcome to Brian Jacobs Golf where our mission is simple: teach golfers how to take their game to its highest potential to experience greater consistency and have more fun.</p>
 
 		<p>We believe that the true joy for any student of the game comes from the passion to learn more about the subject, the commitment to practice and develop their golf game and the challenge to continually improve their golf and themselves. Make a commitment to yourself to get better and visit our Academy to take your game inside the ropes.</p>
@@ -80,38 +84,47 @@
 				</div>
 			</div>-->
 
-			<div class="span8">
+			<div class="span6">
 				<div class="well">
-					<h3 class="primary">Welcome to the Offseason!</h3>
+					<h3 class="primary">Stay In Touch All Year</h3>
 
-					<p>Just because the weather's getting colder doesn't mean you need to put your golf clubs on ice too. In fact, this winter is the perfect opportunity to let Brian Jacobs Golf take your game inside the ropes with the new <strong class="primary">Offseason Performance Series</strong>!</p>
+					<p>We're constantly looking for better ways to teach, new programs to run, and any opportunities to help you improve. We want to make sure you know about all those changes when they happen. In order to stay current on what's happening at Brian Jacobs Golf, sign up for our newsletter below (anyone who registers for the scheduling system will be added to the list as well). Between now and June 1st, anyone who registers for the newsletter will be entered for a chance to win a Nike Covert 2.0 driver, so sign up today!</p>
 
-					<p>The Offseason Performance Series is just what you need to hit better drives, hit the ball closer to the hole with your irons and wedges and improve your putting, all through a series of instruction and practice! Make sure you don't lose your edge during the offseason and stay in "golf shape" so you're ready to go in the spring! There's an Offseason Performance Series for you regardless of age or experience so check it out today!</p>
+					{{ Form::open() }}
+						<div class="control-group">
+							<label class="control-label">Email Address</label>
+							<div class="control">
+								<input type="text" name="email" class="span8">
+							</div>
+						</div>
 
-					<div class="btn-group hidden-phone">
-						<a href="{{ URL::to_route('offseason') }}" class="btn btn-primary">More Info</a>
-					</div>
+						<div class="hidden-phone">
+							{{ Form::submit('Subscribe', array('class' => 'btn btn-primary')) }}
+						</div>
 
-					<div class="visible-phone">
-						<a href="{{ URL::to_route('offseason') }}" class="btn btn-primary btn-block btn-large">More Info</a>
-					</div>
+						<div class="visible-phone">
+							{{ Form::submit('Subscribe', array('class' => 'btn btn-block btn-large btn-primary')) }}
+						</div>
+					{{ Form::close() }}
 				</div>
 			</div>
 
-			<div class="span4">
+			<div class="span6">
 				<div class="well">
-					<h3 class="primary">Mark Your Calendar</h3>
+					<h3 class="primary">A New Way to Book</h3>
 
-					<p>Brian Jacobs Golf is doing another golf getaway this spring back to sunny Florida and Amelia Island Plantation (April 13th through the 17th)!</p>
+					<p>Brian Jacobs Golf is excited to offer our students an all-new experience for booking lessons and enrolling in our programs.</p>
 
-					<p>Like previous golf trips, you'll have the opportunity for instruction with a Brian Jacobs Golf instructor and lots of time on the course, so grab some friends and take your game inside the ropes!</p>
+					<p>Simple, straightforward, and easy-to-use, the new scheduling system offers students a quick and easy way to register and be scheduling time to work on your game, no matter the time of year.</p>
+
+					<p>A quick primer on the features and use of the scheduling system is provided at the link below, so get up to speed and come check it out today!</p>
 
 					<div class="btn-group hidden-phone">
-						<a href="{{ URL::to_route('event-amelia-island-2014') }}" class="btn btn-primary">More Info</a>
+						<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">More Info</a>
 					</div>
 
 					<div class="visible-phone">
-						<a href="{{ URL::to_route('event-amelia-island-2014') }}" class="btn btn-block btn-large btn-primary">More Info</a>
+						<a href="{{ URL::to_route('booking') }}" class="btn btn-block btn-large btn-primary">More Info</a>
 					</div>
 				</div>
 			</div>
