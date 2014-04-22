@@ -3,6 +3,10 @@
 .DS_Store
 *.sublime-project
 *.sublime-workspace
+/vendor
+/bootstrap
+composer.lock
+app/storage/
 
 # Blog Items
 
