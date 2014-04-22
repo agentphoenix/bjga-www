@@ -46,4 +46,13 @@ return array(
 		),
 	),
 
+	'sparkdown' => array(
+		'auto' => true,
+		'autoloads' => array(
+			'namespaces' => array(
+				'Sparkdown' => '(:bundle)',
+			)
+		),
+	),
+
 );
