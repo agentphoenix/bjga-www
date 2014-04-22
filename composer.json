@@ -1,0 +1,16 @@
+{
+	"require": {
+		"laravel/framework": "4.1.*",
+		"raveren/kint": "dev-master",
+		"dflydev/markdown": "~1.0",
+		"ikimea/browser": "~1.0"
+	},
+	
+	"config": {
+		"preferred-install": "dist",
+		"process-timeout": 500
+	},
+	
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
