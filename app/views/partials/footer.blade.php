@@ -36,7 +36,7 @@
 				<li><a href="{{ URL::to_route('instruction') }}">Our Philosophy</a></li>
 				<li><a href="{{ URL::to_route('private') }}">Private Instruction</a></li>
 				<li><a href="{{ URL::to_route('schools') }}">Golf Schools</a></li>
-				<li><a href="{{ URL::to_route('juniors') }}">Junior Golf</a></li>
+				<li><a href="{{ URL::to_route('juniors') }}">Youth Golf</a></li>
 				<li><a href="{{ URL::to_route('clinics') }}">Clinics</a></li>
 				<li><a href="{{ URL::to_route('booking') }}">Book Now</a></li>
 			</ul>

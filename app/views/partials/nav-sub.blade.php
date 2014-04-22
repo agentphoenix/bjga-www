@@ -20,7 +20,7 @@
 			<li class="{{ URI::is('instruction/index') ? 'active' : '' }}"><a href="{{ URL::to_route('instruction') }}"><span class="hidden-tablet">Our</span> Philosophy</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/private') ? 'active' : '' }}"><a href="{{ URL::to_route('private') }}"><span class="hidden-tablet">Private Instruction</span><span class="hidden-desktop">Lessons</span></a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/schools') ? 'active' : '' }}"><a href="{{ URL::to_route('schools') }}">Golf Schools</a><div class="arrow"></div></li>
-			<li class="{{ (URI::is('instruction/junior*') or URI::is('instruction/linksters')) ? 'active' : '' }}"><a href="{{ URL::to_route('juniors') }}">Junior Golf</a><div class="arrow"></div></li>
+			<li class="{{ (URI::is('instruction/junior*') or URI::is('instruction/linksters')) ? 'active' : '' }}"><a href="{{ URL::to_route('juniors') }}">Youth Golf</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('clinics') }}">Clinics</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/booking') ? 'active' : '' }}"><a href="{{ URL::to_route('booking') }}">Book <span class="hidden-tablet">Now</span></a><div class="arrow"></div></li>
 		</ul>
@@ -62,7 +62,7 @@
 			<li class="{{ URI::is('instruction/index') ? 'active' : '' }}"><a href="{{ URL::to_route('instruction') }}">Our Philosophy</a></li>
 			<li class="{{ URI::is('instruction/private') ? 'active' : '' }}"><a href="{{ URL::to_route('private') }}">Private Instruction</a></li>
 			<li class="{{ URI::is('instruction/schools') ? 'active' : '' }}"><a href="{{ URL::to_route('schools') }}">Golf Schools</a></li>
-			<li class="{{ (URI::is('instruction/junior*') or URI::is('instruction/linksters')) ? 'active' : '' }}"><a href="{{ URL::to_route('juniors') }}">Junior Golf</a><div class="arrow"></div></li>
+			<li class="{{ (URI::is('instruction/junior*') or URI::is('instruction/linksters')) ? 'active' : '' }}"><a href="{{ URL::to_route('juniors') }}">Youth Golf</a><div class="arrow"></div></li>
 			<li class="{{ URI::is('instruction/clinics') ? 'active' : '' }}"><a href="{{ URL::to_route('clinics') }}">Clinics</a></li>
 			<!--<li class="{{ URI::is('instruction/booking') ? 'active' : '' }}"><a href="{{ URL::to_route('booking') }}">Book Now</a></li>-->
 		</ul>
