@@ -17,10 +17,10 @@ Route::get('/instruction/private', array('as' => 'private', function()
 	$now = Carbon\Carbon::now();
 
 	// Start of winter instruction
-	$start = Carbon\Carbon::create(2013, 11, 4, 0, 0, 0);
+	$start = Carbon\Carbon::create(2013, 11, 1, 0, 0, 0);
 
 	// End of winter instruction
-	$end = Carbon\Carbon::create(2014, 3, 31, 0, 0, 0);
+	$end = Carbon\Carbon::create(2014, 4, 30, 0, 0, 0);
 
 	// Set the proper view based on today's date
 	$view = ($now->gte($start) and $now->lt($end)) 
@@ -43,7 +43,12 @@ Route::get('/instruction/schools', array('as' => 'schools', function()
  */
 Route::get('/instruction/juniors', array('as' => 'juniors', function()
 {
-	return View::make('pages.instruction.juniors');
+	$api = new SchedulerService;
+
+	return View::make('pages.instruction.juniors')
+		->with('camps', $api->getServicesByName('youth-golf-camp')['data'])
+		->with('team', $api->getServicesByName('youth-golf-team')['data'])
+		->with('linksters', $api->getServicesByName('linksters')['data']);
 }));
 
 /**
