@@ -16,11 +16,9 @@
 				<p>60 minutes of private instruction with a Brian Jacobs Golf Instructor. Includes 30 minutes of on-range instruction, 30 minutes of on-course instructions and unlimited play on the Mill Creek Short Course for the remainder of the day.</p>
 				<h3>{{ $api->getServicesByName('private-lesson')['data']['price'] }}</h3>
 				<div class="btn-group hidden-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>
 				<div class="visible-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
@@ -32,11 +30,9 @@
 				<p>Get in-depth and total instruction on your game with an on-course playing lesson from a Brian Jacobs Golf Instructor as you navigate 9 holes on either the Mill Creek Championship Course or the Mill Creek Short Course.</p>
 				<h3>{{ $api->getServicesByName('9-hole-playing-lesson')['data']['price'] }}</h3>
 				<div class="btn-group hidden-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 				</div>
 				<div class="visible-phone">
-					<a href="{{ URL::to_route('contact', array('instruction')) }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 				</div>
 			</div>
