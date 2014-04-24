@@ -2,8 +2,16 @@
 
 class SchedulerService {
 
-	protected $endpoint = 'http://localhost/bjga/scheduler/public/api/v1/';
+	protected $endpoint = 'http://booknow.brianjacobsgolf.com/api/v1/';
 	protected $verify_ssl = false;
+
+	public function __construct()
+	{
+		if (Request::env() == 'local')
+		{
+			$this->endpoint = 'http://localhost/bjga/scheduler/public/api/v1/';
+		}
+	}
 
 	public function getServicesByCategory($name)
 	{
