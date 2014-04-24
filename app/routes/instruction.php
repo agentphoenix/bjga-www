@@ -20,14 +20,18 @@ Route::get('/instruction/private', array('as' => 'private', function()
 	$start = Carbon\Carbon::create(2013, 11, 1, 0, 0, 0);
 
 	// End of winter instruction
-	$end = Carbon\Carbon::create(2014, 4, 30, 0, 0, 0);
+	$end = Carbon\Carbon::create(2014, 3, 30, 0, 0, 0);
 
 	// Set the proper view based on today's date
 	$view = ($now->gte($start) and $now->lt($end)) 
 		? 'pages.instruction.offseason' 
 		: 'pages.instruction.private';
 
-	return View::make($view);
+	$api = new SchedulerService;
+
+	return View::make($view)
+		->with('api', $api)
+		->with('lessons', $api->getServicesByCategory('lesson')['data']);
 }));
 
 /**
