@@ -51,8 +51,7 @@ Route::get('/instruction/juniors', array('as' => 'juniors', function()
 
 	return View::make('pages.instruction.juniors')
 		->with('camps', $api->getServicesByName('youth-golf-camp')['data'])
-		->with('team', $api->getServicesByName('youth-golf-team')['data'])
-		->with('linksters', $api->getServicesByName('linksters')['data']);
+		->with('team', $api->getServicesByName('youth-golf-team')['data']);
 }));
 
 /**

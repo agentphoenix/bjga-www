@@ -22,7 +22,7 @@
 
 	<div class="row-fluid">
 		<div class="span8">
-			<h2>Youth Golf Camps</h2>
+			<h2>Youth Golf Camps <small>{{ $camps[0]['price'] }}</small></h2>
 			{{ Sparkdown\Markdown($camps[0]['description']) }}
 		</div>
 		<div class="span4">
@@ -36,23 +36,8 @@
 	</div>
 
 	<div class="row-fluid">
-		<div class="span8">
-			<h2>Linksters Youth Golf Program</h2>
-			{{ Sparkdown\Markdown($linksters[0]['description']) }}
-		</div>
-		<div class="span4">
-			<dl>
-			@foreach ($linksters as $row)
-				<dt>{{ $row['name'] }}</dt>
-				<dd><p><a href="http://booknow.brianjacobsgolf.com/event/{{ $row['slug'] }}" class="btn btn-primary">More Info</a></p></dd>
-			@endforeach
-			</dl>
-		</div>
-	</div>
-
-	<div class="row-fluid">
 		<div class="span12">
-			<h2>Youth Golf Team</h2>
+			<h2>Youth Golf Team <small>{{ $team['price'] }}</small></h2>
 			{{ Sparkdown\Markdown($team['description']) }}
 
 			<p><a href="http://booknow.brianjacobsgolf.com/" class="btn btn-primary">Book Now</a></p>
