@@ -2,14 +2,14 @@
 
 class SchedulerService {
 
-	protected $endpoint = 'http://booknow.brianjacobsgolf.com/api/v1/';
+	protected $endpoint = 'http://booknow.brianjacobsgolf.com/api/';
 	protected $verify_ssl = false;
 
 	public function __construct()
 	{
 		if (Request::env() == 'local')
 		{
-			$this->endpoint = 'http://localhost/bjga/scheduler/public/api/v1/';
+			$this->endpoint = 'http://localhost/bjga/scheduler/public/api/';
 		}
 	}
 
@@ -37,7 +37,9 @@ class SchedulerService {
 
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $url);
-		curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+		curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+			'Accept: application/vnd.example.v1+json'
+		));
 		curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');       
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_TIMEOUT, 10);
