@@ -2,6 +2,7 @@
 
 class SchedulerService {
 
+	protected $version = 'v1';
 	protected $endpoint = 'http://booknow.brianjacobsgolf.com/api/';
 	protected $verify_ssl = false;
 
@@ -38,7 +39,7 @@ class SchedulerService {
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-			'Accept: application/vnd.example.v1+json'
+			'Accept: application/vnd.example.'.$this->version.'+json'
 		));
 		curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');       
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
