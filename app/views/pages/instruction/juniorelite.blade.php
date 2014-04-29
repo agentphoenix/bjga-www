@@ -9,7 +9,7 @@
 
 	<div class="pull-right inline-image hidden-phone"><img src="{{ URL::to_asset('img/img-juniors.jpg') }}" alt="" class="img-rounded"></div>
 
-	<p>The Brian Jacobs Golf Academy Junior Elite Program, as with any program we offer, is founded with an emphasis on education, honorable behavior, making an impact in a positive way and personal growth, both on and off the golf course.</p>
+	<p>The Brian Jacobs Golf Junior Elite Program, as with any program we offer, is founded with an emphasis on education, honorable behavior, making an impact in a positive way and personal growth, both on and off the golf course.</p>
 
 	<p>Our goal is to model high moral standards and integrity for every one of our students. Golf is a unique game of honesty, sportsmanship and high integrity, traits that translate from the golf course to every day life. While golf may be a sport and intense competition, we are all students first and athletes second. The ultimate goal for us is to support and develop young adults who want to make an impact on society and in golf. It's that end product that makes us strive to never stop learning and realize we are always a work in progress and that understanding pushes us to develop and grow with an unwavering focus on getting better every day, on and off the golf course. Commitment to such a cause, and hard work, will always pay dividends. Working toward a goal can be a great challenge, but it can also be fulfilling, rewarding and fun!</p>
 

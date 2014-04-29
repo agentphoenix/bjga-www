@@ -85,9 +85,9 @@
 
 		<p class="muted">*Each student will have reserved the same lesson and practice day and time each month.</p>
 
-		<p class="muted">**Combination of indoor season at Valle Sports and outdoor season at The Brian Jacobs Golf Academy at Mill Creek Golf Club.</p>
+		<p class="muted">**Combination of indoor season at Valle Sports and outdoor season at Mill Creek Golf Club.</p>
 
-		<p class="muted">Performance Series is non-transferrable to the outdoor season at The Brian Jacobs Golf Academy at Mill Creek Golf Club and Practice Center.</p>
+		<p class="muted">Performance Series is non-transferrable to the outdoor season at Mill Creek Golf Club and Practice Center.</p>
 
 		<p class="muted"><span class="money"></span>Payment is expected in full on the first week of each month. Cash, personal check or credit card are all acceptable forms of payment. Please <a href="{{ URL::to_route('contact', array('general')) }}">contact us</a> if you have any questions about this.</p>
 	</div>
@@ -132,7 +132,7 @@
 			<p><a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary btn-large btn-block">Email to Book Now</a></p>
 		</div>
 
-		<p class="muted">Junior Performance Series are non-transferrable to the outdoor season at The Brian Jacobs Golf Academy at Mill Creek Golf Club and Practice Center.</p>
+		<p class="muted">Junior Performance Series are non-transferrable to the outdoor season at Mill Creek Golf Club and Practice Center.</p>
 
 		<p class="muted"><span class="money"></span>Payment is expected in full on the first week of each month. Cash, personal check or credit card are all acceptable forms of payment. Please <a href="{{ URL::to_route('contact', array('general')) }}">contact us</a> if you have any questions about this.</p>
 	</div>
@@ -150,7 +150,7 @@
 			<p><a href="{{ URL::to_route('contact', array('winter-lessons')) }}" class="btn btn-primary btn-large btn-block">Email to Book Now</a></p>
 		</div>
 
-		<p class="muted">Linksters Performance Series are non-transferrable to the outdoor season at The Brian Jacobs Golf Academy at Mill Creek Golf Club and Practice Center.</p>
+		<p class="muted">Linksters Performance Series are non-transferrable to the outdoor season at Mill Creek Golf Club and Practice Center.</p>
 
 		<p class="muted"><span class="money"></span>Payment is expected in full on the first week of each month. Cash, personal check or credit card are all acceptable forms of payment. Please <a href="{{ URL::to_route('contact', array('general')) }}">contact us</a> if you have any questions about this.</p>
 	</div>
