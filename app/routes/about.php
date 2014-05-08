@@ -167,3 +167,41 @@ Route::get('/about/services', array('as' => 'services', function()
 {
 	return View::make('pages.about.services');
 }));
+
+/**
+ * About/News
+ */
+Route::get('/about/news', array('as' => 'news', function()
+{
+	$news = array(
+		array(
+			'title' => 'Brian Jacobs Golf and Next Level Strength and Conditioning Partnership',
+			'date' => Carbon\Carbon::create(2014, 5, 9, 9, 0, 0)->format('l F jS, Y'),
+			'summary' => 'Brian Jacobs Golf and Next Level Strength and Conditioning are proud to announce their partnership brining a new level of golf instruction and strength and conditioning programming to the Greater Rochester Area.',
+			'content' => Sparkdown\Markdown(file_get_contents(path('app').'/news/next_level.md')),
+			'contentTitle' => "Next Level Strength and Conditioning Partnership",
+			'contentId' => "nextLevel",
+		),
+		array(
+			'title' => 'Trackman Is Coming!',
+			'date' => Carbon\Carbon::create(2014, 1, 1, 12, 0, 0)->format('l F jS, Y'),
+			'summary' => "Unlike other new years, 2014 won't just usher in a new year of golf, but new ways to take your game inside the ropes with Brian Jacobs Golf and TrackMan Pro. Combining our intuitive and highly effective personal teaching skills with the industry leading swing analysis tool, Brian Jacobs Golf will give golfers a whole new perspective on their golf swing and new ways to form good swing habits that will lead to better scores year round. Stay tuned for more details in the new year!",
+			'content' => "",
+		),
+		array(
+			'title' => 'Brian Jacobs Golf PGA Championship Tip',
+			'date' => Carbon\Carbon::create(2013, 6, 3, 9, 0, 0)->format('l F jS, Y'),
+			'summary' => "The word is out about Brian Jacobs Golf and people are starting to notice! Brian Jacobs Golf was selected to film a series of swing tips that will air on local television during the PGA Championship week. Keep your eyes peeled for the spots while watching!",
+			'content' => "",
+		),
+		array(
+			'title' => 'Brian Jacobs Golf and Eyeline Golf',
+			'date' => Carbon\Carbon::create(2013, 2, 4, 9, 0, 0)->format('l F jS, Y'),
+			'summary' => "Eyeline Golf has joined Brian Jacobs Golf as the official provider of short game training aids. Since 2002, Eyeline Golf products have been helping golfers unlock their potential in addition have been the #1 Training aid company on the Pro Tours (247 Tour Players chose EyeLine in 2011 - PGA, LPGA, Nationwide). Let Brian Jacobs Golf and Eyeline Golf unlock your potential and take your game inside the ropes!",
+			'content' => "",
+		),
+	);
+
+	return View::make('pages.about.news')
+		->with('news', $news);
+}));

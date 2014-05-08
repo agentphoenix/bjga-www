@@ -21,6 +21,7 @@
 				<li><a href="{{ URL::to_route('home') }}">Home</a></li>
 				<li><a href="{{ URL::to_route('about') }}">Meet Brian Jacobs</a></li>
 				<!--<li><a href="{{ URL::to_route('staff') }}">Staff</a></li>-->
+				<li><a href="{{ URL::to_route('news') }}">News</a></li>
 				<li><a href="{{ URL::to_route('relationships') }}">Relationships</a></li>
 				<li><a href="{{ URL::to_route('testimonials') }}">Testimonials</a></li>
 				<!--<li><a href="{{ URL::to_route('services') }}">Services</a></li>-->
@@ -72,8 +73,8 @@
 							<li><a href="{{ URL::to_route('home') }}">Home</a></li>
 							<li><a href="{{ URL::to_route('about') }}">Meet Brian Jacobs</a></li>
 							<!--<li><a href="{{ URL::to_route('staff') }}">Staff</a></li>-->
+							<li><a href="{{ URL::to_route('news') }}">News</a></li>
 							<li><a href="{{ URL::to_route('relationships') }}">Relationships</a></li>
-							<li><a href="{{ URL::to_route('testimonials') }}">Testimonials</a></li>
 						</ul>
 					</div>
 					<div class="span6">
@@ -82,6 +83,7 @@
 							<li><a href="http://blog.brianjacobsgolf.com">Blog</a></li>
 							<li><a href="http://blog.brianjacobsgolf.com/?cat=2">Videos</a></li>
 							<li><a href="{{ URL::to_route('contact') }}">Contact</a></li>
+							<li><a href="{{ URL::to_route('testimonials') }}">Testimonials</a></li>
 						</ul>
 					</div>
 				</div>
