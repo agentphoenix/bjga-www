@@ -44,25 +44,14 @@
 
 	<hr>
 
-	<!--<div class="row-fluid">
-		<div class="span8">
-			<h3><a href="http://www.powertrainsports.com/" target="_blank">Power Train Sports Institute</a></h3>
-			<p>Power Train Sports Institute believes that in order to truly understand what an athlete needs, you must first be an athlete. Their performance team is made up of national and world-class athletes. Their commitment to sports and experience as athletes brings a positive approach to performance enhancement training. Power Train coaches utilize their experience as athletes and education as coaches to enhance the performance of each client. With respect as a coach and the acknowledgement as an athlete our program creates the optimal environment for success. Power Train Sports Institute is the players place to train and the athletes place to succeed.  Athletes demand quality, they want results and will do whatever is takes to reach the next level. Through education, commitment, and discipline, Power Train Sports Institute provides the environment for athletes to achieve their goals and full potential.  Our programs are specific to the individual athlete and their particular sport.</p>
-		</div>
-		<div class="span4 relationship-logo hidden-phone"><a href="http://www.powertrainsports.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-powertrain.png') }}" alt="Power Train Sports Institute"></a></div>
-	</div>
-
-	<hr>-->
-
 	<div class="row-fluid">
 		<div class="span8">
-			<h3><a href="http://www.advocare.com/" target="_blank">Advocare</a></h3>
-			<p>AdvoCare is a premier health and wellness company offering world-class energy, weight-loss, nutrition, and sports performance products along with a rewarding business opportunity.</p>
-			<p>AdvoCare empowers individuals to explore their ultimate potential. When people try the products, the positive testimonials pour in: "I feel better than I have in years." "My energy level is unbelievable." "AdvoCare has changed my life." AdvoCare focuses on wellness and provides an opportunity to enrich your life in the way that you choose.</p>
-			<div class="visible-desktop"><a href="{{ URL::to_route('contact', array('advocare')) }}" class="btn btn-primary">Contact Us About AdvoCare</a></div>
-			<div class="hidden-desktop"><a href="{{ URL::to_route('contact', array('advocare')) }}" class="btn btn-primary btn-block btn-large">Contact Us About AdvoCare</a></div>
+			<h3><a href="http://www.trainatnextlevel.com/" target="_blank">Next Level Strength and Conditioning</a></h3>
+			<p>For the past 10 years, Next Level Strength and Conditioning has offered the latest in Sports Performance Training to countless Youth, High School, College and Professional Athletes. Our team of knowledgeable strength coaches posses a wealth of experience working with athletes and general fitness clients of all ages and skill levels. We take pride in offering developmentally appropriate programs with sound progressions and sequencing, within a closely supervised environment to maximize results and safety.</p>
+
+			<p>Our brand new 5,000 square foot training facility in Fairport is unlike any other privately owned facility in the area! Regardless of your age, sport, skill level or training goals, we can help you reach the Next Level!</p>
 		</div>
-		<div class="span4 relationship-logo hidden-phone"><a href="http://www.advocare.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-advocare.png') }}" alt="Advocare"></a></div>
+		<div class="span4 relationship-logo hidden-phone"><a href="http://www.trainatnextlevel.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-nextlevel.jpg') }}" alt="Next Level Strength and Conditioning"></a></div>
 	</div>
 
 	<hr>
@@ -103,16 +92,6 @@
 
 	<hr>
 
-	<!--<div class="row-fluid">
-		<div class="span8">
-			<h3><a href="http://rochester.golflocal.com/golf-rochester-ny/" target="_blank">Golf Local</a></h3>
-			<p>GolfLocal.com is 100% dedicated to all aspects of golf and is strictly designed to promote, inform and educate individuals about the game of golf. Their focus is to be the one place golfers go to find information about the game they love. They provide information about local golf courses, tournaments, events and offer Stay-N-Play packages for golfers looking to come to the Rochester, NY area to play golf.</p>
-		</div>
-		<div class="span4 relationship-logo hidden-phone"><a href="http://rochester.golflocal.com/golf-rochester-ny/" target="_blank"><img src="{{ URL::to_asset('img/logo-golflocal.png') }}" alt="Golf Local"></a></div>
-	</div>
-
-	<hr>-->
-
 	<div class="row-fluid">
 		<div class="span8">
 			<h3><a href="http://www.millcreekgolf.com/" target="_blank">Mill Creek Golf Club</a></h3>
@@ -123,27 +102,6 @@
 	</div>
 
 	<hr>
-
-	<!--<div class="row-fluid">
-		<div class="span8">
-			<h3><a href="http://uschedule.com" target="_blank">USchedule</a></h3>
-			<p>At its core, USchedule is a web based scheduling system for you to more efficiently manage your calendar and allow your clients to book appointments via the web 24/7. When your clients schedule an appointment, they automatically receive an email confirmation as well as email and text message reminders, drastically reducing or eliminating no-shows altogether. By having your availability online, you will get more client bookings and phone tag will become a thing of the past.</p>
-		</div>
-		<div class="span4 relationship-logo hidden-phone"><a href="http://uschedule.com" target="_blank"><img src="{{ URL::to_asset('img/logo-uschedule.png') }}" alt="USchedule"></a></div>
-	</div>
-
-	<hr>-->
-
-	<!--<div class="row-fluid">
-		<div class="span8">
-			<h3><a href="http://www.holidayinn.com/hotels/us/en/reservation" target="_blank">Holiday Inn &amp; Suites</a></h3>
-			<p>Come and stay at the Holiday Inn Hotel &amp; Suites Rochester - Marketplace near the Rochester Airport. Our Rochester, NY hotel provides a complimentary hot breakfast buffet with Chef Attend Omelet Station daily and complimentary dinner and drinks at Manager Reception Monday-Thursday and free shuttle to take you to and from the airport for your traveling convenience.</p>
-			<p>Families looking for lodging in Rochester, New York will love staying at our hotel, located just off Interstate 390 in southern Rochester. This hotel is convenient to numerous local attractions, including the Strong National Museum of Play, the Marketplace Mall, Seabreeze Amusement Park, Frontier Field and beautiful Lake Ontario.</p>
-		</div>
-		<div class="span4 relationship-logo hidden-phone"><a href="http://www.holidayinn.com/hotels/us/en/reservation" target="_blank"><img src="{{ URL::to_asset('img/logo-holidayinn.png') }}" alt="Holiday Inn and Suites"></a></div>
-	</div>
-
-	<hr>-->
 
 	<div class="row-fluid">
 		<div class="span8">
@@ -175,46 +133,6 @@
 			<p>Amelia Links, designed by Pete Dye and Bobby Weed, is a 36-hole configuration that includes two signature courses, Oak Marsh and Ocean Links. The natural beauty of tidal marshes, intercoastal waters, the Atlantic Ocean, and mature live oak trees that surround these courses provide stunning and breathtaking views that simultaneously amaze and challenge the novice and professional alike. Having the golf courses be Audobon International Certified Sanctuaries not only preserves the natural heritage of the game, but also the wildlife that thrives there.</p>
 		</div>
 		<div class="span4 relationship-logo hidden-phone"><a href="http://www.edbowegolf.com/amelia-island-golf-resort/" target="_blank"><img src="{{ URL::to_asset('img/logo-ameliaisland.png') }}" alt="Amelia Island Plantation"></a></div>
-	</div>
-
-	<!--<hr>
-
-	<div class="row-fluid">
-		<div class="span8">
-			<h3><a href="https://www.playerstowel.com/" target="_blank">Players Towel</a></h3>
-			<p>The Players Towel was once reserved for only the Players and Caddies on tour and is currently used on all major golf tours. The Players Towel is made of a unique Microfiber technology providing the best absorption and cleaning characteristics available. What started as a golf towel has quickly evolved into a sports towel for all athletes!</p>
-		</div>
-		<div class="span4 relationship-logo hidden-phone"><a href="https://www.playerstowel.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-playerstowel.png') }}" alt="Players Towel"></a></div>
-	</div>-->
-
-	<!--<hr>
-
-	<div class="row-fluid">
-		<div class="span8">
-			<h3><a href="http://teambscott.com/" target="_blank">Team BScott</a></h3>
-			<p>Team BScott, is a movement for anyone who understands the substance of being passionate about what they work for. It is the thought that you do not have to do extraordinary things, but always aim to do things extraordinarily well.</p>
-		</div>
-		<div class="span4 relationship-logo hidden-phone"><a href="http://teambscott.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-teambscott.png') }}" alt="Team BScott"></a></div>
-	</div>
-
-	<hr>
-
-	<div class="row-fluid">
-		<div class="span8">
-			<h3><a href="http://sectionvathlete.com/" target="_blank">Section V Athlete</a></h3>
-			<p>Do you have questions about the recruiting process? Concerns about your grades, financial aid or which test you should be taking? Whether you're a freshman just getting started or a senior worried about the next step SectionVAthlete.com is here to help. SectionVAthlete.com is not a recruiting site. It's actually FREE and its mission is simple: to help student-athletes become better prepared, whether it's for college or even just to become a better athlete. Find out about camps, clinics and other professional services in their directory or learn the right way to get colleges interested in you at SectionVAthlete.com.</p>
-		</div>
-		<div class="span4 relationship-logo hidden-phone"><a href="http://sectionvathlete.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-sectionv.png') }}" alt="Section V Athlete"></a></div>
-	</div>-->
-
-	<hr>
-
-	<div class="row-fluid">
-		<div class="span8">
-			<h3><a href="http://theheadcoach.us/" target="_blank">The HEAD Coach</a></h3>
-			<p>The HEAD Coach shows golfers how to eliminate their A.N.T.s (Automatic Negative Thoughts), to create a high achiever mindset. We provide the education and tools to become your BEST, on and off the course.</p>
-		</div>
-		<div class="span4 relationship-logo hidden-phone"><a href="http://theheadcoach.us/" target="_blank"><img src="{{ URL::to_asset('img/logo-headcoach.png') }}" alt="The HEAD Coach"></a></div>
 	</div>
 
 	<hr>
