@@ -36,6 +36,18 @@
 
 	<div class="row-fluid">
 		<div class="span8">
+			<h3><a href="http://trackmangolf.com/" target="_blank">TrackMan</a></h3>
+			<p>The TrackMan radar unit tracks the trajectory of your golf ball from launch to landing. The ability to measure the full ball flight is essential to produce the highest quality data. The golf radar can pick up valuable information about your club head, giving a precise picture of the club during ball impact. The technology used is the "Doppler radar principle" and has been widely used in military applications to track missiles and projectiles since the 1960s.</p>
+
+			<p>The TrackMan Radar Unit provides a technology that has conceptually changed the way players think, practice and get fitted for golf clubs. Consequently all major club and ball manufactures as well as the best players and teachers in the world have embraced the TrackMan technology.</p>
+		</div>
+		<div class="span4 relationship-logo hidden-phone"><a href="http://trackmangolf.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-trackman.png') }}" alt="TrackMan"></a></div>
+	</div>
+
+	<hr>
+
+	<div class="row-fluid">
+		<div class="span8">
 			<h3><a href="http://hankhaneygolf.com/Index.aspx" target="_blank">Hank Haney Golf</a></h3>
 			<p>Hank Haney Pro is a self-paced golf instruction certification program designed by Hank Haney to provide golfers around the world the tools, training, and support necessary to become the best instructor they can be, by partnering and adopting with the Hank Haney method and brand.</p>
 		</div>
@@ -76,18 +88,6 @@
 			<p>It's never easy planning a golf trip in an area you aren't familiar with, so Golf Western NY here to guide you in the right direction. Their golf packages offer excellent accommodations that cater to both large and small groups. Designed to fit your budget and allow you to play some of the best golf courses in Rochester, NY, their Play &amp; Stay golf packages offer something for everyone.</p>
 		</div>
 		<div class="span4 relationship-logo hidden-phone"><a href="http://www.golfwny.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-golfwny.png') }}" alt="GolfWNY"></a></div>
-	</div>
-
-	<hr>
-
-	<div class="row-fluid">
-		<div class="span8">
-			<h3><a href="http://www.puregrips.com/" target="_blank">PURE Grips</a></h3>
-			<p>As passionate golfers we're always trying to improve our game. That's why the founders of PURE Grips came together in the first place - to give all golfers one more way to find an edge. Our consistently tacky, all-weather line of grips are the first to combine everything golfers and pro shops want in a grip: superior feel and comfort, exceptional durability and easy installation, all at a great value.</p>
-
-			<p>We know smart change can make a big difference in the quality and consistency of our shots. A better grip is one of those smart changes. We're glad to be able to help our fellow golfers hit more of the pure shots we all love.</p>
-		</div>
-		<div class="span4 relationship-logo hidden-phone"><a href="http://www.puregrips.com/" target="_blank"><img src="{{ URL::to_asset('img/logo-puregrips.png') }}" alt="PURE Grips"></a></div>
 	</div>
 
 	<hr>
