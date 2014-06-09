@@ -49,8 +49,6 @@ Route::get('/instruction/juniors', array('as' => 'juniors', function()
 {
 	$api = new SchedulerService;
 
-	dd($api->getServicesByName('youth-golf-camp')['data']);
-
 	return View::make('pages.instruction.juniors')
 		->with('camps', $api->getServicesByName('youth-golf-camp')['data'])
 		->with('team', $api->getServicesByName('youth-golf-team')['data']);

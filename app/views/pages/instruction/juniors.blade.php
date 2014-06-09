@@ -27,10 +27,8 @@
 		</div>
 		<div class="span4">
 			<dl>
-			@foreach ($camps as $row)
-				<dt>{{ $row['name'] }}</dt>
-				<dd><p><a href="http://booknow.brianjacobsgolf.com/event/{{ $row['slug'] }}" class="btn btn-primary">More Info</a></p></dd>
-			@endforeach
+				<dt>{{ $camps['name'] }}</dt>
+				<dd><p><a href="http://booknow.brianjacobsgolf.com/event/{{ $camps['slug'] }}" class="btn btn-primary">More Info</a></p></dd>
 			</dl>
 		</div>
 	</div>
