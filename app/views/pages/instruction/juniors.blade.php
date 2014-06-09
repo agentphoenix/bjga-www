@@ -22,8 +22,8 @@
 
 	<div class="row-fluid">
 		<div class="span8">
-			<h2>Youth Golf Camps <small>{{ $camps[0]['price'] }}</small></h2>
-			{{ Sparkdown\Markdown($camps[0]['description']) }}
+			<h2>Youth Golf Camps <small>{{ array_values($camps)[0]['price'] }}</small></h2>
+			{{ Sparkdown\Markdown(array_values($camps)[0]['description']) }}
 		</div>
 		<div class="span4">
 			<dl>
