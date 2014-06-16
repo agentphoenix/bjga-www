@@ -175,6 +175,12 @@ Route::get('/about/news', array('as' => 'news', function()
 {
 	$news = array(
 		array(
+			'title' => 'Interview a Pro with Brian Jacobs',
+			'date' => Carbon\Carbon::create(2014, 6, 17, 9, 0, 0)->format('l F jS, Y'),
+			'summary' => 'During the recent Brian Jacobs Golf Stay-N-Play getaway to Omni Resort at Amelia Island Plantation, Golf Avenue had a chance to play 18 with Brian Jacobs. During the round, Brian shared some keen insights about the game. <a href="http://blog.golfavenue.ca/interview-a-pro-brian-jacobs/" target="_blank">Check out</a> the interview today!',
+			'content' => "",
+		),
+		array(
 			'title' => 'Brian Jacobs Golf and Next Level Strength and Conditioning Partnership',
 			'date' => Carbon\Carbon::create(2014, 5, 9, 9, 0, 0)->format('l F jS, Y'),
 			'summary' => 'Brian Jacobs Golf and Next Level Strength and Conditioning are proud to announce their partnership brining a new level of golf instruction and strength and conditioning programming to the Greater Rochester Area.',
