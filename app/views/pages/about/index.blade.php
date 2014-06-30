@@ -34,19 +34,19 @@
 		<p>We believe that the true joy for any student of the game comes from the passion to learn more about the subject, the commitment to practice and develop their golf game and the challenge to continually improve their golf and themselves. Make a commitment to yourself to get better and visit us to take your game inside the ropes.</p>
 
 		<div class="row-fluid">
-			<!--<div class="span4">
+			<div class="span4">
 				<div class="well">
 					<h3 class="primary">Private Instruction</h3>
 
 					<p>Whether you're just getting started or are an avid golfer, we have the tools and resources to customize a program that fits your needs and will empower you to take your game to the next level. Our instructors are equipped to help you in all aspects of the game, including: club fitting, the full swing, putting, short game and on course strategy.</p>
 
 					<div class="btn-group hidden-phone">
-						<a href="{{ URL::to_route('juniors') }}" class="btn btn-primary">More Info</a>
+						<a href="{{ URL::to_route('private') }}" class="btn btn-primary">More Info</a>
 						<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">Book Now</a>
 					</div>
 
 					<div class="visible-phone">
-						<a href="{{ URL::to_route('juniors') }}" class="btn btn-primary btn-block btn-large">More Info</a>
+						<a href="{{ URL::to_route('private') }}" class="btn btn-primary btn-block btn-large">More Info</a>
 						<a href="{{ URL::to_route('booking') }}" class="btn btn-primary btn-block btn-large">Book Now</a>
 					</div>
 				</div>
@@ -68,7 +68,7 @@
 				</div>
 			</div>
 
-			<div class="span4">
+			<!--<div class="span4">
 				<div class="well">
 					<h3 class="primary">Junior Academy</h3>
 
@@ -82,7 +82,7 @@
 						<a href="{{ URL::to_route('junioracademy') }}" class="btn btn-primary btn-block btn-large">More Info</a>
 					</div>
 				</div>
-			</div>-->
+			</div>
 
 			<div class="span6">
 				<div class="well">
@@ -107,17 +107,15 @@
 						</div>
 					{{ Form::close() }}
 				</div>
-			</div>
+			</div>-->
 
-			<div class="span6">
+			<div class="span4">
 				<div class="well">
 					<h3 class="primary">A New Way to Book</h3>
 
-					<p>Brian Jacobs Golf is excited to offer our students an all-new experience for booking lessons and enrolling in our programs.</p>
+					<p>Brian Jacobs Golf is excited to offer our students an all-new experience for booking lessons and enrolling in our programs. Simple, straightforward, and easy-to-use, the new scheduling system offers students a quick and easy way to register and schedule valuable time to work on your game, no matter the time of year.</p>
 
-					<p>Simple, straightforward, and easy-to-use, the new scheduling system offers students a quick and easy way to register and be scheduling time to work on your game, no matter the time of year.</p>
-
-					<p>A quick primer on the features and use of the scheduling system is provided at the link below, so get up to speed and come check it out today!</p>
+					<!--<p>A quick primer on the features and use of the scheduling system is provided at the link below, so get up to speed and come check it out today!</p>-->
 
 					<div class="btn-group hidden-phone">
 						<a href="{{ URL::to_route('booking') }}" class="btn btn-primary">More Info</a>
