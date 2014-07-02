@@ -21,19 +21,6 @@
 	<p>Youth Golf is an important part of what we do at Brian Jacobs Golf. Over the last 15 years, golf has become an increasingly younger sport and something that people all ages can find enjoyment in. As with any program we offer, our Youth Golf programs are founded with an emphasis on education, honorable behavior, making an impact in a positive way and personal growth, both on and off the golf course. No matter if your child is just getting started or is already an accomplished player, we have a program to help take their game to the next level!</p>
 
 	<div class="row-fluid">
-		<div class="span8">
-			<h2>Youth Golf Camps <small>{{ $camps['price'] }}</small></h2>
-			{{ Sparkdown\Markdown($camps['description']) }}
-		</div>
-		<div class="span4">
-			<dl>
-				<dt>{{ $camps['name'] }}</dt>
-				<dd><p><a href="http://booknow.brianjacobsgolf.com/event/{{ $camps['slug'] }}" class="btn btn-primary">More Info</a></p></dd>
-			</dl>
-		</div>
-	</div>
-
-	<div class="row-fluid">
 		<div class="span12">
 			<h2>Youth Golf Team <small>{{ $team['price'] }}</small></h2>
 			{{ Sparkdown\Markdown($team['description']) }}
