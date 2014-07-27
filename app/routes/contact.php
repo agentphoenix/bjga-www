@@ -140,7 +140,8 @@ Route::post('/contact/(:any?)/(:any?)', function($topic = 'general', $sub = fals
 		break;
 	}
 
-	$to = 'bjacobs1@rochester.rr.com';
+	//$to = 'bjacobs1@rochester.rr.com';
+	$to = 'brianjacobsgolf@gmail.com';
 
 	// Create a new object for the flash info
 	$flash = new stdClass;
